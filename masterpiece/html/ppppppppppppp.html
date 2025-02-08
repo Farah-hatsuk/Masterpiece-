@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solveo</title>
+  <link rel="stylesheet" href="/css/profile.css" />
+<style>
+ body {
+    position: relative;
+    background-image: url(/img/Screenshot\ 2024-12-26\ 135205-Photoroom.png);
+    background-repeat: repeat;
+
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.571);
+    /* White overlay with 50% opacity */
+    z-index: -1;
+    /* Places it behind all content */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02B5CA;
+    position: relative;
+    height: 80px;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+    height: 70px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon i {
+    color: white;
+    font-size: 30px;
+}
+
+/* Mobile styling for the menu */
+@media (max-width: 426px) {
+    nav ul {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #02B5CA;
+        gap: 0;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.5s ease-out;
+        z-index: 1000;
+    }
+
+    nav ul.open {
+        max-height: 300px;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+.profile {
+    display: flex;
+    /* justify-content: baseline; */
+    border-radius: 15px;
+    margin: 4%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F9FEFA;
+    /* height: 500px; */
+    margin-top: 200px; /* Add enough space to clear the navbar */
+    position: relative;  /* Add relative positioning */
+
+
+}
+
+
+
+.img {
+    height: 90px;
+    width: 95%;
+    margin-top: 25%;
+    border: 3px solid #2C383C;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.div1 {
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+
+    
+
+
+}
+
+.div2 {
+
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.profile-info {
+    margin-top: 9%;
+    color: #F9FEFA;
+}
+
+.input {
+    width: 140%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #2C383C;
+    border-radius: 5px;
+    padding: 5px 10px 10px;
+}
+
+.flname {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.flname div,
+.info div {
+    width: 30%;
+}
+
+.label {
+    font-weight: bold;
+
+}
+
+.botton {
+    position: relative;
+    top: -73%;
+    right: -114%;
+    color: white;
+    background-color: #0A4556;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    transition: all 0.3s ease;
+    width: 11%;
+    padding-top: 10px;
+
+}
+.botton:hover {
+
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+
+}
+
+.error-message {
+    color: red;
+}
+
+.form {
+    margin: 0 40px 40px 40px;
+    text-align: left;
+}
+.changepass{
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #2C383C;
+    border-radius: 5px;
+    width: 42%;
+    padding: 5px 10px 10px;
+
+}
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        height: auto;
+        margin: 10px;
+    }
+
+    .div1 {
+        width: 90%;
+        padding: 20px;
+        background-color: #3D6B77;
+    }
+
+    .div2 {
+        width: 100%;
+    }
+
+    .img {
+        height: 100px;
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    .profile-info {
+        margin-top: 10px;
+        color: #FFFFFF;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .flname,
+    .info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .flname div,
+    .info div {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .botton {
+        position: static;
+        margin-top: 20px;
+        width: 20%;
+        right: -76%;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding-top: 13px;
+    }
+
+    .hr {
+        display: none;
+    }
+
+    .form {
+        margin: 0 40px 40px 0;
+    }
+    .changepass{
+        width: 100%;
+    }
+}
+
+
+/* popup massage */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40% !important;
+}
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+#resetPasswordButton {
+    background-color: #0A4556;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    transition: transform 0.2s;
+}
+
+#resetPasswordButton:hover {
+    transform: scale(1.1);
+}
+
+.current,
+.new,
+.confirmNew {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#savePasswordButton {
+    width: 30%;
+    padding: 7px;
+    background-color: #0A4556;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+
+
+}
+
+#savePasswordButton:hover {
+    background-color: #fff;
+    color: #0A4556;
+    border: 2px solid #0A4556;
+}
+
+#closeModal {
+    
+    text-align: right;
+
+}
+
+
+
+</style>
+</head>
+
+<body>
+  <nav>
+
+    <div class="logo">
+      <img src="/img/logo.png" alt="Free Sweet">
+    </div>
+
+    <ul id="menuList">
+
+      <li><a href="/html/home.html">Home</a></li>
+      <li><a href="/html/info.html">Information</a></li>
+      <li><a href="/html/shop.html">Shop</a></li>
+      <li><a href="/html/recipes.html">Reprises</a></li>
+      <li><a href="/html/aboutUs.html">About Us </a></li>
+      <li><a href="/html/sgin.html">Sign In</a></li>
+      <li><a href="/html/sgin.html">Rigester</a></li>
+      <li><a href="/html/cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+    </ul>
+
+    <div class="menu-icon">
+      <i class="fa-solid fa-bars" onclick="menu()"></i>
+    </div>
+
+  </nav>
+
+
+
+
+  <section class="profile">
+    <div class="div1" style="background-color: #3d6b77">
+      <label for="profileImageInput">
+        <img
+          src="..\Images\img\user (1).png"
+          alt="user"
+          class="img"
+          id="userImage"
+        />
+      </label>
+      <input
+        type="file"
+        id="profileImageInput"
+        style="display: none"
+        accept="image/*"
+      />
+      <div class="profile-info">
+        <span id="userFullName"
+          ><strong style="font-size: 1.5rem">First/Last Name</strong></span
+        ><br /><br />
+        <span id="userEmail">Email@example.com</span>
+      </div>
+    </div>
+    <div class="div2">
+      <form style="margin: 0 40px 40px 40px; text-align: left" class="form">
+        <div>
+          <p><strong style="font-size: 4rem">My Profile</strong></p>
+          <hr style="width: 136%" class="hr" />
+        </div>
+        <div class="flname">
+          <div>
+            <label for="firstName" class="label">First Name</label
+            ><br /><br />
+            <input
+              type="text"
+              id="firstName"
+              class="input"
+              placeholder="&nbsp;&nbsp;&nbsp;Enter your first name"
+              disabled
+            />
+            <span id="fname-error" class="error-message"></span>
+          </div>
+          <div>
+            <label for="lastName" class="label">Last Name</label><br /><br />
+            <input
+              type="text"
+              id="lastName"
+              class="input"
+              placeholder="&nbsp;&nbsp;&nbsp;Enter your last name"
+              disabled
+            />
+            <span id="lname-error" class="error-message"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div>
+            <label for="email" class="label">Email</label><br /><br />
+            <input
+              type="email"
+              id="email"
+              class="input"
+              placeholder="&nbsp;&nbsp;&nbsp;Enter your email"
+              disabled
+            />
+          </div>
+          <div>
+            <label for="gender" class="label">Gender</label><br /><br />
+            <select id="gender" class="input" disabled>
+              <option value="" disabled selected style="text-align: center">
+                -- Select --
+              </option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        </div>
+        <div style="margin-top: 4%">
+          <label for="date" class="label">Birthday</label><br /><br />
+          <input
+            type="date"
+            class="changepass"
+            id="birthday"
+            placeholder="&nbsp;&nbsp;&nbsp;Birthday"
+            disabled
+          />
+          <span id="date-error" class="error-message"></span><br />
+        </div>
+      </form>
+      <button class="botton" id="editButton">
+        <p style="display: inline">Edit&nbsp;&nbsp;</p>
+        <img src="..\Images\img\pencil.png" alt="" style="width: 18%" />
+      </button>
+      <button id="resetPasswordButton">Reset Password</button>
+      <div id="resetPasswordModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h3>Reset Password</h3>
+            <label class="current" for="currentPassword">Current Password:</label>
+            <input type="password" id="currentPassword">
+            <label class="new" for="newPassword">New Password:</label>
+            <input type="password" id="newPassword">
+            <label class="confirmNew" for="confirmPassword">Confirm New Password:</label>
+            <input type="password" id="confirmPassword">
+            <button id="savePasswordButton">Save Password</button>
+        </div>
+    </div>
+    
+
+    </div>
+  </section>
+
+
+
+
+<script>
+    
+</script>
+
+  <script src="/js/profile.js"></script>
+  <!-- BootStrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

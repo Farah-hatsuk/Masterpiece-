@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Sweet</title>
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/css/home.css">
+
+
+
+
+
+</head>
+
+<body>
+    <!-- nav bar  -->
+    <nav>
+
+        <div class="logo">
+            <img src="/img/logo.png" alt="Free Sweet">
+        </div>
+
+        <ul id="menuList">
+
+            <li><a href="/html/home.html">Home</a></li>
+            <li><a href="/html/info.html">Information</a></li>
+            <li><a href="/html/shop.html">Shop</a></li>
+            <li><a href="/html/recipes.html">Recipes</a></li>
+            <li><a href="/html/aboutUs.html">About Us </a></li>
+            <li><a href="/html/sgin.html">Sign In</a></li>
+            <li><a href="/html/sgin.html">Rigester</a></li>
+            <li><a href="/html/cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+        </ul>
+
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="menu()"></i>
+        </div>
+
+    </nav>
+
+    <!-- Start Slider Section -->
+
+    <div class="slider-container">
+        <div class="overlay">
+            <div class="slider-image active"
+                style="background-image: url(/img/home/StrawberryVanillaCake_132-c2776ede941c419a8e47d1048ea88a3c.jpg)">
+                <div class="overlay">
+                    <p class="text">
+                        Welcome To Free Sweet
+                    </p>
+                </div>
+
+            </div>
+            <div class="slider-image" style="
+            background-image: url('/img/home/hq720.jpg');">
+                <div class="overlay">
+                    <p class="text">
+                        Where You Can Find Your Gluten Free Desserts
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider-image" style="
+            background-image: url('/img/home/27cakerex-plzm-threeByTwoMediumAt2X.jpg');">
+                <div class="overlay">
+                    <p class="text">
+                        In Best Quality And Best Price
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <div class="search">
+        <input type="text" placeholder="  search" class="search1">
+    </div> -->
+
+
+    <div class="CeliacDisease">
+        <div class="con">
+            <div>
+                <img src="/img/home/Celiac.png" alt="Celiac">
+            </div>
+            <div>
+                <h2>What is Celiac Disease ??</h2>
+                <p>Celiac disease is an illness caused by an immune reaction to eating gluten. Gluten is a protein found
+                    in
+                    foods containing wheat, barley or rye.</p>
+                <p>If you have celiac disease, eating gluten triggers an immune response in your small intestine. Over
+                    time, this reaction damages your small intestine’s lining and prevents it from absorbing nutrients,
+                    a condition called malabsorption.</p>
+            </div>
+        </div>
+        <a href="/html/info.html"><button>Explore more </button></a>
+
+    </div>
+
+    <div class="shop">
+
+        <div class="textP">
+            <h2>Best Selling</h2>
+        </div>
+
+        <div class="item">
+            <div class="card" style="width: 18rem;">
+                <img src="/img/home/shop/chocolate1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chocolate Cake</h5>
+                    <p class="card-text">From 5 jd </p>
+                    <div class="rating">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <a href="/html/prodect.html" target="_blank" class="btn btn-primary">View Item </a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="/img/home/shop/vanilla.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Vanilla Cake</h5>
+                    <p class="card-text">From 5 jd </p>
+                    <div class="rating">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <a href="#" class="btn btn-primary">View Item </a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="/img/home/shop/strawberry1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Strawberry Cake</h5>
+                    <p class="card-text">From 5 jd </p>
+                    <div class="rating">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <a href="#" class="btn btn-primary">View Item </a>
+                </div>
+            </div>
+        </div>
+
+        <a href="/html/shop.html" class="Explore"><button>Explore more </button></a>
+
+
+
+
+    </div>
+
+    <div class="Reprises">
+
+        <div class="textP">
+            <h2>Reprises</h2>
+        </div>
+
+        <div class="item">
+            <div class="card" style="width: 18rem;">
+
+                <div class="card-body">
+                    <h5 class="card-title">Gluten-free Apple <br>Bread</h5>
+                </div>
+
+                <img src="/img/home/shop/Gluten-free-Apple-Bread-360x480.jpg.webp" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                    <a href="#" class="btn btn-primary">View Item </a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Gluten-free Apple Cinnamon Baked Oatmeal Squares</h5>
+
+
+                </div>
+                <img src="/img/home/shop/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="#" class="btn btn-primary">View Item </a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Gluten-free Chocolate Banana Bread</h5>
+
+
+                </div>
+                <img src="/img/home/shop/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <a href="/html/Reprises1.html" class="btn btn-primary">View Item </a>
+                </div>
+
+            </div>
+        </div>
+
+        <a href="/html/recipes.html" class="Explore"><button>Explore more </button></a>
+
+
+
+
+    </div>
+
+    <div class="AboutUs ">
+        <div class="con">
+
+            <div>
+                <h2>About Us </h2>
+                <p>Free Sweet is dedicated to supporting those with celiac disease by<br> providing helpful resources,
+                    gluten-free recipes, and a curated selection of high-quality desserts. <br>Our community offers a
+                    space
+                    to connect, share <br>experiences, and find inspiration while navigating the gluten-free lifestyle.
+                </p>
+            </div>
+            <div>
+                <img src="/img/home/AVdzXMuw.png" alt="Celiac">
+            </div>
+        </div>
+        <a href=""><button>Explore more </button></a>
+
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="textP">
+            <h2>Customer<br>Feedback</h2>
+        </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption">
+                        <p>It is a very nice feeling for someone who has a specific diet when they find delicious food
+                            to share with their family and friends. The best thing is when we find a cake artist and
+                            delicious things who makes what we love with all love and art.
+                        </p>
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadpE3izilNNrKR5uPLaZ6zC8AUkoXH3bfaQ&s">
+                        <div id="image-caption">Lara</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption">
+                        <p>A new and luxurious experience that will definitely be repeated...The most luxurious and
+                            delicious sweets.. Homemade, clean and perfect from the heart to the heart and all gluten
+                            freeAll my love and best wishes to Lina, and may you open your own place . I highly
+                            recommend it. If you have any other allergies, let them know.They will help you for sure.
+                        </p>
+                        <img src="https://www.svgrepo.com/show/382097/female-avatar-girl-face-woman-user-9.svg"
+                            class="img-fluid">
+                        <div id="image-caption">Yasmeen</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption">
+                        <p>Thank you so much for the brownies it was so good and tusty especially with icecreem 
+
+                        </p>
+                        <img src="data:image/png;base64,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"
+                            class="img-fluid">
+                        <div id="image-caption">Ahmed</div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <i class='fas fa-arrow-left'></i>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <i class='fas fa-arrow-right'></i>
+            </a>
+        </div>
+
+    </div>
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="/img/logo.png" alt="Free Sweet Logo">
+                <!-- <p>HOMEMADE BAKERY</p> -->
+            </div>
+            <div class="footer-center" style="display: flex; flex-direction:row;">
+                <ul style="display: flex; flex-direction: column;">
+                    <li style="font-size: 25px;">About :</li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                <ul style="display: flex; flex-direction: column;">
+                    <li style="font-size: 25px;">Services :</li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Reprises</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.1086923944936!2d35.80718757542324!3d31.93080627402867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca5bf128dbae3%3A0x952204d2e0d1b520!2sfree%20sweet%20jo!5e0!3m2!1sen!2sjo!4v1737904948378!5m2!1sen!2sjo"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+            </div>
+            <p>©2025 | All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- footer -->
+    <!-- <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 item text">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.1086923944936!2d35.80718757542324!3d31.93080627402867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca5bf128dbae3%3A0x952204d2e0d1b520!2sfree%20sweet%20jo!5e0!3m2!1sen!2sjo!4v1737319112086!5m2!1sen!2sjo"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                                class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-youtube"></i></a><a
+                            href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">BBBootstrap.com &copy; 2020</p>
+            </div>
+        </footer>
+    </div> -->
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/home.js"></script>
+    <script src="https://kit.fontawesome.com/20637403cc.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

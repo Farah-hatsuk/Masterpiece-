@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Sweet</title>
+  <link rel="stylesheet" href="/css/login.css">
+
+  <style>
+    body {
+      position: relative;
+      background-image: url(/img/Screenshot\ 2024-12-26\ 135205-Photoroom.png);
+      background-repeat: repeat;
+
+    }
+
+    body::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.571);
+      /* White overlay with 50% opacity */
+      z-index: -1;
+      /* Places it behind all content */
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+
+    nav {
+      padding: 10px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #02B5CA;
+      position: relative;
+      height: 80px;
+    }
+
+    ul {
+      display: flex;
+      gap: 25px;
+    }
+
+    ul li {
+      list-style: none;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .logo img {
+      width: 100px;
+      height: 70px;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    .menu-icon i {
+      color: white;
+      font-size: 30px;
+    }
+
+    /* Mobile styling for the menu */
+    @media (max-width: 426px) {
+      nav ul {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #02B5CA;
+        gap: 0;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.5s ease-out;
+        z-index: 1000;
+      }
+
+      nav ul.open {
+        max-height: 300px;
+      }
+
+      nav ul li {
+        padding: 10px;
+      }
+
+      .menu-icon {
+        display: block;
+      }
+    }
+
+
+
+
+    body {
+      background: lavender;
+    }
+
+    /* div box styling */
+    .container {
+      margin: auto;
+      width: 650px;
+      height: 550px;
+      position: relative;
+    }
+
+    .welcome {
+      background: white;
+      width: 650px;
+      height: 415px;
+      position: absolute;
+      top: 25%;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+    }
+
+    .pinkbox {
+      position: absolute;
+      top: -10%;
+      left: 5%;
+      background: pale;
+      width: 320px;
+      height: 500px;
+      border-radius: 5px;
+      box-shadow: 2px 0 10px rgba(0, 0, 0, .1);
+      transition: all .5s ease-in-out;
+      z-index: 2;
+    }
+
+    .nodisplay {
+      display: none;
+      transition: all .5s ease;
+    }
+
+    .leftbox,
+    .rightbox {
+      position: absolute;
+      width: 50%;
+      transition: 1s all ease;
+    }
+
+    .leftbox {
+      left: -2%;
+    }
+
+    .rightbox {
+      right: -2%;
+    }
+
+    /* font & button styling */
+    h1 {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 95px;
+      text-transform: uppercase;
+      color: white;
+      font-size: 2em;
+      letter-spacing: 8px;
+    }
+
+    .title {
+      font-family: serif;
+      color: gray;
+      font-size: 1.8em;
+      line-height: 1.1em;
+      letter-spacing: 3px;
+      text-align: center;
+      font-weight: 300;
+      margin-top: 20%;
+    }
+
+    .desc {
+      margin-top: -8px;
+    }
+
+    .account {
+      margin-top: 45%;
+      font-size: 10px;
+    }
+
+    p {
+      font-family: sans-serif;
+      font-size: .7em;
+      letter-spacing: 2px;
+      color: gray;
+      text-align: center;
+    }
+
+    span {
+      color: pale;
+    }
+
+    .flower {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      top: 46%;
+      left: 29%;
+      opacity: .7;
+    }
+
+    .smaller {
+      width: 90px;
+      height: 100px;
+      top: 48%;
+      left: 38%;
+      opacity: .9;
+    }
+
+    button {
+      padding: 12px;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 11px;
+      border-radius: 10px;
+      margin: auto;
+      outline: none;
+      display: block;
+
+    }
+
+    button:hover {
+      background: pale;
+      color: white;
+      transition: background-color 1s ease-out;
+    }
+
+    .button {
+      margin-top: 3%;
+      background: white;
+      color: pink;
+      border: solid 1px pale;
+    }
+
+    /* form styling */
+
+    form {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 7px;
+    }
+
+    .more-padding {
+      padding-top: 35px;
+
+      input {
+        padding: 12px;
+      }
+
+      .submit {
+        margin-top: 45px;
+      }
+    }
+
+    .submit {
+      margin-top: 25px;
+      padding: 12px;
+      border-color: pink;
+
+    }
+
+    .submit:hover {
+      background: lavender;
+      border-color: darken(lavender, 5%);
+    }
+
+    input {
+      background: pale;
+      width: 65%;
+      color: pink;
+      border: none;
+      border-bottom: 1px solid rgba(white, 0.5);
+      padding: 9px;
+      margin: 7px;
+
+      &::placeholder {
+        color: rgba(white, 1);
+        letter-spacing: 2px;
+        font-size: 1.3em;
+        font-weight: 100;
+      }
+
+      &:focus {
+        color: pink;
+        outline: none;
+        border-bottom: 1.2px solid rgba(pink, 0.7);
+        font-size: 1em;
+        transition: .8s all ease;
+
+        &::placeholder {
+          opacity: 0;
+        }
+      }
+    }
+
+    label {
+      font-family: sans-serif;
+      color: pink;
+      font-size: 0.8em;
+      letter-spacing: 1px;
+    }
+
+    .checkbox {
+      display: inline;
+      white-space: nowrap;
+      position: relative;
+      left: -62px;
+      top: 5px;
+    }
+
+    input[type=checkbox] {
+      width: 7px;
+      background: pink;
+    }
+
+    .checkbox input[type="checkbox"]:checked+label {
+      color: pink;
+      transition: .5s all ease;
+    }
+
+
+    footer {
+      margin-top: 10%;
+      background-color: #00bcd4;
+      color: white;
+      padding: 20px 0;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 0 20px;
+      flex-wrap: wrap;
+      /* يسمح للعناصر بالانتقال للأسفل عند الحاجة */
+    }
+
+    .footer-left {
+      text-align: center;
+      flex: 1 1 200px;
+      /* يسمح للشعار بالتقلص والتمدد */
+    }
+
+    .footer-left img {
+      width: 200px;
+      /* تحديد عرض الصورة */
+      height: auto;
+    }
+
+    .footer-center {
+      gap: 70px;
+      display: flex;
+      flex-direction: column;
+      /* ترتيب الروابط عموديًا */
+      width: 50%;
+      padding-left: 10%;
+    }
+
+    .footer-center ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-center ul li {
+      margin: 5px 0;
+      /* تقليل المسافة بين الروابط */
+    }
+
+    .footer-center ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      /* تكبير حجم الخط للروابط */
+      transition: color 0.3s;
+      padding: 5px 0;
+      /* إضافة حواف للروابط لتقليل المسافة */
+    }
+
+    .footer-center ul li a:hover {
+      color: #ffeb3b;
+    }
+
+    .footer-right iframe {
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      /* جعل الخريطة مرنة */
+      max-width: 300px;
+      /* تحديد الحد الأقصى للعرض */
+      height: 200px;
+    }
+
+    .footer-bottom {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+      border-top: 1px solid white;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    .social-icons a {
+      margin-right: 10px;
+    }
+
+    .social-icons img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .footer-bottom p {
+      margin: 0;
+      font-size: 14px;
+      /* تصغير حجم النص لحقوق الطبع والنشر */
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .footer-container {
+        flex-direction: column;
+        /* ترتيب الأعمدة عموديًا */
+        align-items: center;
+      }
+
+      .footer-center {
+        width: 100%;
+        /* جعل الروابط تأخذ العرض الكامل */
+        justify-content: center;
+      }
+
+      .footer-center ul li a {
+        font-size: 16px;
+        /* تقليل حجم الخط في الشاشات الصغيرة */
+      }
+
+      .footer-left img {
+        width: 150px;
+        /* تقليل حجم الشعار في الشاشات الصغيرة */
+      }
+
+      .footer-right iframe {
+        max-width: 100%;
+        /* السماح للخريطة بأن تكون مرنة */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .footer-left img {
+        width: 120px;
+        /* تقليل حجم الشعار أكثر في الشاشات الصغيرة */
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- nav bar  -->
+  <nav>
+
+    <div class="logo">
+      <img src="/img/logo.png" alt="Free Sweet">
+    </div>
+
+    <ul id="menuList">
+
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Information</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Reprises</a></li>
+      <li><a href="#">About Us </a></li>
+      <li><a href="#">Sign In</a></li>
+      <li><a href="#">Rigester</a></li>
+      <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+    </ul>
+
+    <div class="menu-icon">
+      <i class="fa-solid fa-bars" onclick="menu()"></i>
+    </div>
+
+  </nav>
+
+
+
+  <div class="container">
+  </div>
+
+  <div id="owl-demo1" class="owl-carousel">
+
+
+    <div class="allitem">
+      <div class="blog-allof">
+        <div class="img-date">
+          <img src="https://d8f5e3t5.rocketcdn.me/wp-content/uploads/2022/03/icon1.svg">
+
+        </div>
+        <div class="discretion-blog">
+
+          <h3>Make the most of your platform</h3>
+          <p>Reduce operational costs with no compromise on how you run your business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="allitem">
+      <div class="blog-allof">
+        <div class="img-date">
+          <img src="https://cdn.glitch.global/dd8103f7-7d84-405a-b89a-0b33a3c4212f/icon2.png?v=1719399041953">
+
+        </div>
+        <div class="discretion-blog">
+
+
+          <h3>Boost agent productivity</h3>
+          <p>Deliver a personalized customer experience with the right context.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="allitem">
+      <div class="blog-allof">
+        <div class="img-date">
+          <img src="https://d8f5e3t5.rocketcdn.me/wp-content/uploads/2022/03/icon4.svg">
+
+        </div>
+        <div class="discretion-blog">
+
+          <h3>User-friendly cloud contact solutions</h3>
+          <p>Designed with the users in mind and can be set up in minutes.</p>
+
+        </div>
+      </div>
+    </div>
+    <!--END OF CAROSEL-->
+
+    <div class="allitem">
+      <div class="blog-allof">
+        <div class="img-date">
+          <img src="https://d8f5e3t5.rocketcdn.me/wp-content/uploads/2022/04/icon3-1.svg">
+
+        </div>
+        <div class="discretion-blog">
+
+          <h3>Scales with your business</h3>
+          <p>Upgrade your platform and access more benefits as your business grows.</p>
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--END OF CAROSEL-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/20637403cc.js" crossorigin="anonymous"></script>
+    <script>
+      let menuList = document.getElementById("menuList");
+
+      // Toggle the 'open' class to animate max-height changes
+      function menu() {
+        menuList.classList.toggle('open');
+      }
+
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const signInBtn = document.getElementById("signIn");
+        const signUpBtn = document.getElementById("signUp");
+        const fistForm = document.getElementById("form1");
+        const secondForm = document.getElementById("form2");
+        const container = document.querySelector(".container");
+
+        signInBtn.addEventListener("click", () => {
+          container.classList.remove("right-panel-active");
+        });
+
+        signUpBtn.addEventListener("click", () => {
+          container.classList.add("right-panel-active");
+        });
+
+        fistForm.addEventListener("submit", (e) => e.preventDefault());
+        secondForm.addEventListener("submit", (e) => e.preventDefault());
+      });
+    </script>
+    <script src="/js/login.js"></script>
+
+</body>
+
+</html>

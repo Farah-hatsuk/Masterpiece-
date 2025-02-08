@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Sweet</title>
+    <link rel="stylesheet" href="/css/login.css">
+
+</head>
+<body>
+
+    <!-- nav bar  -->
+    <nav>
+
+        <div class="logo">
+            <img src="/img/logo.png" alt="Free Sweet">
+        </div>
+
+        <ul id="menuList">
+
+            <li><a href="/html/home.html">Home</a></li>
+            <li><a href="/html/info.html">Information</a></li>
+            <li><a href="/html/shop.html">Shop</a></li>
+            <li><a href="/html/recipes.html">Recipes</a></li>
+            <li><a href="/html/aboutUs.html">About Us </a></li>
+            <li><a href="/html/sgin.html">Sign In</a></li>
+            <li><a href="/html/sgin.html">Rigester</a></li>
+            <li><a href="/html/cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+        </ul>
+
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="menu()"></i>
+        </div>
+
+    </nav>
+
+
+
+    <div class="container right-panel-active">
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+            <form action="#" class="form" id="form1">
+                <h2 class="form__title">Sign Up</h2>
+                <input type="text" placeholder="User" class="input" />
+                <input type="email" placeholder="Email" class="input" />
+                <input type="password" placeholder="Password" class="input" />
+                <input type="password" placeholder="Confirm Password" class="input" />
+                <button class="btn">Sign Up</button>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <!-- Sign In -->
+        <div class="container__form container--signin">
+            <form action="#" class="form" id="form2">
+                <h2 class="form__title">Sign In</h2>
+                <!-- <label  style="margin-right: 95%;">Email</label> -->
+                <input type="email" placeholder="Email" class="input" />
+                <input type="password" placeholder="Password" class="input" />
+                <a href="#" class="link">Forgot your password?</a>
+                <button class="btn">Sign In</button>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <script src="https://kit.fontawesome.com/20637403cc.js" crossorigin="anonymous"></script>
+    <script src="/js/login.js"></script>
+    
+</body>
+</html>

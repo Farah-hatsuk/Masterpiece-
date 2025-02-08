@@ -1,0 +1,824 @@
+/* body {
+    background-image: url(/img/Screenshot\ 2024-12-26\ 135205-Photoroom.png);
+    background-repeat: repeat;
+} */
+
+body {
+    position: relative;
+    background-image: url(/img/Screenshot\ 2024-12-26\ 135205-Photoroom.png);
+    background-repeat: repeat;
+
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.571);
+    /* White overlay with 50% opacity */
+    z-index: -1;
+    /* Places it behind all content */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02B5CA ;
+    position: relative;
+    height: 80px;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+    height: 70px;
+}
+
+.menu-icon {
+    display: none ;
+}
+
+.menu-icon i {
+    color: white ;
+    font-size: 30px ;
+}
+
+/* Mobile styling for the menu */
+@media (max-width: 426px) {
+    nav ul {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #02B5CA;
+        gap: 0;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.5s ease-out;
+        z-index: 1000;
+    }
+
+    nav ul.open {
+        max-height: 400px;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+
+
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 55px);
+    overflow: hidden;
+    margin-bottom: 80px;
+
+}
+
+.slider-image {
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slider-image.active {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.389);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay .text {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.overlay .text {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    /* Added text shadow for better visibility */
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+
+
+
+/*  search  */
+
+.search {
+    /* margin-top: -140px; */
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+
+.search .search1 {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #BEEBF0;
+    margin-bottom: 150px;
+
+}
+
+/* Celiac Disease */
+
+.CeliacDisease {
+    border: none;
+    background-color: #099DA8;
+    max-width: 1400px;
+    margin: auto;
+    padding: 4rem 0.5rem;
+    align-content: center;
+    margin-bottom: 79px;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.CeliacDisease .con img {
+    width: 50%;
+    margin-left: 20%;
+
+}
+
+.CeliacDisease .con h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    margin-right: 10%;
+}
+
+.CeliacDisease .con p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    margin-right: 10%;
+}
+
+button {
+    margin-top: 75px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: #BEEBF0;
+    color: #099DA8;
+    font-size: 25px;
+
+}
+
+button:hover {
+    background-color: #005f5f;
+    color: #FFFFFF;
+}
+
+@media (max-width: 426px) {
+    .CeliacDisease .con h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+    }
+
+    .CeliacDisease .con p {
+        font-size: 1em;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+    }
+
+    .CeliacDisease .con img {
+        width: 63%;
+
+    }
+}
+
+
+/* shop  */
+
+.shop {
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.textP h2 {
+    font-size: 3.5rem;
+    color: #099DA8;
+    margin-bottom: 60px;
+    /* background-color: #beebf0; */
+    text-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 7px 18px;
+    width: max-content;
+
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 18rem;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #099DA8;
+}
+
+.card-body {
+    text-align: start;
+    padding: 15px;
+    background-color: #099DA8;
+    color: white;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ddd;
+    color: teal;
+}
+
+.Explore button {
+    margin-top: 75px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: #099DA8;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 85px;
+
+
+}
+
+.Explore button:hover {
+    background-color: #005f5f;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.rating .star i {
+    color: #FFDF00;
+    font-size: 1.2rem;
+}
+
+.rating i {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.cart-icon {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Reprises */
+
+.Reprises {
+
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.Reprises .textP h2 {
+    font-size: 3.5rem;
+    color: #099DA8;
+    margin-bottom: 60px;
+    /* background-color: #beebf0; */
+    text-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 7px 18px;
+    width: max-content;
+
+}
+
+.Reprises .item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Reprises .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 18rem;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.Reprises .card:hover {
+    transform: translateY(-10px);
+}
+
+.Reprises .card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #099DA8;
+}
+
+.Reprises .card-body {
+    text-align: center;
+    padding: 15px;
+    background-color: #099DA8;
+    color: white;
+}
+
+.Reprises .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.Reprises .card-text {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.Reprises .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.Reprises .btn-primary:hover {
+    background-color: #ddd;
+    color: teal;
+}
+
+.Reprises .Explore button {
+    margin-top: 75px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: #099DA8;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 85px;
+
+
+}
+
+.Reprises .Explore button:hover {
+    background-color: #005f5f;
+}
+
+
+
+
+/* About Us  */
+.AboutUs {
+    border: none;
+    background-color: #099DA8;
+    max-width: 1400px;
+    margin: auto auto 85px auto;;
+    padding: 4rem 0.5rem;
+    align-content: center;
+}
+
+.AboutUs .con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.AboutUs .con img {
+    width: 60%;
+    margin-left: 24%;
+
+}
+
+.AboutUs .con h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    margin-left: 10%;
+}
+
+.AboutUs .con p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    margin-left: 10%;
+}
+
+button {
+    margin-top: 75px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: #BEEBF0;
+    color: #099DA8;
+    font-size: 25px;
+
+}
+
+button:hover {
+    background-color: #005f5f;
+    color: #FFFFFF;
+}
+
+@media (max-width: 426px) {
+    .AboutUs .con {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .AboutUs .con img {
+        margin-left: 19%;
+    }
+
+    .AboutUs .con h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+        margin-left: 10%;
+    }
+
+    .AboutUs .con p {
+        font-size: 1em;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        margin-left: 10%;
+    }
+    
+
+}
+
+
+/*  feedback */
+
+#demo{
+    background: linear-gradient(112deg, #ffffff 50%, #beebf0 50%);
+    max-width: 900px;
+    margin: auto;
+}
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem;
+}
+@media(max-width:767px){
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+}
+.carousel-caption img{
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+@media(max-width:767px){
+    .carousel-caption img{
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem;
+    }
+}
+#image-caption{
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+@media(max-width:767px){
+    #image-caption{
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem;
+    }
+}
+.carousel-control-prev i{
+    /* background-color: rgb(223, 56, 89); */
+    padding: 1.4rem;
+    color: #099DA8;
+}
+@media(max-width:767px){
+    .carousel-control-prev i{
+        padding: 0.8rem;
+    }
+}
+.carousel-control-prev{
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+.carousel-control-prev,.carousel-control-next{
+    transition: none;
+    opacity: unset;
+}
+
+
+
+
+/* footer  */
+
+
+
+footer {
+    margin-top: 10%;
+    background-color: #00bcd4;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    /* يسمح للعناصر بالانتقال للأسفل عند الحاجة */
+}
+
+.footer-left {
+    text-align: center;
+    flex: 1 1 200px;
+    /* يسمح للشعار بالتقلص والتمدد */
+}
+
+.footer-left img {
+    width: 200px;
+    /* تحديد عرض الصورة */
+    height: auto;
+}
+
+.footer-center {
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+    /* ترتيب الروابط عموديًا */
+    width: 50%;
+    padding-left: 10%;
+}
+
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-center ul li {
+    margin: 5px 0;
+    /* تقليل المسافة بين الروابط */
+}
+
+.footer-center ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    /* تكبير حجم الخط للروابط */
+    transition: color 0.3s;
+    padding: 5px 0;
+    /* إضافة حواف للروابط لتقليل المسافة */
+}
+
+.footer-center ul li a:hover {
+    color: #005f5f;
+}
+
+.footer-right iframe {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    /* جعل الخريطة مرنة */
+    max-width: 300px;
+    /* تحديد الحد الأقصى للعرض */
+    height: 200px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0.5rem;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00bcd4;
+    color: #FFFFFF;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.social-icons a:hover {
+    background: #099DA8;
+}
+
+/* .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+} */
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    /* تصغير حجم النص لحقوق الطبع والنشر */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        /* ترتيب الأعمدة عموديًا */
+        align-items: center;
+    }
+
+    .footer-center {
+        width: 100%;
+        /* جعل الروابط تأخذ العرض الكامل */
+        justify-content: center;
+    }
+
+    .footer-center ul li a {
+        font-size: 16px;
+        /* تقليل حجم الخط في الشاشات الصغيرة */
+    }
+
+    .footer-left img {
+        width: 150px;
+        /* تقليل حجم الشعار في الشاشات الصغيرة */
+    }
+
+    .footer-right iframe {
+        max-width: 100%;
+        /* السماح للخريطة بأن تكون مرنة */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-left img {
+        width: 120px;
+        /* تقليل حجم الشعار أكثر في الشاشات الصغيرة */
+    }
+}
