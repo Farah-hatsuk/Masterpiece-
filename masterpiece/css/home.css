@@ -582,6 +582,7 @@ button:hover {
     background: linear-gradient(112deg, #ffffff 50%, #beebf0 50%);
     max-width: 900px;
     margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.242);
 }
 .carousel-caption {
     position: initial;
