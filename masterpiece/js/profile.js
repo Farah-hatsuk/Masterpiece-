@@ -164,3 +164,37 @@ window.addEventListener("click", event => {
         resetPasswordModal.style.display = "none";
     }
 });
+
+
+
+
+// const HistoryOfOrder = document.getElementById("HistoryOfOrder");
+
+// HistoryOfOrder.addEventListener("click", () => {
+//     HistoryOfOrder.style.display = "block";
+// });
+
+
+// Get the button and modal elements
+// Get the button and modal elements
+// Get the button and modal elements
+const historyButton = document.getElementById("historyButton"); // Button to open the modal
+const historyModal = document.getElementById("historyModal"); // The modal container
+const closeHistoryModal = document.getElementById("closeHistoryModal"); // Close button inside the modal
+
+// Show the modal when the "History Of Order" button is clicked
+historyButton.addEventListener("click", () => {
+  historyModal.style.display = "block"; // Make the modal visible
+});
+
+// Close the modal when the close button is clicked
+closeHistoryModal.addEventListener("click", () => {
+  historyModal.style.display = "none"; // Hide the modal
+});
+
+// Close the modal when clicking outside the modal content
+window.addEventListener("click", (event) => {
+  if (event.target === historyModal) {
+    historyModal.style.display = "none"; // Hide the modal
+  }
+});

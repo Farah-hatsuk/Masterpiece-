@@ -2,6 +2,7 @@ body {
     position: relative;
     background-image: url(/img/Screenshot\ 2024-12-26\ 135205-Photoroom.png);
     background-repeat: repeat;
+    font-family:'Times New Roman', Times, serif;
 }
 
 body::after {
@@ -107,12 +108,14 @@ header h1 {
 
 .images-titles .shuffle {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 15px;
     margin-bottom: 50px;
     background-color: #BEEBF0;
     color: #099DA8;
+    width: 50%;
+    transform: translateX(50%);
 }
 
 .images-titles .shuffle li:hover {
@@ -234,7 +237,19 @@ header h1 {
     background-color: #005f5f;
 }
 
-
+@media (max-width: 426px){
+    .images-titles .shuffle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 50px;
+        background-color: #BEEBF0;
+        color: #099DA8;
+        width: 89%;
+        transform: translateX(9%);
+    }
+}
 
 footer {
     margin-top: 10%;

@@ -23,6 +23,7 @@ body {
     min-height: 100vh; 
     margin: 0;
     overflow: hidden;
+    font-family:'Times New Roman', Times, serif;
 }
 
 body::after {
@@ -218,7 +219,7 @@ ul li a {
 
 .overlay {
     background: var(--lightblue);
-    background: url("/img/shop/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp") no-repeat center center/cover;
+    background: url("/img/Untitled\ design\ new.png") no-repeat center center/cover;
     height: 100%;
     left: -100%;
     position: relative;

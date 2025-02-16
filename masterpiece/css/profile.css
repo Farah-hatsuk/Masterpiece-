@@ -2,6 +2,7 @@ body {
     position: relative;
     background-image: url(/img/Screenshot\ 2024-12-26\ 135205-Photoroom.png);
     background-repeat: repeat;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -33,6 +34,11 @@ nav {
     background-color: #02B5CA;
     position: relative;
     height: 80px;
+}
+
+nav #menuList a:hover {
+    color: white;
+    text-decoration:none;
 }
 
 ul {
@@ -102,7 +108,7 @@ ul li a {
 }
 
 :root {
-    --main-color: #0a4556;
+    --main-color: #099DA8;
     --transparent-color: rgb(15 116 143 / 70%);
     --section-padding: 100px;
     --para-color: #3d6b77;
@@ -246,7 +252,7 @@ ul li a {
     top: -80%;
     right: -114%;
     color: white;
-    background-color: #0A4556;
+    background-color: #099DA8;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -297,7 +303,7 @@ ul li a {
     .div1 {
         width: 100%;
         padding: 20px;
-        background-color: #3D6B77;
+        background-color: #099DA8;
     }
 
     .div2 {
@@ -358,9 +364,6 @@ ul li a {
 
 
 
-/* footer */
-
-
 .text-lg-start {
     background-color: #45526e;
     width: 117.5%;
@@ -416,7 +419,7 @@ ul li a {
 
 
 #resetPasswordButton {
-    background-color: #0A4556;
+    background-color: #099DA8;
     color: #fff;
     padding: 10px;
     border-radius: 6px;
@@ -441,12 +444,13 @@ ul li a {
 #savePasswordButton {
     width: 30%;
     padding: 7px;
-    background-color: #0A4556;
+    background-color: #099DA8;
     color: #fff;
     margin-top: 10px;
     margin-left: 50%;
     transform: translateX(-50%);
     border-radius: 15px;
+    border: none;
 
 
 }
@@ -463,8 +467,38 @@ ul li a {
 
 }
 
+#resetPasswordModal {
+
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 
 
+}
+
+
+
+
+/* Popup container */
+
+#historyButton {
+    background-color: #099DA8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    border: none;
+}
+
+#historyButton:hover {
+    transform: scale(1.1);
+}
 
 /* footer  */
 
@@ -564,15 +598,17 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:#00bcd4 ;
+    background: #00bcd4;
     color: #FFFFFF;
     border-radius: 50%;
     text-decoration: none;
     font-size: 1.2rem;
 }
-.social-icons a:hover{
-    background:#099DA8;
+
+.social-icons a:hover {
+    background: #099DA8;
 }
+
 /* .social-icons {
     display: flex;
     justify-content: center;
@@ -630,3 +666,37 @@ footer {
         /* تقليل حجم الشعار أكثر في الشاشات الصغيرة */
     }
 }
+/* Modal container (hidden by default) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Background overlay */
+    z-index: 1000;
+  }
+  
+  /* Modal content */
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto; /* Center vertically */
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; /* Adjust width as needed */
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Close button */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+  }
+  

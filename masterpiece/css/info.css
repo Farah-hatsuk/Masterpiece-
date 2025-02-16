@@ -2,6 +2,7 @@ body {
     position: relative;
     background-image: url(/img/Screenshot\ 2024-12-26\ 135205-Photoroom.png);
     background-repeat: repeat;
+    font-family:'Times New Roman', Times, serif;
 
 }
 
@@ -146,7 +147,7 @@ h2 {
 
 p {
     line-height: 1.6;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     color: #FFFFFF;
 }
