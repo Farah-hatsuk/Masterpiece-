@@ -1,0 +1,121 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<link href="~/css/css/homestyles/bootstrap.min.css" rel="stylesheet" />
+<link href="~/css/css/homestyles/font-awesome.min.css" rel="stylesheet" />
+<link href="~/css/css/homestyles/icofont.css" rel="stylesheet" />
+<link href="~/css/css/homestyles/normalize.css" rel="stylesheet" />
+<link href="~/css/css/homestyles/responsive.css" rel="stylesheet" />
+<link href="~/css/css/homestyles/styles.css" rel="stylesheet" />
+<link href="~/css/contact.css" rel="stylesheet" />
+
+<!-- Breadcrumbs -->
+<div class="breadcrumbs overlay">
+	<div class="container">
+		<div class="bread-inner">
+			<div class="row">
+			@* 	<div class="col-12"> 
+					<h2>Contact Us</h2>
+				</div> *@
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Breadcrumbs -->
+<!-- Start Contact Us -->
+<section class="contact-us section">
+	<div class="container">
+		<div class="inner">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="contact-us-left">
+						<!--Start Google-map -->
+						<iframe style="height: inherit; border:0;"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.1086923944936!2d35.80718757542324!3d31.93080627402867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca5bf128dbae3%3A0x952204d2e0d1b520!2sfree%20sweet%20jo!5e0!3m2!1sen!2sjo!4v1737904948378!5m2!1sen!2sjo"
+								width="600" height="450" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<!--/End Google-map -->
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="contact-us-form">
+						<h2>Contact With Us</h2>
+						<p>If you have any questions please fell free to contact with us.</p>
+						<!-- Form -->
+						<form class="form" method="post" asp-action="Contact" asp-controller="HomePages">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<input type="text" name="Name" placeholder="Name" required>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<input type="email" name="Email" placeholder="Email" required>
+									</div>
+								</div>
+								@* <div class="col-lg-12"> *@
+								@* 	<div class="form-group"> *@
+								@* 		<input type="text" name="Subject" placeholder="Subject" required> *@
+								@* 	</div> *@
+								@* </div> *@
+								<div class="col-lg-12">
+									<div class="form-group">
+										<textarea name="Message" placeholder="Your Message" required></textarea>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group login-btn">
+										<button class="btn" type="submit">Send</button>
+									</div>
+								</div>
+							</div>
+						</form>
+						<!--/ End Form -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contact-info">
+			<div class="row">
+				<!-- single-info -->
+				<div class="col-lg-4 col-12 ">
+					<div class="single-info">
+						<i class="fa-solid fa-phone"></i>
+						<div class="content">
+							<h3>+(962) 123 456 789</h3>
+							<p>ByteCraft@company.com</p>
+						</div>
+					</div>
+				</div>
+				<!--/End single-info -->
+				<!-- single-info -->
+				<div class="col-lg-4 col-12 ">
+					<div class="single-info">
+						<i class="fa-solid fa-map-marker-alt"></i>
+						<div class="content">
+							<h3>Irbid, Jordan</h3>
+							<p>Al-Sheikh Khalil St.</p>
+						</div>
+					</div>
+				</div>
+				<!--/End single-info -->
+				<!-- single-info -->
+				<div class="col-lg-4 col-12 ">
+					<div class="single-info">
+						<i class="fa-solid fa-clock"></i>
+						<div class="content">
+							<h3>Mon - Sat: 8am - 5pm</h3>
+							<p>Sunday Closed</p>
+						</div>
+					</div>
+				</div>
+				<!--/End single-info -->
+			</div>
+		</div>
+	</div>
+</section>
+<!--/ End Contact Us -->

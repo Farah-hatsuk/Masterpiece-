@@ -1,0 +1,139 @@
+﻿
+
+<link href="~/css/profile.css" rel="stylesheet" />
+
+<section class="profile" >
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Profile Image -->
+        <img src="@Context.Session.GetString("ProfileImage")" class="profile-image" alt="Profile">
+
+        <!-- Profile Info -->
+        @* <div class="profile-info"> *@
+        @*     <h2>@Context.Session.GetString("UserName")</h2> *@
+        @*     <p>@Context.Session.GetString("UserEmail")</p> *@
+        @* </div> *@
+
+        <!-- Navigation Tabs -->
+        <div class="nav-tabs">
+            <button class="nav-button active" onclick="openTab('viewTab')">
+                👤 View Profile
+            </button>
+            <button class="nav-button" onclick="openTab('editTab')">
+                📝 Edit Profile
+            </button>
+            <button class="nav-button" onclick="openTab('resetTab')">
+                🔒 Reset Password
+            </button>
+            <button class="nav-button" onclick="openTab('historyTab')">
+                📦 Order History
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content-area">
+        <!-- View Profile Tab -->
+        <div id="viewTab" class="tab-content" style="display: block;">
+            <div class="profile-view">
+                <h2>Profile Information</h2>
+                <div class="info-card">
+                    <div class="info-label">Full Name</div>
+                    <div class="info-value">@Context.Session.GetString("UserName")</div>
+                </div>
+                <div class="info-card">
+                    <div class="info-label">Email</div>
+                    <div class="info-value">@Context.Session.GetString("UserEmail")</div>
+                </div>
+                <div class="info-card">
+                    <div class="info-label">Phone Number</div>
+                    <div class="info-value">@Context.Session.GetString("UserNumber")</div>
+                </div>
+                <div class="info-card">
+                    <div class="info-label">Address</div>
+                    <div class="info-value">@Context.Session.GetString("UserAddress")</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Edit Profile Tab -->
+        <div id="editTab" class="tab-content">
+            <form class="profile-view">
+                <h2>Edit Profile</h2>
+                <div class="form-group">
+                    <label class="info-label">Full Name</label>
+                    <input type="text" class="input-field" value="@Context.Session.GetString("UserName")">
+                </div>
+                <div class="form-group">
+                    <label class="info-label">Email </label>
+                    <input type="email" class="input-field" value="@Context.Session.GetString("UserEmail")" readonly>
+                </div>
+                <div class="form-group">
+                    <label class="info-label">Phone Number</label>
+                    <input type="tel" class="input-field" value="@Context.Session.GetString("UserNumber")">
+                </div>
+                <div class="form-group">
+                    <label class="info-label">Address</label>
+                    <input type="text" class="input-field" value="@Context.Session.GetString("UserAddress")">
+                </div>
+                <div class="form-group">
+                    <label class="info-label">Upload Your Image</label>
+                    <input type="file" class="input-field" value="@Context.Session.GetString("UserAddress")">
+                </div>
+                <button type="button" class="save-button">Save Changes</button>
+            </form>
+        </div>
+
+        <!-- Reset Password Tab -->
+        <div id="resetTab" class="tab-content">
+            <form class="profile-view">
+                <h2>Reset Password</h2>
+                <div class="form-group">
+                    <label class="info-label">Current Password</label>
+                    <input type="password" class="input-field">
+                </div>
+                <div class="form-group">
+                    <label class="info-label">New Password</label>
+                    <input type="password" class="input-field">
+                </div>
+                <div class="form-group">
+                    <label class="info-label">Confirm Password</label>
+                    <input type="password" class="input-field">
+                </div>
+                <button type="button" class="save-button">Update Password</button>
+            </form>
+        </div>
+
+        <!-- Order History Tab -->
+        <div id="historyTab" class="tab-content">
+            <div class="profile-view">
+                <h2>Order History</h2>
+                <div class="responsive-table">
+                    <table class="order-table">
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Recipient</th>
+                                <th>Status</th>
+                                <th>Total</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#SO-13487</td>
+                                <td>John Doe</td>
+                                <td><span class="status-badge delivered">Delivered</span></td>
+                                <td>$2674.00</td>
+                                <td>2024-03-15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="~/js/profile.js"></script>

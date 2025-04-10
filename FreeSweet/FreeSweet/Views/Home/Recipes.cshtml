@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "Recipes";
+}
+
+<link href="~/css/recipes.css" rel="stylesheet" />
+
+<div class="container">
+    <header>
+        <h1>Gluten-Free Recipes</h1>
+    </header>
+    <main class="cards-container">
+        <!-- Card 1: Banana Muffins -->
+        <div class="card">
+            <img src="/img/shop/Gluten-free-Banana-Muffins-Recipe.jpg.webp" alt="Gluten-Free Banana Muffins">
+            <div class="card-content">
+                <h2>Gluten-Free Banana Muffins</h2>
+                <p>If you love gluten-free banana bread, you'll love these gluten-free banana muffins! They're easy to make and perfect for a portable breakfast or snack.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+        <!-- Card 2: Chocolate Banana Bread -->
+        <div class="card-left">
+            <img src="/img/shop/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp" alt="Gluten-Free Chocolate Banana Bread">
+            <div class="card-content">
+                <h2>Gluten-Free Chocolate Banana Bread</h2>
+                <p>Rich and full of chocolate, this gluten-free chocolate banana bread is a delicious treat. It's perfect for breakfast, a morning snack, or even dessert!</p>
+                <a asp-area="" asp-controller="Home" asp-action="DetailsRecipes" target="_blank"><button>Read More</button></a>
+            </div>
+        </div>
+
+        <!-- Card 3: Apple Cinnamon Squares -->
+        <div class="card">
+            <img src="/img/shop/Gluten-free-Apple-Bread-360x480.jpg.webp" alt="Gluten-Free Apple Cinnamon Squares">
+            <div class="card-content">
+                <h2>Gluten-Free Apple Cinnamon Squares</h2>
+                <p>Looking for a yummy, healthy, and hearty make-ahead breakfast? These gluten-free apple cinnamon squares can be made one day and enjoyed the next! They're soft, chewy, and full of chunky apples and cinnamon.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+        <!-- Card 4: Apple Bread -->
+        <div class="card-left">
+            <img src="/img/shop/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp" alt="Gluten-Free Apple Bread">
+            <div class="card-content">
+                <h2>Gluten-Free Apple Bread</h2>
+                <p>Your kitchen will smell amazing when baking this gluten-free apple bread! It's a favorite sweet bread, loaded with chunks of fresh, tart apples.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="~/js/recipes.js"></script>
