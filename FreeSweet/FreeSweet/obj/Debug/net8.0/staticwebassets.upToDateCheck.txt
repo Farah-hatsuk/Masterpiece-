@@ -1,4 +1,5 @@
 wwwroot\css\aboutUs.css
+wwwroot\css\admin\style.css
 wwwroot\css\cart.css
 wwwroot\css\ckeckout.css
 wwwroot\css\contact.css
@@ -74,6 +75,10 @@ wwwroot\img\Untitled design lo.png
 wwwroot\img\Untitled design new.png
 wwwroot\img\Untitled design.png
 wwwroot\js\aboutUs.js
+wwwroot\js\admin\bootstrap.js
+wwwroot\js\admin\jquery.min.js
+wwwroot\js\admin\main.js
+wwwroot\js\admin\popper.js
 wwwroot\js\cart.js
 wwwroot\js\checkout.js
 wwwroot\js\home.js

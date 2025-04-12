@@ -131,6 +131,18 @@ public partial class MyDbContext : DbContext
             entity.Property(e => e.Description)
                 .HasMaxLength(250)
                 .IsUnicode(false);
+            entity.Property(e => e.Img1)
+                .HasMaxLength(250)
+                .IsUnicode(false);
+            entity.Property(e => e.Img2)
+                .HasMaxLength(250)
+                .IsUnicode(false);
+            entity.Property(e => e.Img3)
+                .HasMaxLength(250)
+                .IsUnicode(false);
+            entity.Property(e => e.Img4)
+                .HasMaxLength(250)
+                .IsUnicode(false);
             entity.Property(e => e.Name)
                 .HasMaxLength(100)
                 .IsUnicode(false);
@@ -212,6 +224,9 @@ public partial class MyDbContext : DbContext
             entity.HasIndex(e => e.Email, "UQ__Users__A9D105344048F8F2").IsUnique();
 
             entity.Property(e => e.Address).HasMaxLength(50);
+            entity.Property(e => e.ConfirmPassword)
+                .HasMaxLength(100)
+                .IsUnicode(false);
             entity.Property(e => e.Email)
                 .HasMaxLength(50)
                 .IsUnicode(false);

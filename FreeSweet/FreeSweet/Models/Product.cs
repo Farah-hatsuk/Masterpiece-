@@ -19,6 +19,14 @@ public partial class Product
 
     public int? CategoryId { get; set; }
 
+    public string Img1 { get; set; } = null!;
+
+    public string Img2 { get; set; } = null!;
+
+    public string Img3 { get; set; } = null!;
+
+    public string Img4 { get; set; } = null!;
+
     public virtual Cart? Cart { get; set; }
 
     public virtual Category IdNavigation { get; set; } = null!;

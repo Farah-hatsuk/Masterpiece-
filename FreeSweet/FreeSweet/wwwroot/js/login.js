@@ -5,7 +5,7 @@ function menu() {
     menuList.classList.toggle('open');
 }
 
-// LOGIN TABS
+ //LOGIN TABS
 $(function () {
     var tab = $('.tabs h3 a');
     tab.on('click', function (event) {
@@ -95,13 +95,13 @@ $(function () {
 });
 
 // DISABLE SUBMIT FOR DEMO
-$(function () {
-    $('.button').on('click', function (event) {
-        $(this).stop();
-        event.preventDefault();
-        return false;
-    });
-});
+//$(function () {
+//    $('.button').on('click', function (event) {
+//        $(this).stop();
+//        event.preventDefault();
+//        return false;
+//    });
+//});
 
 $(function () {
     // Step 1: Email submission

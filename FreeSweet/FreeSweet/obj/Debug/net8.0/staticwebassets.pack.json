@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FreeSweet.bundle.scp.css",
-      "PackagePath": "staticwebassets\\FreeSweet.620t9ao7rf.bundle.scp.css"
+      "PackagePath": "staticwebassets\\FreeSweet.r2tgezr8dj.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\Reprises1.css",
@@ -11,6 +11,10 @@
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\aboutUs.css",
       "PackagePath": "staticwebassets\\css\\aboutUs.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\admin\\style.css",
+      "PackagePath": "staticwebassets\\css\\admin\\style.css"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\cart.css",
@@ -311,6 +315,22 @@
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\aboutUs.js",
       "PackagePath": "staticwebassets\\js\\aboutUs.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\admin\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\admin\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\main.js",
+      "PackagePath": "staticwebassets\\js\\admin\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\popper.js",
+      "PackagePath": "staticwebassets\\js\\admin\\popper.js"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\cart.js",

@@ -23,7 +23,15 @@ namespace FreeSweet.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var products = _context.Products.ToList();
+            var recipes = _context.Recipes.ToList();
+            var viewModel = new ProductRecipeViewModel
+            {
+                Products = products,
+                Recipes = recipes
+            };
+
+            return View(viewModel);
         }
 
         public IActionResult Info()

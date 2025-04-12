@@ -21,6 +21,8 @@ public partial class User
 
     public string? Role { get; set; }
 
+    public string? ConfirmPassword { get; set; }
+
     public virtual Cart? Cart { get; set; }
 
     public virtual Order? Order { get; set; }

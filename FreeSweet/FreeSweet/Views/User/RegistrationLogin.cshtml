@@ -1,6 +1,30 @@
-﻿@{
+﻿@model FreeSweet.Models.User
+
+@{
     Layout = null;
 }
+
+<style>
+.button1{
+        margin: 1em 0;
+        padding: .2em 3em;
+        width: auto;
+        border: none;
+        color: #099DA8;
+        cursor: pointer;
+        font-size: .8em;
+        border-radius: 30px;
+        background-color: #BEEBF0;
+        -webkit-box-shadow: 0px 0px 37px -9px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 37px -9px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 37px -9px rgba(0, 0, 0, 0.75);
+}
+
+    .form-wrap form .button1:hover {
+        background-color: #BEEBF0;
+    }
+</style>
+
 
 <link href="~/css/login.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -113,7 +137,7 @@
 
             <form class="recovery-form" action="" method="post">
                 <input type="text" class="input" id="user_email" placeholder="Enter Email">
-                <input type="submit" class="button" value="Submit" id="step1-submit">
+                <input type="submit" class="button1" value="Submit" id="step1-submit">
             </form>
             <p class="mssg">An email has been sent to you with further instructions.</p>
         </div>
@@ -126,7 +150,7 @@
 
             <form class="recovery-form" action="" method="post">
                 <input type="text" class="input" id="verification_code" placeholder="Enter The Code">
-                <input type="submit" class="button" value="Submit" id="step2-submit">
+                <input type="submit" class="button1" value="Submit" id="step2-submit">
             </form>
         </div>
         <div class="recovery" id="recovery-step3" style="display: none;">
@@ -135,7 +159,7 @@
             <form class="recovery-form" action="" method="post">
                 <input type="password" class="input" id="new_password" placeholder="Enter Your New Password">
                 <input type="password" class="input" id="confirm_password" placeholder="Confirm Your New Password">
-                <input type="submit" class="button" value="Submit" id="step3-submit">
+                <input type="submit" class="button1" value="Submit" id="step3-submit">
             </form>
         </div>
 
@@ -188,14 +212,17 @@
                 <div class="tabs-content">
                     <!-- TABS CONTENT LOGIN -->
                     <div id="login-tab-content" class="active">
-                        <form class="login-form" action="" method="post">
-                            <input type="text" class="input" id="user_login" autocomplete="off"
-                                   placeholder="Email or Username">
-                            <input type="password" class="input" id="user_pass" autocomplete="off"
-                                   placeholder="Password">
+                        <form asp-controller="User" asp-action="Login" method="post" class="login-form">
+                        
+                            <input asp-for="Email" type="text" class="input" id="user_login" autocomplete="off"
+                                   placeholder="Email or Username" />
+                            <input asp-for="Password" type="password" class="input" id="user_pass" autocomplete="off"
+                                   placeholder="Password" />
+
                             <input type="checkbox" class="checkbox" checked id="remember_me">
                             <label for="remember_me">Remember me</label>
-                            <input type="submit" class="button" value="Login">
+                            <br />
+                            <button type="submit" class="button1" >Login</button>
                         </form>
                         <div class="help-action">
                             <p>
@@ -211,17 +238,21 @@
 
                     <!-- TABS CONTENT SIGNUP -->
                     <div id="signup-tab-content">
-                        <form class="signup-form" action="" method="post">
-                            <input type="email" class="input" id="user_email" autocomplete="off"
+                        <form asp-controller="User" asp-action="Registration" method="post" class="signup-form">
+                            <input asp-for="Email"  type="email" class="input" id="user_email" autocomplete="off"
                                    placeholder="Email">
-                            <input type="text" class="input" id="user_name" autocomplete="off"
+                            <input asp-for="Name"  type="text" class="input" id="user_name" autocomplete="off"
                                    placeholder="Username">
-                            <input type="password" class="input" id="user_pass" autocomplete="off"
+                            <input asp-for="Password" type="password" class="input" id="user_pass" autocomplete="off"
                                    placeholder="Password">
-                            <input type="password" class="input" id="user_pass" autocomplete="off"
+                            <input asp-for="ConfirmPassword" type="password" class="input" id="user_pass" autocomplete="off"
                                    placeholder="Confarm Password">
-                            <input type="submit" class="button" value="Sign Up">
+                            <button type="submit" class="button1">submit</button>
                         </form>
+                        @if (TempData["message"] != null)
+                        {
+                            <div class="alert alert-success">@TempData["message"]</div>
+                        }
                         <!-- <div class="help-action">
                             <p>By signing up, you agree to our</p>
                             <p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="agree" href="#">Terms of
@@ -235,4 +266,4 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="~/js/login.js"></script>
+<script src="~/js/login.js"></script> 

@@ -178,7 +178,7 @@ body {
 
 
 /* BUTTON */
-a.button {
+a.button1 {
     position: absolute;
     left: 20px;
     top: 20px;
@@ -201,14 +201,14 @@ a.button {
     transition: all .2s ease-in-out;
 }
 
-    a.button:hover {
+    a.button1:hover {
         border-color: #2D515C;
         color: #fff;
         padding: 1.0rem 3.2rem;
     }
 
 @media only screen and (min-width: 22em) {
-    a.button {
+    a.button1 {
         padding: 1.0rem 2.8rem;
         font-size: 1.0rem;
     }
@@ -421,7 +421,7 @@ a.button {
         color: #666;
     }
 
-    .recovery form .button {
+    .recovery form .button1 {
         margin: 1em 0;
         padding: .2em 3em;
         width: auto;
@@ -435,7 +435,7 @@ a.button {
         background: rgba(62,181,169,1) 0%;
     }
 
-.form-wrap form .button:hover {
+.form-wrap form .button1:hover {
     background-color: #4FDA8C;
 }
 
@@ -813,11 +813,11 @@ input {
 }
     
 
-.form-wrap form .button {
+.form-wrap form .button1 {
     margin: 1em 0;
     padding: .2em 3em;
     width: auto;
-    display: block;
+  
     border: none;
     color: #099DA8;
     cursor: pointer;
@@ -829,7 +829,7 @@ input {
     box-shadow: 0px 0px 37px -9px rgba(0,0,0,0.75);
 }
 
-    .form-wrap form .button:hover {
+    .form-wrap form .button1:hover {
         background-color: #FFFFFF;
         color: #099DA8;
     }

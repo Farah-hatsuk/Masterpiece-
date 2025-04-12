@@ -12,6 +12,4 @@ public partial class Contect
     public string? Email { get; set; }
 
     public string? Msg { get; set; }
-
-   
 }
