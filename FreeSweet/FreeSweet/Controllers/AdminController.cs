@@ -18,6 +18,8 @@ namespace FreeSweet.Controllers
             return View();
         }
 
+      
+
         public IActionResult Product()
         {
             return View(_context.Products.ToList());
@@ -25,25 +27,33 @@ namespace FreeSweet.Controllers
 
         public IActionResult CreateProduct()
         {
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name");
+            //ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name");
             return View();
         }
         [HttpPost]
-        public IActionResult CreateProduct(Product product , IFormFile image)
+        public IActionResult CreateProduct(Product product , IFormFile image1 , IFormFile image2 , IFormFile image3 , IFormFile image4)
         {
-            if (image != null)
+            if (image1 != null && image2 != null && image3 != null && image4 != null)
             {
-                string fileName = Path.GetFileName(image.FileName);
-                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Products_images", fileName);
+                string fileName1 = Path.GetFileName(image1.FileName);
+                string fileName2 = Path.GetFileName(image2.FileName);
+                string fileName3= Path.GetFileName(image3.FileName);
+                string fileName4 = Path.GetFileName(image4.FileName);
+
+
+                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Products_images", fileName1 , fileName2 , fileName3 , fileName4);
 
                 using (var stream = new FileStream(path, FileMode.Create))
                 {
-                    image.CopyTo(stream);
+                    image1.CopyTo(stream);
+                    image2.CopyTo(stream);
+                    image3.CopyTo(stream);
+                    image4.CopyTo(stream);
                 }
-                product.Img1 = fileName;
-                product.Img2 = fileName;
-                product.Img3 = fileName;
-                product.Img4 = fileName;
+                product.Img1 = fileName1;
+                product.Img2 = fileName2;
+                product.Img3 = fileName3;
+                product.Img4 = fileName4;
             }
             if (ModelState.IsValid)
             {

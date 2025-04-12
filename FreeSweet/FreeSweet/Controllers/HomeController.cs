@@ -34,6 +34,34 @@ namespace FreeSweet.Controllers
             return View(viewModel);
         }
 
+        public IActionResult SpecialOrder(SecialOrder secialOrder , IFormFile image)
+        {
+            if (image != null )
+            {
+                string fileName = Path.GetFileName(image.FileName);
+               
+
+                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Products_images", fileName);
+
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    image.CopyTo(stream);
+               
+                }
+                secialOrder.Img = fileName;
+        
+            }
+            if (ModelState.IsValid)
+            {
+                secialOrder.Id = 0;
+                _context.SecialOrders.Add(secialOrder);
+                _context.SaveChanges();
+                return RedirectToAction("", "Admin");
+            }
+            return View();
+        }
+        
+
         public IActionResult Info()
         {
             return View();
@@ -52,6 +80,7 @@ namespace FreeSweet.Controllers
             return View(_context.Recipes.ToList());
         }
 
+        //public IActionResult DetailsRecipes(int id)
         public IActionResult DetailsRecipes()
         {
             //if (id == null)
@@ -80,30 +109,60 @@ namespace FreeSweet.Controllers
 
 
         //public IActionResult Products(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var product = _context.Products
-        //        .FirstOrDefault(m => m.Id == id);
-        //    if (product == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(product);
-          
-        //}
-
         public IActionResult Products()
         {
-           
+            //    if (id == null)
+            //    {
+            //        return NotFound();
+            //    }
+
+            //    var product = _context.Products
+            //        .FirstOrDefault(m => m.Id == id);
+            //    if (product == null)
+            //    {
+            //        return NotFound();
+            //    }
+
+            //    return View(product);
             return View();
 
         }
 
+        public IActionResult CakeProducts()
+        {
+            var cakeCategory = _context.Categories.FirstOrDefault(c => c.Name == "Cake");
+            if (cakeCategory == null)
+            {
+                return NotFound(); 
+            }
+            var products = _context.Products.Where(p => p.CategoryId == cakeCategory.Id).ToList();
+
+            return View(products);
+        }
+
+        public IActionResult WesternProducts()
+        {
+            var westrenCategory = _context.Categories.FirstOrDefault(c => c.Name == "Western");
+            if (westrenCategory == null)
+            {
+                return NotFound();
+            }
+            var products = _context.Products.Where(p => p.CategoryId == westrenCategory.Id).ToList();
+
+            return View(products);
+        }
+
+        public IActionResult ArabicProducts()
+        {
+            var arabicCategory = _context.Categories.FirstOrDefault(c => c.Name == "Arabic");
+            if (arabicCategory == null)
+            {
+                return NotFound();
+            }
+            var products = _context.Products.Where(p => p.CategoryId == arabicCategory.Id).ToList();
+
+            return View(products);
+        }
 
 
         public IActionResult CountactUs()

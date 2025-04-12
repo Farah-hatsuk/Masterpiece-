@@ -141,7 +141,7 @@ namespace FreeSweet.Controllers
 
 
         [HttpPost]
-        public IActionResult ResetPassword(string oldPassword, string newPassword, string confirmPassword)
+        public IActionResult ResetPassword(string currentPassword, string newPassword, string confirmPassword)
         {
             if (newPassword != confirmPassword)
             {
@@ -150,7 +150,13 @@ namespace FreeSweet.Controllers
             }
             string userEmail = HttpContext.Session.GetString("UserEmail");
             var user = _context.Users.FirstOrDefault(u => u.Email == userEmail);
-            if (!user.Password.StartsWith("$2a$"))
+            if (currentPassword != user.Password)
+            {
+                ViewBag.ErrorMessage = "Current Passwords do not match.";
+                return View();
+            }
+
+                if (!user.Password.StartsWith("$2a$"))
             {
 
                 user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
@@ -159,7 +165,7 @@ namespace FreeSweet.Controllers
             if (user != null)
             {
 
-                if (BCrypt.Net.BCrypt.Verify(oldPassword, user.Password))
+                if (BCrypt.Net.BCrypt.Verify(currentPassword, user.Password))
                 {
 
                     string hashedPassword = BCrypt.Net.BCrypt.HashPassword(newPassword);
@@ -202,6 +208,7 @@ namespace FreeSweet.Controllers
         {
             return View();
         }
+       
     }
 
 }
