@@ -11,11 +11,11 @@ public partial class Recipe
 
     public string? Description { get; set; }
 
-    public int? PrepTime { get; set; }
+    public string? PrepTime { get; set; }
 
-    public int? CookTime { get; set; }
+    public string? CookTime { get; set; }
 
-    public int? TotalTime { get; set; }
+    public string? TotalTime { get; set; }
 
     public string? Ingredient { get; set; }
 

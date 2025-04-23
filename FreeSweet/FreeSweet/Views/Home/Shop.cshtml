@@ -1,4 +1,6 @@
-﻿
+﻿@model IEnumerable<FreeSweet.Models.Product>
+
+
 <link href="~/css/shop.css" rel="stylesheet" />
 
 <div class="shop">
@@ -7,216 +9,235 @@
         <h1>Shop</h1>
     </header>
 
+    @* <div class="images-titles"> *@
+    @*     <ul class="shuffle"> *@
+    @*         <li class="active" data-category="all"> @Html.ActionLink("All", "Shop", new { id = (int?)null }) </li> *@
+    @*         <li data-category="cake"> @Html.ActionLink("Cakes", "Shop", new { id = 1 }) </li> *@
+    @*         <li data-category="western"> @Html.ActionLink("Western Sweets", "Shop", new { id = 2 })</li> *@
+    @*         <li data-category="arabic"> @Html.ActionLink("Arabic Sweets", "Shop", new { id = 3 })</li> *@
+    @*     </ul> *@
+    @* </div> *@
     <div class="images-titles">
         <ul class="shuffle">
-            <li class="active" data-category="all">All</li>
-            <li data-category="cake">Cakes</li>
-            <li data-category="western">Western Sweets</li>
-            <li data-category="arabic">Arabic sweets</li>
+            <li class="@(ViewBag.SelectedCategoryId == null ? "active" : "")" data-category="all">
+                @Html.ActionLink("All", "Shop", new { id = (int?)null })
+            </li>
+            <li class="@(ViewBag.SelectedCategoryId == 1 ? "active" : "")" data-category="cake">
+                @Html.ActionLink("Cakes", "Shop", new { id = 1 })
+            </li>
+            <li class="@(ViewBag.SelectedCategoryId == 2 ? "active" : "")" data-category="western">
+                @Html.ActionLink("Western Sweets", "Shop", new { id = 2 })
+            </li>
+            <li class="@(ViewBag.SelectedCategoryId == 3 ? "active" : "")" data-category="arabic">
+                @Html.ActionLink("Arabic Sweets", "Shop", new { id = 3 })
+            </li>
         </ul>
     </div>
 
     <div class="item">
-        <div class="card" style="width: 18rem;" data-category="cake">
-            <img src="/img/home/shop/chocolate1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Chocolate Cake</h5>
-                <p class="card-text">From 5 jd </p>
-                <div class="rating">
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
+        @foreach (var item in Model)
+        {
+            <div class="card" style="width: 18rem;" data-category="cake">
+                <img src="/img/shop/shop/@item.Img1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text">From @item.Price jd </p>
+                    <div class="rating">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <i class="fa-solid fa-cart-shopping"></i>
                     </div>
 
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    <a asp-area="" asp-controller="Home" asp-action="Products" class="btn btn-primary" asp-route-id="@item.Id"> View Item </a>
                 </div>
-               
-                <a asp-area="" asp-controller="Home" asp-action="Products" class="btn btn-primary">View Item </a>
             </div>
-        </div>
+        }
 
-        <div class="card" style="width: 18rem;" data-category="cake">
-            <img src="/img/home/shop/vanilla.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Vanilla Cake</h5>
-                <p class="card-text">From 5 jd </p>
-                <div class="rating">
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+        @* <div class="card" style="width: 18rem;" data-category="cake"> *@
+        @*     <img src="/img/home/shop/vanilla.jpeg" class="card-img-top" alt="..."> *@
+        @*     <div class="card-body"> *@
+        @*         <h5 class="card-title">Vanilla Cake</h5> *@
+        @*         <p class="card-text">From 5 jd </p> *@
+        @*         <div class="rating"> *@
+        @*             <div class="star"> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*             </div> *@
 
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <a href="#" class="btn btn-primary">View Item </a>
-            </div>
-        </div>
+        @*             <i class="fa-solid fa-cart-shopping"></i> *@
+        @*         </div> *@
+        @*         <a href="#" class="btn btn-primary">View Item </a> *@
+        @*     </div> *@
+        @* </div> *@
 
-        <div class="card" style="width: 18rem;" data-category="cake">
-            <img src="/img/home/shop/strawberry1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Strawberry Cake</h5>
-                <p class="card-text">From 5 jd </p>
-                <div class="rating">
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
+        @* <div class="card" style="width: 18rem;" data-category="cake"> *@
+        @*     <img src="/img/home/shop/strawberry1.jpg" class="card-img-top" alt="..."> *@
+        @*     <div class="card-body"> *@
+        @*         <h5 class="card-title">Strawberry Cake</h5> *@
+        @*         <p class="card-text">From 5 jd </p> *@
+        @*         <div class="rating"> *@
+        @*             <div class="star"> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-regular fa-star"></i> *@
+        @*             </div> *@
 
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <a href="#" class="btn btn-primary">View Item </a>
-            </div>
-        </div>
+        @*             <i class="fa-solid fa-cart-shopping"></i> *@
+        @*         </div> *@
+        @*         <a href="#" class="btn btn-primary">View Item </a> *@
+        @*     </div> *@
+        @* </div> *@
 
-        <div class="card" style="width: 18rem;" data-category="western">
-            <img src="/img/shop/shop/braones1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Brownies </h5>
-                <p class="card-text">1.25 jd </p>
-                <div class="rating">
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+        @* <div class="card" style="width: 18rem;" data-category="western"> *@
+        @*     <img src="/img/shop/shop/braones1.jpg" class="card-img-top" alt="..."> *@
+        @*     <div class="card-body"> *@
+        @*         <h5 class="card-title">Brownies </h5> *@
+        @*         <p class="card-text">1.25 jd </p> *@
+        @*         <div class="rating"> *@
+        @*             <div class="star"> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*             </div> *@
 
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <a href="#" class="btn btn-primary">View Item </a>
-            </div>
-        </div>
+        @*             <i class="fa-solid fa-cart-shopping"></i> *@
+        @*         </div> *@
+        @*         <a href="#" class="btn btn-primary">View Item </a> *@
+        @*     </div> *@
+        @* </div> *@
 
-        <div class="card" style="width: 18rem;" data-category="western">
-            <img src="/img/shop/shop/cheesecake1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Cheesecake </h5>
-                <p class="card-text">2.5 jd </p>
-                <div class="rating">
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+        @* <div class="card" style="width: 18rem;" data-category="western"> *@
+        @*     <img src="/img/shop/shop/cheesecake1.jpg" class="card-img-top" alt="..."> *@
+        @*     <div class="card-body"> *@
+        @*         <h5 class="card-title">Cheesecake </h5> *@
+        @*         <p class="card-text">2.5 jd </p> *@
+        @*         <div class="rating"> *@
+        @*             <div class="star"> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*             </div> *@
 
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <a href="#" class="btn btn-primary">View Item </a>
-            </div>
-        </div>
+        @*             <i class="fa-solid fa-cart-shopping"></i> *@
+        @*         </div> *@
+        @*         <a href="#" class="btn btn-primary">View Item </a> *@
+        @*     </div> *@
+        @* </div> *@
 
-        <div class="card" style="width: 18rem;" data-category="western">
-            <img src="/img/shop/shop/cinnamon1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Box Of Cinnamon </h5>
-                <p class="card-text">6 jd</p>
-                <div class="rating">
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
+        @* <div class="card" style="width: 18rem;" data-category="western"> *@
+        @*     <img src="/img/shop/shop/cinnamon1.jpg" class="card-img-top" alt="..."> *@
+        @*     <div class="card-body"> *@
+        @*         <h5 class="card-title">Box Of Cinnamon </h5> *@
+        @*         <p class="card-text">6 jd</p> *@
+        @*         <div class="rating"> *@
+        @*             <div class="star"> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-regular fa-star"></i> *@
+        @*             </div> *@
 
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <a href="#" class="btn btn-primary">View Item </a>
-            </div>
-        </div>
+        @*             <i class="fa-solid fa-cart-shopping"></i> *@
+        @*         </div> *@
+        @*         <a href="#" class="btn btn-primary">View Item </a> *@
+        @*     </div> *@
+        @* </div> *@
 
-        <div class="card" style="width: 18rem;" data-category="western">
-            <img src="/img/shop/shop/dounet1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Box Of Doughnuts </h5>
-                <p class="card-text">6 jd</p>
-                <div class="rating">
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+        @* <div class="card" style="width: 18rem;" data-category="western"> *@
+        @*     <img src="/img/shop/shop/dounet1.jpg" class="card-img-top" alt="..."> *@
+        @*     <div class="card-body"> *@
+        @*         <h5 class="card-title">Box Of Doughnuts </h5> *@
+        @*         <p class="card-text">6 jd</p> *@
+        @*         <div class="rating"> *@
+        @*             <div class="star"> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*             </div> *@
 
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <a href="#" class="btn btn-primary">View Item </a>
-            </div>
-        </div>
+        @*             <i class="fa-solid fa-cart-shopping"></i> *@
+        @*         </div> *@
+        @*         <a href="#" class="btn btn-primary">View Item </a> *@
+        @*     </div> *@
+        @* </div> *@
 
-        <div class="card" style="width: 18rem;" data-category="western">
-            <img src="/img/shop/shop/cookie pan1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Cookie Pan </h5>
-                <p class="card-text">2.5 jd</p>
-                <div class="rating">
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
+        @* <div class="card" style="width: 18rem;" data-category="western"> *@
+        @*     <img src="/img/shop/shop/cookie pan1.jpg" class="card-img-top" alt="..."> *@
+        @*     <div class="card-body"> *@
+        @*         <h5 class="card-title">Cookie Pan </h5> *@
+        @*         <p class="card-text">2.5 jd</p> *@
+        @*         <div class="rating"> *@
+        @*             <div class="star"> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-regular fa-star"></i> *@
+        @*             </div> *@
 
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <a href="#" class="btn btn-primary">View Item </a>
-            </div>
-        </div>
+        @*             <i class="fa-solid fa-cart-shopping"></i> *@
+        @*         </div> *@
+        @*         <a href="#" class="btn btn-primary">View Item </a> *@
+        @*     </div> *@
+        @* </div> *@
 
-        <div class="card" style="width: 18rem;" data-category="western">
-            <img src="/img/shop/shop/cookies1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Cookies </h5>
-                <p class="card-text">1 jd for 1 piece </p>
-                <div class="rating">
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+        @* <div class="card" style="width: 18rem;" data-category="western"> *@
+        @*     <img src="/img/shop/shop/cookies1.jpg" class="card-img-top" alt="..."> *@
+        @*     <div class="card-body"> *@
+        @*         <h5 class="card-title">Cookies </h5> *@
+        @*         <p class="card-text">1 jd for 1 piece </p> *@
+        @*         <div class="rating"> *@
+        @*             <div class="star"> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*             </div> *@
 
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <a href="#" class="btn btn-primary">View Item </a>
-            </div>
-        </div>
+        @*             <i class="fa-solid fa-cart-shopping"></i> *@
+        @*         </div> *@
+        @*         <a href="#" class="btn btn-primary">View Item </a> *@
+        @*     </div> *@
+        @* </div> *@
 
-        <div class="card" style="width: 18rem;" data-category="arabic">
-            <img src="/img/shop/shop/khnafeh.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Kanafeh</h5>
-                <p class="card-text">3 jd</p>
-                <div class="rating">
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+        @* <div class="card" style="width: 18rem;" data-category="arabic"> *@
+        @*     <img src="/img/shop/shop/khnafeh.jpeg" class="card-img-top" alt="..."> *@
+        @*     <div class="card-body"> *@
+        @*         <h5 class="card-title">Kanafeh</h5> *@
+        @*         <p class="card-text">3 jd</p> *@
+        @*         <div class="rating"> *@
+        @*             <div class="star"> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*                 <i class="fa-solid fa-star"></i> *@
+        @*             </div> *@
 
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <a href="#" class="btn btn-primary">View Item </a>
-            </div>
-        </div>
+        @*             <i class="fa-solid fa-cart-shopping"></i> *@
+        @*         </div> *@
+        @*         <a href="#" class="btn btn-primary">View Item </a> *@
+        @*     </div> *@
+        @* </div> *@
 
     </div>
 

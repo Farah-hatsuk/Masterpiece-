@@ -12,11 +12,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nq7kcax2d8</Fingerprint>
-      <Integrity>0ReZ4XHbjiW3dLZQy/rI9Plr5P44oZiN9v5bIlo4t4k=</Integrity>
+      <Fingerprint>yyyijqsyuu</Fingerprint>
+      <Integrity>dqMWvbWFwtDHZP5uUlV0Iw8x3OKXs8hEqGjLuWMpHiQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\aboutUs.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\Indix.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>css/admin/Indix.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hr3tfs58ma</Fingerprint>
+      <Integrity>s5jlXPMlVF+UgXUovzbsr3WDP83I15Qgif3S6tm8PUE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\Indix.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\style.css'))">
       <SourceType>Package</SourceType>
@@ -30,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bun0uhkfgw</Fingerprint>
-      <Integrity>TcXWygU+eqH//k+zajCFGaoi9/tqZCQOUkdzXq+ejWE=</Integrity>
+      <Fingerprint>ttblwix13w</Fingerprint>
+      <Integrity>39jqTBce6xur6jCwgRD7d9iduL0HGsHgwHGTmzq+gYw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\style.css'))</OriginalItemSpec>
@@ -66,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vznkxkt2of</Fingerprint>
-      <Integrity>hWg5h/wy0G2VadZ598RxriUC15snSvnZgeV8/Fp/PNQ=</Integrity>
+      <Fingerprint>1li2oy7dkz</Fingerprint>
+      <Integrity>a6XqSjSqqxHeDTcqBIm2VkHG2shuCiP/xzOVuzmRAgk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\ckeckout.css'))</OriginalItemSpec>
@@ -228,8 +246,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fv4p7ix4hp</Fingerprint>
-      <Integrity>6+MDr1odN+gfNUzfWtpIwnl3R9U9k/nT8gJFMJka0ns=</Integrity>
+      <Fingerprint>jxlhm4g7uv</Fingerprint>
+      <Integrity>R695m/bCOK5Ljxqbfo01BYz2VZjqDkmRIErodAqN7to=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\info.css'))</OriginalItemSpec>
@@ -264,8 +282,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ip4m9xcwro</Fingerprint>
-      <Integrity>qrGCNSk8cED07GiwglzdZzbM+4tLb6jNbOBsz5xTFqc=</Integrity>
+      <Fingerprint>4sj27gons5</Fingerprint>
+      <Integrity>pLcARdvm+qgm4HnpapM5rT7HeeWSTup6VqqfwLXI9NM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\prodect.css'))</OriginalItemSpec>
@@ -300,8 +318,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mmpa7nwm0b</Fingerprint>
-      <Integrity>wrw4vsC0eQvgILv73RfnQIHDKWCgE6/OE0FzWx0c0Ns=</Integrity>
+      <Fingerprint>3o14g1tmg9</Fingerprint>
+      <Integrity>c+U5oLlbfIdxh1UevaRdrGVqfILS3B/ZITVrOgQHOyo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\recipes.css'))</OriginalItemSpec>
@@ -318,8 +336,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cf0rnvnszz</Fingerprint>
-      <Integrity>GAItr3+6jBGAAwEWllzw8sqDi7bGCiPKPeQKeiyFlzQ=</Integrity>
+      <Fingerprint>ex0lsgxxtl</Fingerprint>
+      <Integrity>DtzQDZz9E7CkLyfWNtydsyn0KOh7o0b7BqtT5oh4Z4A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Reprises1.css'))</OriginalItemSpec>
@@ -336,8 +354,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wl5o0nok6o</Fingerprint>
-      <Integrity>nJE98Q/XDX2WMW8HCnLD8npsrsCgV5lmqE+05d7CSL4=</Integrity>
+      <Fingerprint>mbtu7bl3ns</Fingerprint>
+      <Integrity>8nIcS3nD5dAH7ej9D6XiAsZ+Twmcz26NQtinDNnNaw8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\shop.css'))</OriginalItemSpec>
@@ -558,12 +576,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\OIP.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate cake\1.jpeg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate cake\chocolate2.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/home/shop/chocolate cake/1.jpeg</RelativePath>
+      <RelativePath>img/home/shop/chocolate cake/chocolate2.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -574,14 +592,14 @@
       <Integrity>wuhmNzTbcFbofMunjwcVRVIKzspZefz8ysnsuF5dta0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate cake\1.jpeg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate cake\chocolate2.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate cake\2.jpeg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate cake\chocolate3.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/home/shop/chocolate cake/2.jpeg</RelativePath>
+      <RelativePath>img/home/shop/chocolate cake/chocolate3.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -592,25 +610,7 @@
       <Integrity>kNaIHS+UKwzI85o3KII0I+hJxC8t9Umjprpz84TuJW0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate cake\2.jpeg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>FreeSweet</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/home/shop/chocolate.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lts7g6fqw8</Fingerprint>
-      <Integrity>Vxr8KeUOjKrOQA4M5hlzciZrOgU+V3/7juDnjQwNbHc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate.jpeg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate cake\chocolate3.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\chocolate1.jpg'))">
       <SourceType>Package</SourceType>
@@ -683,24 +683,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\strawberry.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>FreeSweet</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/home/shop/strawberry.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7ayukg73hr</Fingerprint>
-      <Integrity>Dw3irZ3DjxtRjJG7uDmwZFlwNMkyvKSw2760Uni5ODE=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\strawberry.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home\shop\strawberry1.jpg'))">
       <SourceType>Package</SourceType>
@@ -864,6 +846,78 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reprises\Gluten-free-Apple-Bread-360x480.jpg.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/reprises/Gluten-free-Apple-Bread-360x480.jpg.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0qxduy9nb9</Fingerprint>
+      <Integrity>CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reprises\Gluten-free-Apple-Bread-360x480.jpg.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reprises\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/reprises/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rqo4qt5fk7</Fingerprint>
+      <Integrity>Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reprises\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reprises\Gluten-free-Banana-Muffins-Recipe.jpg.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/reprises/Gluten-free-Banana-Muffins-Recipe.jpg.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ls4f4mq4l5</Fingerprint>
+      <Integrity>BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reprises\Gluten-free-Banana-Muffins-Recipe.jpg.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reprises\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/reprises/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hxmvf0659i</Fingerprint>
+      <Integrity>1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reprises\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Screenshot 2024-12-26 135205-Photoroom.png'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
@@ -954,6 +1008,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Apple-Bread-360x480.jpg.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/Reprises/Gluten-free-Apple-Bread-360x480.jpg.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0qxduy9nb9</Fingerprint>
+      <Integrity>CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Apple-Bread-360x480.jpg.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/Reprises/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rqo4qt5fk7</Fingerprint>
+      <Integrity>Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Banana-Muffins-Recipe.jpg.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/Reprises/Gluten-free-Banana-Muffins-Recipe.jpg.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ls4f4mq4l5</Fingerprint>
+      <Integrity>BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Banana-Muffins-Recipe.jpg.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Chocolate-Banana-Bread-1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
@@ -971,6 +1079,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Chocolate-Banana-Bread-1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/Reprises/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hxmvf0659i</Fingerprint>
+      <Integrity>1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Chocolate-Chip-Banana-Bread.jpg.webp'))">
       <SourceType>Package</SourceType>
@@ -1008,24 +1134,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\braones.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>FreeSweet</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/shop/shop/braones.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h3f9ak63ut</Fingerprint>
-      <Integrity>re4SU32EZXYTPBoQ3jnyZdq2qQctzX6fOEQTZHpiHk4=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\braones.jpeg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\braones1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
@@ -1043,24 +1151,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\braones1.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cheesecake.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>FreeSweet</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/shop/shop/cheesecake.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i8vjlxyqpk</Fingerprint>
-      <Integrity>4h1TamqnMbJeNbI/q89uQUUlDsM+6FRwrkr9nShbBJo=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cheesecake.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cheesecake1.jpg'))">
       <SourceType>Package</SourceType>
@@ -1080,23 +1170,59 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cheesecake1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cinnamon.jpeg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\chocolate1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/shop/shop/cinnamon.jpeg</RelativePath>
+      <RelativePath>img/shop/shop/chocolate1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5iaf2ebrtw</Fingerprint>
-      <Integrity>7YwGUadPbx5smLD7EwovsxN7csSrmQuCNwcgAYV+ppA=</Integrity>
+      <Fingerprint>3esxbasefu</Fingerprint>
+      <Integrity>+6CAScnIgUZvVp7u5uES9shfReMMgx27nE+5HjULBJA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cinnamon.jpeg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\chocolate1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\chocolate2.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/shop/chocolate2.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m6h1ebnz7q</Fingerprint>
+      <Integrity>wuhmNzTbcFbofMunjwcVRVIKzspZefz8ysnsuF5dta0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\chocolate2.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\chocolate3.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/shop/chocolate3.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cl70bqz5qy</Fingerprint>
+      <Integrity>kNaIHS+UKwzI85o3KII0I+hJxC8t9Umjprpz84TuJW0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\chocolate3.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cinnamon1.jpg'))">
       <SourceType>Package</SourceType>
@@ -1116,30 +1242,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cinnamon1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cookie pan.jpeg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cookiePan1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/shop/shop/cookie pan.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vletxbh4ey</Fingerprint>
-      <Integrity>zTNJlwk2fa2w9vej/b6or8g1vLA2URidSawchhoTReI=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cookie pan.jpeg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cookie pan1.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>FreeSweet</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/shop/shop/cookie pan1.jpg</RelativePath>
+      <RelativePath>img/shop/shop/cookiePan1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1150,25 +1258,7 @@
       <Integrity>LVkM3WCNhFiU2FAJyogHCGAQdVrXLM0bb9a6g4ouR9A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cookie pan1.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cookies.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>FreeSweet</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/shop/shop/cookies.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nywknuwiys</Fingerprint>
-      <Integrity>3xIw1vNLsTU6Rl3R/CzqVmnWYnKPr3vg2RuxlHn4C2M=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cookies.jpeg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cookiePan1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cookies1.jpg'))">
       <SourceType>Package</SourceType>
@@ -1187,24 +1277,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\cookies1.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\dounet.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>FreeSweet</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/FreeSweet</BasePath>
-      <RelativePath>img/shop/shop/dounet.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>irmval8i79</Fingerprint>
-      <Integrity>/kI6WB8ocEkKR43i4lopYYcFKQynQb3m/zcDKRRG2+E=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\dounet.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\dounet1.jpg'))">
       <SourceType>Package</SourceType>
@@ -1332,6 +1404,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\khnafeh.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\strawberry1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/shop/strawberry1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9kn8r1bzwh</Fingerprint>
+      <Integrity>SThhfRVdV/5hmsY7H/FRGdJolpQqzcBRLx0/fLWpc1c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\strawberry1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\vanilla.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/shop/vanilla.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0fcv8rpdw2</Fingerprint>
+      <Integrity>ZIvTriNR3z6ME163DNo/WkSgg4yxF1n4/HcNzz3Caco=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\vanilla.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Untitled design lo.png'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
@@ -1386,6 +1494,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Untitled design.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\UserImg\Screenshot 2025-03-11 141202.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/UserImg/Screenshot 2025-03-11 141202.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c009ztsu25</Fingerprint>
+      <Integrity>TD9TqtxWPp9ZfGLnHOHwbC4ZZnDHyTE2WkneQutkg94=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\UserImg\Screenshot 2025-03-11 141202.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\aboutUs.js'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
@@ -1421,6 +1547,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin\bootstrap.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin\daynamicPage\Indix.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>js/admin/daynamicPage/Indix.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3r8b2a0bt1</Fingerprint>
+      <Integrity>8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin\daynamicPage\Indix.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin\jquery.min.js'))">
       <SourceType>Package</SourceType>

@@ -1,0 +1,62 @@
+﻿@model FreeSweet.Models.Recipe
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link href="~/css/reprises1.css" rel="stylesheet" />
+
+<div>
+    <h4>Recipe</h4>
+    <hr />
+    <div>
+        <a class="btn btn-primary" asp-controller="Admin" asp-action="Recipe">Back to List</a>
+    </div>
+    <div class="recipe">
+        <img src="/img/shop/Reprises/Gluten-free-Chocolate-Banana-Bread-1.jpg">
+        <h2>@Model.Name</h2>
+        <p>@Model.Description</p>
+
+        <table>
+            <tr>
+                <th>Prep Time</th>
+                <th>Cook Time</th>
+                <th>Total Time</th>
+            </tr>
+            <tr>
+                <td>@Model.PrepTime</td>
+                <td>@Model.CookTime</td>
+                <td>@Model.TotalTime</td>
+            </tr>
+        </table>
+
+        <h3>Ingredients:</h3>
+        <div>
+            @Html.Raw(Model.Ingredient)
+        </div>
+
+        <h3>Instructions:</h3>
+        <div>
+            @Html.Raw(Model.Instructions)
+        </div>
+
+        @if (!string.IsNullOrEmpty(Model.Notes))
+        {
+            <h3>Notes:</h3>
+            <div>
+                @Html.Raw(Model.Notes)
+            </div>
+        }
+
+        <div class="imgs">
+            <img src="https://mygluten-freekitchen.com/wp-content/uploads/2018/06/Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.webp"
+                 alt="">
+            <img src="https://mygluten-freekitchen.com/wp-content/uploads/2018/06/Gluten-free-Chocolate-Banana-Bread-with-mini-chocolate-chips.jpg.webp"
+                 alt="">
+        </div>
+
+        <!-- <a href=""><button>back to all recipes</button></a> -->
+
+    </div>
+</div>
+

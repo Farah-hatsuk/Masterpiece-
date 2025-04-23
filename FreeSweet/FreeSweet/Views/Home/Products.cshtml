@@ -1,4 +1,5 @@
-﻿
+﻿@model FreeSweet.Models.Product
+
 <link href="~/css/prodect.css" rel="stylesheet" />
 
 <div class="shop-section">
@@ -8,19 +9,31 @@
     <div class="product-details">
         <!-- Slider Section -->
         <div class="slider">
-            <div><img src="/img/home/shop/chocolate cake/1.jpeg" alt="Chocolate Cake 1"></div>
-            <div><img src="/img/home/shop/chocolate cake/2.jpeg" alt="Chocolate Cake 2"></div>
-            <div><img src="/img/home/shop/chocolate.jpeg" alt="Chocolate"></div>
+            <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img1)" alt="Image Of product"></div>
+            @if (!string.IsNullOrEmpty(Model.Img2)){
+                <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img2)" alt="Image Of product"></div>
+            }
+           
+            @if (!string.IsNullOrEmpty(Model.Img3)){
+                <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img3)" alt="Image Of product"></div>
+            }
+          
+            @if (!string.IsNullOrEmpty(Model.Img4))
+            {
+                <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img4)" alt="Image Of product"></div>
+            }
+         
         </div>
 
         <!-- Product Information -->
         <div class="product-info">
-            <h3>Chocolate Cake</h3>
-            <p>
-                Indulge in our decadent chocolate cake, a rich and moist masterpiece with layers of velvety chocolate
-                cake and luscious frosting. A true chocolate lover's dream.
-            </p>
-            <p class="price" id="price">5 JD</p>
+            <h3>  @Html.DisplayFor(model => model.Name)</h3>         
+            <p> @Html.DisplayFor(model => model.Description) </p>
+            <p class="price" id="price">@Html.DisplayFor(model => model.Price) JD</p>
+            <p>Mini : 5jd</p>
+            <p> Small : 15 jd </p>
+            <p> Medium : 20 jd </p>
+            <p> Large : 30 jd </p>
             <div class="options">
                 <select id="size">
                     <option value="mini">Mini</option>

@@ -9,7 +9,7 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="~/css/admin/style.css">
-	@RenderSection("Style", required: false)
+	@RenderSection("style", required: false)
 </head>
 <body>
 
@@ -23,19 +23,19 @@
 			</div>
 			<div class="p-4">
 				@* <h1><a href="index.html" class="logo">Flash</a></h1> *@
-				<img src="https://cdn.discordapp.com/attachments/1344683734083047499/1345664288571920415/ByteCraft-Photoroom.png?ex=67c55f07&is=67c40d87&hm=92666cc2dfc7a54bd96e180c96fadd67f72dd2be1bd7b3564504feecaa866896&" style="width: 227px" alt="Alternate Text" />
+				<img src="~/img/logo.png" style="width: 200px" alt="Alternate Text" />
 				<ul class="list-unstyled components mb-5">
 					<li class="active">
-						<a asp-action="Index" asp-controller="HRDashboard"><i class="fa fas fa-home mr-3"></i>Home</a>
+						<a asp-action="Index" asp-controller="Admin"><i class="fa fas fa-home mr-3"></i>Home</a>
 					</li>
 					<li>
-						<a asp-action="Department" asp-controller="HRDashboard"><i class="fa fa-building mr-3"></i>Department</a>
+						<a asp-action="Category" asp-controller="Admin"><i class="fa fa-building mr-3"></i>Category</a>
 					</li>
 					<li>
-						<a asp-action="Manager" asp-controller="HRDashboard"><i class="fa fa-user mr-3 mr-3"></i>Manager</a>
+						<a asp-action="Product" asp-controller="Admin"><i class="fa fa-user mr-3 mr-3"></i>Products</a>
 					</li>
 					<li>
-						<a asp-action="IndexEmployee" asp-controller="HRDashboard"><i class="fa fa-users mr-3"></i>Employee</a>
+						<a asp-action="Recipe" asp-controller="Admin"><i class="fa fa-users mr-3"></i>Recipe</a>
 					</li>
 					<li>
 						<a asp-action="feedback" asp-controller="HRDashboard"><i class="fa fa-star mr-3"></i>Feedback</a>
@@ -80,6 +80,8 @@
 	<script src="~/js/admin/jquery.min.js"></script>
 	<script src="~/js/admin/popper.js"></script>
 	<script src="~/js/admin/main.js"></script>
+	<script src="https://kit.fontawesome.com/20637403cc.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
 

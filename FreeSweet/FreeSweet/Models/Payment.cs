@@ -9,7 +9,11 @@ public partial class Payment
 
     public int? Total { get; set; }
 
-    public int? OrdesId { get; set; }
+    public string? PaymentMethoud { get; set; }
 
-    public virtual Order IdNavigation { get; set; } = null!;
+    public string? Status { get; set; }
+
+    public DateTime? CreateAt { get; set; }
+
+    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }

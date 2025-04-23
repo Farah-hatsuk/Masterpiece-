@@ -21,10 +21,7 @@ namespace FreeSweet.Controllers
         {
             return View();
         }
-        //public IActionResult Registration()
-        //{
-        //    return View();
-        //}
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -39,12 +36,6 @@ namespace FreeSweet.Controllers
             return RedirectToAction("RegistrationLogin");
         }
 
-
-
-        //public IActionResult Login()
-        //{
-        //    return View();
-        //}
 
         [HttpPost]
         public async Task<IActionResult> Login(User user)
@@ -80,7 +71,7 @@ namespace FreeSweet.Controllers
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
-            return RedirectToAction("RegistrationLogin");
+            return RedirectToAction("Index","Home");
         }
 
 
@@ -115,15 +106,15 @@ namespace FreeSweet.Controllers
 
                 if (profileImage != null)
                 {
-                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(profileImage.FileName);
-                    string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/User_image", fileName);
+                    string fileName = Path.GetFileName(profileImage.FileName);
+                    string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/UserImg", fileName);
 
                     using (var stream = new FileStream(path, FileMode.Create))
                     {
                         profileImage.CopyTo(stream);
                     }
 
-                    user.Img = "/User_image/" + fileName;
+                    user.Img = fileName;
                 }
 
                 _context.SaveChanges();

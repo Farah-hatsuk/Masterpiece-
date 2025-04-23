@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\aboutUs.css"
     },
     {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\admin\\Indix.css",
+      "PackagePath": "staticwebassets\\css\\admin\\Indix.css"
+    },
+    {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\admin\\style.css",
       "PackagePath": "staticwebassets\\css\\admin\\style.css"
     },
@@ -105,6 +109,10 @@
       "PackagePath": "staticwebassets\\img\\Untitled design.png"
     },
     {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\UserImg\\Screenshot 2025-03-11 141202.png",
+      "PackagePath": "staticwebassets\\img\\UserImg\\Screenshot 2025-03-11 141202.png"
+    },
+    {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\eDqrbK6w.png",
       "PackagePath": "staticwebassets\\img\\eDqrbK6w.png"
     },
@@ -157,24 +165,16 @@
       "PackagePath": "staticwebassets\\img\\home\\shop\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\1.jpeg",
-      "PackagePath": "staticwebassets\\img\\home\\shop\\chocolate cake\\1.jpeg"
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\chocolate2.jpeg",
+      "PackagePath": "staticwebassets\\img\\home\\shop\\chocolate cake\\chocolate2.jpeg"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\2.jpeg",
-      "PackagePath": "staticwebassets\\img\\home\\shop\\chocolate cake\\2.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate.jpeg",
-      "PackagePath": "staticwebassets\\img\\home\\shop\\chocolate.jpeg"
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\chocolate3.jpeg",
+      "PackagePath": "staticwebassets\\img\\home\\shop\\chocolate cake\\chocolate3.jpeg"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate1.jpg",
       "PackagePath": "staticwebassets\\img\\home\\shop\\chocolate1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\strawberry.jpeg",
-      "PackagePath": "staticwebassets\\img\\home\\shop\\strawberry.jpeg"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\strawberry1.jpg",
@@ -209,6 +209,22 @@
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp",
+      "PackagePath": "staticwebassets\\img\\reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
+      "PackagePath": "staticwebassets\\img\\reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp",
+      "PackagePath": "staticwebassets\\img\\reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
+      "PackagePath": "staticwebassets\\img\\reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
+    },
+    {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Gluten-free-Apple-Bread-360x480.jpg.webp",
       "PackagePath": "staticwebassets\\img\\shop\\Gluten-free-Apple-Bread-360x480.jpg.webp"
     },
@@ -225,8 +241,24 @@
       "PackagePath": "staticwebassets\\img\\shop\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
     },
     {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp"
+    },
+    {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-1.jpg",
       "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chip-Banana-Bread.jpg.webp",
@@ -237,48 +269,36 @@
       "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.webp"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\braones.jpeg",
-      "PackagePath": "staticwebassets\\img\\shop\\shop\\braones.jpeg"
-    },
-    {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\braones1.jpg",
       "PackagePath": "staticwebassets\\img\\shop\\shop\\braones1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cheesecake.jpeg",
-      "PackagePath": "staticwebassets\\img\\shop\\shop\\cheesecake.jpeg"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cheesecake1.jpg",
       "PackagePath": "staticwebassets\\img\\shop\\shop\\cheesecake1.jpg"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cinnamon.jpeg",
-      "PackagePath": "staticwebassets\\img\\shop\\shop\\cinnamon.jpeg"
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate1.jpg",
+      "PackagePath": "staticwebassets\\img\\shop\\shop\\chocolate1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate2.jpeg",
+      "PackagePath": "staticwebassets\\img\\shop\\shop\\chocolate2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate3.jpeg",
+      "PackagePath": "staticwebassets\\img\\shop\\shop\\chocolate3.jpeg"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cinnamon1.jpg",
       "PackagePath": "staticwebassets\\img\\shop\\shop\\cinnamon1.jpg"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookie pan.jpeg",
-      "PackagePath": "staticwebassets\\img\\shop\\shop\\cookie pan.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookie pan1.jpg",
-      "PackagePath": "staticwebassets\\img\\shop\\shop\\cookie pan1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookies.jpeg",
-      "PackagePath": "staticwebassets\\img\\shop\\shop\\cookies.jpeg"
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookiePan1.jpg",
+      "PackagePath": "staticwebassets\\img\\shop\\shop\\cookiePan1.jpg"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookies1.jpg",
       "PackagePath": "staticwebassets\\img\\shop\\shop\\cookies1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\dounet.jpeg",
-      "PackagePath": "staticwebassets\\img\\shop\\shop\\dounet.jpeg"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\dounet1.jpg",
@@ -309,6 +329,14 @@
       "PackagePath": "staticwebassets\\img\\shop\\shop\\khnafeh.jpeg"
     },
     {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\strawberry1.jpg",
+      "PackagePath": "staticwebassets\\img\\shop\\shop\\strawberry1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\vanilla.jpeg",
+      "PackagePath": "staticwebassets\\img\\shop\\shop\\vanilla.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\Reprises1.js",
       "PackagePath": "staticwebassets\\js\\Reprises1.js"
     },
@@ -319,6 +347,10 @@
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\admin\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\daynamicPage\\Indix.js",
+      "PackagePath": "staticwebassets\\js\\admin\\daynamicPage\\Indix.js"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\jquery.min.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fAxeJ0WV6HMFJztgkQtAsMJSpjamyttgLj2W/bxR0P8=",
+  "Hash": "XQzcwOcHgYYvPvZ6artE7zo42qXKf3Cg9EBMOlYfHek=",
   "Source": "FreeSweet",
   "BasePath": "_content/FreeSweet",
   "Mode": "Default",
@@ -73,11 +73,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nq7kcax2d8",
-      "Integrity": "0ReZ4XHbjiW3dLZQy/rI9Plr5P44oZiN9v5bIlo4t4k=",
+      "Fingerprint": "yyyijqsyuu",
+      "Integrity": "dqMWvbWFwtDHZP5uUlV0Iw8x3OKXs8hEqGjLuWMpHiQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\aboutUs.css"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\admin\\Indix.css",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "css/admin/Indix#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hr3tfs58ma",
+      "Integrity": "s5jlXPMlVF+UgXUovzbsr3WDP83I15Qgif3S6tm8PUE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin\\Indix.css"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\admin\\style.css",
@@ -94,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bun0uhkfgw",
-      "Integrity": "TcXWygU+eqH//k+zajCFGaoi9/tqZCQOUkdzXq+ejWE=",
+      "Fingerprint": "ttblwix13w",
+      "Integrity": "39jqTBce6xur6jCwgRD7d9iduL0HGsHgwHGTmzq+gYw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\admin\\style.css"
@@ -136,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vznkxkt2of",
-      "Integrity": "hWg5h/wy0G2VadZ598RxriUC15snSvnZgeV8/Fp/PNQ=",
+      "Fingerprint": "1li2oy7dkz",
+      "Integrity": "a6XqSjSqqxHeDTcqBIm2VkHG2shuCiP/xzOVuzmRAgk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\ckeckout.css"
@@ -325,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fv4p7ix4hp",
-      "Integrity": "6+MDr1odN+gfNUzfWtpIwnl3R9U9k/nT8gJFMJka0ns=",
+      "Fingerprint": "jxlhm4g7uv",
+      "Integrity": "R695m/bCOK5Ljxqbfo01BYz2VZjqDkmRIErodAqN7to=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\info.css"
@@ -367,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ip4m9xcwro",
-      "Integrity": "qrGCNSk8cED07GiwglzdZzbM+4tLb6jNbOBsz5xTFqc=",
+      "Fingerprint": "4sj27gons5",
+      "Integrity": "pLcARdvm+qgm4HnpapM5rT7HeeWSTup6VqqfwLXI9NM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\prodect.css"
@@ -409,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mmpa7nwm0b",
-      "Integrity": "wrw4vsC0eQvgILv73RfnQIHDKWCgE6/OE0FzWx0c0Ns=",
+      "Fingerprint": "3o14g1tmg9",
+      "Integrity": "c+U5oLlbfIdxh1UevaRdrGVqfILS3B/ZITVrOgQHOyo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\recipes.css"
@@ -430,8 +451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cf0rnvnszz",
-      "Integrity": "GAItr3+6jBGAAwEWllzw8sqDi7bGCiPKPeQKeiyFlzQ=",
+      "Fingerprint": "ex0lsgxxtl",
+      "Integrity": "DtzQDZz9E7CkLyfWNtydsyn0KOh7o0b7BqtT5oh4Z4A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Reprises1.css"
@@ -451,8 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wl5o0nok6o",
-      "Integrity": "nJE98Q/XDX2WMW8HCnLD8npsrsCgV5lmqE+05d7CSL4=",
+      "Fingerprint": "mbtu7bl3ns",
+      "Integrity": "8nIcS3nD5dAH7ej9D6XiAsZ+Twmcz26NQtinDNnNaw8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\shop.css"
@@ -689,12 +710,12 @@
       "OriginalItemSpec": "wwwroot\\img\\home\\OIP.jpg"
     },
     {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\1.jpeg",
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\chocolate2.jpeg",
       "SourceId": "FreeSweet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
       "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/home/shop/chocolate cake/1#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/home/shop/chocolate cake/chocolate2#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -707,15 +728,15 @@
       "Integrity": "wuhmNzTbcFbofMunjwcVRVIKzspZefz8ysnsuF5dta0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\home\\shop\\chocolate cake\\1.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\home\\shop\\chocolate cake\\chocolate2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\2.jpeg",
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\chocolate3.jpeg",
       "SourceId": "FreeSweet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
       "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/home/shop/chocolate cake/2#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/home/shop/chocolate cake/chocolate3#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -728,28 +749,7 @@
       "Integrity": "kNaIHS+UKwzI85o3KII0I+hJxC8t9Umjprpz84TuJW0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\home\\shop\\chocolate cake\\2.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate.jpeg",
-      "SourceId": "FreeSweet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
-      "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/home/shop/chocolate#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "lts7g6fqw8",
-      "Integrity": "Vxr8KeUOjKrOQA4M5hlzciZrOgU+V3/7juDnjQwNbHc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\home\\shop\\chocolate.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\home\\shop\\chocolate cake\\chocolate3.jpeg"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate1.jpg",
@@ -834,27 +834,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\home\\shop\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
-    },
-    {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\strawberry.jpeg",
-      "SourceId": "FreeSweet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
-      "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/home/shop/strawberry#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7ayukg73hr",
-      "Integrity": "Dw3irZ3DjxtRjJG7uDmwZFlwNMkyvKSw2760Uni5ODE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\home\\shop\\strawberry.jpeg"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\strawberry1.jpg",
@@ -1046,6 +1025,90 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/reprises/Gluten-free-Apple-Bread-360x480.jpg#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0qxduy9nb9",
+      "Integrity": "CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/reprises/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rqo4qt5fk7",
+      "Integrity": "Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/reprises/Gluten-free-Banana-Muffins-Recipe.jpg#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ls4f4mq4l5",
+      "Integrity": "BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/reprises/Gluten-free-Chocolate-Banana-Bread-360x480.jpg#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hxmvf0659i",
+      "Integrity": "1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
+    },
+    {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\Screenshot 2024-12-26 135205-Photoroom.png",
       "SourceId": "FreeSweet",
       "SourceType": "Discovered",
@@ -1151,6 +1214,69 @@
       "OriginalItemSpec": "wwwroot\\img\\shop\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
     },
     {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/shop/Reprises/Gluten-free-Apple-Bread-360x480.jpg#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0qxduy9nb9",
+      "Integrity": "CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/shop/Reprises/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rqo4qt5fk7",
+      "Integrity": "Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/shop/Reprises/Gluten-free-Banana-Muffins-Recipe.jpg#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ls4f4mq4l5",
+      "Integrity": "BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp"
+    },
+    {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-1.jpg",
       "SourceId": "FreeSweet",
       "SourceType": "Discovered",
@@ -1170,6 +1296,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/shop/Reprises/Gluten-free-Chocolate-Banana-Bread-360x480.jpg#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hxmvf0659i",
+      "Integrity": "1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chip-Banana-Bread.jpg.webp",
@@ -1214,27 +1361,6 @@
       "OriginalItemSpec": "wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.webp"
     },
     {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\braones.jpeg",
-      "SourceId": "FreeSweet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
-      "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/shop/shop/braones#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "h3f9ak63ut",
-      "Integrity": "re4SU32EZXYTPBoQ3jnyZdq2qQctzX6fOEQTZHpiHk4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\braones.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\braones1.jpg",
       "SourceId": "FreeSweet",
       "SourceType": "Discovered",
@@ -1254,27 +1380,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\braones1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cheesecake.jpeg",
-      "SourceId": "FreeSweet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
-      "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/shop/shop/cheesecake#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "i8vjlxyqpk",
-      "Integrity": "4h1TamqnMbJeNbI/q89uQUUlDsM+6FRwrkr9nShbBJo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\cheesecake.jpeg"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cheesecake1.jpg",
@@ -1298,12 +1403,12 @@
       "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\cheesecake1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cinnamon.jpeg",
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate1.jpg",
       "SourceId": "FreeSweet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
       "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/shop/shop/cinnamon#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/shop/shop/chocolate1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1312,11 +1417,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5iaf2ebrtw",
-      "Integrity": "7YwGUadPbx5smLD7EwovsxN7csSrmQuCNwcgAYV+ppA=",
+      "Fingerprint": "3esxbasefu",
+      "Integrity": "+6CAScnIgUZvVp7u5uES9shfReMMgx27nE+5HjULBJA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\cinnamon.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\chocolate1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate2.jpeg",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/shop/shop/chocolate2#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m6h1ebnz7q",
+      "Integrity": "wuhmNzTbcFbofMunjwcVRVIKzspZefz8ysnsuF5dta0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\chocolate2.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate3.jpeg",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/shop/shop/chocolate3#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cl70bqz5qy",
+      "Integrity": "kNaIHS+UKwzI85o3KII0I+hJxC8t9Umjprpz84TuJW0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\chocolate3.jpeg"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cinnamon1.jpg",
@@ -1340,33 +1487,12 @@
       "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\cinnamon1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookie pan.jpeg",
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookiePan1.jpg",
       "SourceId": "FreeSweet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
       "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/shop/shop/cookie pan#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vletxbh4ey",
-      "Integrity": "zTNJlwk2fa2w9vej/b6or8g1vLA2URidSawchhoTReI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\cookie pan.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookie pan1.jpg",
-      "SourceId": "FreeSweet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
-      "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/shop/shop/cookie pan1#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/shop/shop/cookiePan1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1379,28 +1505,7 @@
       "Integrity": "LVkM3WCNhFiU2FAJyogHCGAQdVrXLM0bb9a6g4ouR9A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\cookie pan1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookies.jpeg",
-      "SourceId": "FreeSweet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
-      "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/shop/shop/cookies#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "nywknuwiys",
-      "Integrity": "3xIw1vNLsTU6Rl3R/CzqVmnWYnKPr3vg2RuxlHn4C2M=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\cookies.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\cookiePan1.jpg"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookies1.jpg",
@@ -1422,27 +1527,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\cookies1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\dounet.jpeg",
-      "SourceId": "FreeSweet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
-      "BasePath": "_content/FreeSweet",
-      "RelativePath": "img/shop/shop/dounet#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "irmval8i79",
-      "Integrity": "/kI6WB8ocEkKR43i4lopYYcFKQynQb3m/zcDKRRG2+E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\dounet.jpeg"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\dounet1.jpg",
@@ -1592,6 +1676,48 @@
       "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\khnafeh.jpeg"
     },
     {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\strawberry1.jpg",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/shop/shop/strawberry1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9kn8r1bzwh",
+      "Integrity": "SThhfRVdV/5hmsY7H/FRGdJolpQqzcBRLx0/fLWpc1c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\strawberry1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\vanilla.jpeg",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/shop/shop/vanilla#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0fcv8rpdw2",
+      "Integrity": "ZIvTriNR3z6ME163DNo/WkSgg4yxF1n4/HcNzz3Caco=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shop\\shop\\vanilla.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\Untitled design lo.png",
       "SourceId": "FreeSweet",
       "SourceType": "Discovered",
@@ -1655,6 +1781,27 @@
       "OriginalItemSpec": "wwwroot\\img\\Untitled design.png"
     },
     {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\UserImg\\Screenshot 2025-03-11 141202.png",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "img/UserImg/Screenshot 2025-03-11 141202#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c009ztsu25",
+      "Integrity": "TD9TqtxWPp9ZfGLnHOHwbC4ZZnDHyTE2WkneQutkg94=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\UserImg\\Screenshot 2025-03-11 141202.png"
+    },
+    {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\aboutUs.js",
       "SourceId": "FreeSweet",
       "SourceType": "Discovered",
@@ -1695,6 +1842,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\admin\\bootstrap.js"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\daynamicPage\\Indix.js",
+      "SourceId": "FreeSweet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\",
+      "BasePath": "_content/FreeSweet",
+      "RelativePath": "js/admin/daynamicPage/Indix#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\admin\\daynamicPage\\Indix.js"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\jquery.min.js",
@@ -3200,7 +3368,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9091"
+          "Value": "3692"
         },
         {
           "Name": "Content-Type",
@@ -3208,11 +3376,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0ReZ4XHbjiW3dLZQy/rI9Plr5P44oZiN9v5bIlo4t4k=\""
+          "Value": "\"dqMWvbWFwtDHZP5uUlV0Iw8x3OKXs8hEqGjLuWMpHiQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 20:39:53 GMT"
+          "Value": "Sun, 13 Apr 2025 18:53:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3222,12 +3390,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0ReZ4XHbjiW3dLZQy/rI9Plr5P44oZiN9v5bIlo4t4k="
+          "Value": "sha256-dqMWvbWFwtDHZP5uUlV0Iw8x3OKXs8hEqGjLuWMpHiQ="
         }
       ]
     },
     {
-      "Route": "css/aboutUs.nq7kcax2d8.css",
+      "Route": "css/aboutUs.yyyijqsyuu.css",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\aboutUs.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3237,7 +3405,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9091"
+          "Value": "3692"
         },
         {
           "Name": "Content-Type",
@@ -3245,11 +3413,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0ReZ4XHbjiW3dLZQy/rI9Plr5P44oZiN9v5bIlo4t4k=\""
+          "Value": "\"dqMWvbWFwtDHZP5uUlV0Iw8x3OKXs8hEqGjLuWMpHiQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 20:39:53 GMT"
+          "Value": "Sun, 13 Apr 2025 18:53:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3259,7 +3427,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nq7kcax2d8"
+          "Value": "yyyijqsyuu"
         },
         {
           "Name": "label",
@@ -3267,13 +3435,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0ReZ4XHbjiW3dLZQy/rI9Plr5P44oZiN9v5bIlo4t4k="
+          "Value": "sha256-dqMWvbWFwtDHZP5uUlV0Iw8x3OKXs8hEqGjLuWMpHiQ="
         }
       ]
     },
     {
-      "Route": "css/admin/style.bun0uhkfgw.css",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\admin\\style.css",
+      "Route": "css/admin/Indix.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\admin\\Indix.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3282,7 +3450,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "223198"
+          "Value": "3187"
         },
         {
           "Name": "Content-Type",
@@ -3290,11 +3458,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TcXWygU+eqH//k+zajCFGaoi9/tqZCQOUkdzXq+ejWE=\""
+          "Value": "\"s5jlXPMlVF+UgXUovzbsr3WDP83I15Qgif3S6tm8PUE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 12:11:22 GMT"
+          "Value": "Sun, 13 Apr 2025 13:22:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s5jlXPMlVF+UgXUovzbsr3WDP83I15Qgif3S6tm8PUE="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin/Indix.hr3tfs58ma.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\admin\\Indix.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5jlXPMlVF+UgXUovzbsr3WDP83I15Qgif3S6tm8PUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 13:22:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3304,15 +3509,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bun0uhkfgw"
+          "Value": "hr3tfs58ma"
         },
         {
           "Name": "label",
-          "Value": "css/admin/style.css"
+          "Value": "css/admin/Indix.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TcXWygU+eqH//k+zajCFGaoi9/tqZCQOUkdzXq+ejWE="
+          "Value": "sha256-s5jlXPMlVF+UgXUovzbsr3WDP83I15Qgif3S6tm8PUE="
         }
       ]
     },
@@ -3327,7 +3532,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "223198"
+          "Value": "223370"
         },
         {
           "Name": "Content-Type",
@@ -3335,11 +3540,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TcXWygU+eqH//k+zajCFGaoi9/tqZCQOUkdzXq+ejWE=\""
+          "Value": "\"39jqTBce6xur6jCwgRD7d9iduL0HGsHgwHGTmzq+gYw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 12:11:22 GMT"
+          "Value": "Thu, 17 Apr 2025 17:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3349,7 +3554,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TcXWygU+eqH//k+zajCFGaoi9/tqZCQOUkdzXq+ejWE="
+          "Value": "sha256-39jqTBce6xur6jCwgRD7d9iduL0HGsHgwHGTmzq+gYw="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin/style.ttblwix13w.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\admin\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "223370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"39jqTBce6xur6jCwgRD7d9iduL0HGsHgwHGTmzq+gYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 17:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttblwix13w"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-39jqTBce6xur6jCwgRD7d9iduL0HGsHgwHGTmzq+gYw="
         }
       ]
     },
@@ -3376,7 +3626,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Mar 2025 15:35:28 GMT"
+          "Value": "Sun, 13 Apr 2025 18:43:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3413,7 +3663,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Mar 2025 15:35:28 GMT"
+          "Value": "Sun, 13 Apr 2025 18:43:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3436,6 +3686,51 @@
       ]
     },
     {
+      "Route": "css/ckeckout.1li2oy7dkz.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\ckeckout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5448"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a6XqSjSqqxHeDTcqBIm2VkHG2shuCiP/xzOVuzmRAgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 18:53:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1li2oy7dkz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ckeckout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a6XqSjSqqxHeDTcqBIm2VkHG2shuCiP/xzOVuzmRAgk="
+        }
+      ]
+    },
+    {
       "Route": "css/ckeckout.css",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\ckeckout.css",
       "Selectors": [],
@@ -3446,7 +3741,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10892"
+          "Value": "5448"
         },
         {
           "Name": "Content-Type",
@@ -3454,11 +3749,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hWg5h/wy0G2VadZ598RxriUC15snSvnZgeV8/Fp/PNQ=\""
+          "Value": "\"a6XqSjSqqxHeDTcqBIm2VkHG2shuCiP/xzOVuzmRAgk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 18:39:18 GMT"
+          "Value": "Sun, 13 Apr 2025 18:53:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3468,52 +3763,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hWg5h/wy0G2VadZ598RxriUC15snSvnZgeV8/Fp/PNQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/ckeckout.vznkxkt2of.css",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\ckeckout.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10892"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hWg5h/wy0G2VadZ598RxriUC15snSvnZgeV8/Fp/PNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 18:39:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vznkxkt2of"
-        },
-        {
-          "Name": "label",
-          "Value": "css/ckeckout.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hWg5h/wy0G2VadZ598RxriUC15snSvnZgeV8/Fp/PNQ="
+          "Value": "sha256-a6XqSjSqqxHeDTcqBIm2VkHG2shuCiP/xzOVuzmRAgk="
         }
       ]
     },
@@ -4184,7 +4434,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7781"
+          "Value": "2276"
         },
         {
           "Name": "Content-Type",
@@ -4192,11 +4442,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6+MDr1odN+gfNUzfWtpIwnl3R9U9k/nT8gJFMJka0ns=\""
+          "Value": "\"R695m/bCOK5Ljxqbfo01BYz2VZjqDkmRIErodAqN7to=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Mar 2025 15:35:28 GMT"
+          "Value": "Sun, 13 Apr 2025 18:53:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4206,12 +4456,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6+MDr1odN+gfNUzfWtpIwnl3R9U9k/nT8gJFMJka0ns="
+          "Value": "sha256-R695m/bCOK5Ljxqbfo01BYz2VZjqDkmRIErodAqN7to="
         }
       ]
     },
     {
-      "Route": "css/info.fv4p7ix4hp.css",
+      "Route": "css/info.jxlhm4g7uv.css",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\info.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4221,7 +4471,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7781"
+          "Value": "2276"
         },
         {
           "Name": "Content-Type",
@@ -4229,11 +4479,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6+MDr1odN+gfNUzfWtpIwnl3R9U9k/nT8gJFMJka0ns=\""
+          "Value": "\"R695m/bCOK5Ljxqbfo01BYz2VZjqDkmRIErodAqN7to=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Mar 2025 15:35:28 GMT"
+          "Value": "Sun, 13 Apr 2025 18:53:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4243,7 +4493,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fv4p7ix4hp"
+          "Value": "jxlhm4g7uv"
         },
         {
           "Name": "label",
@@ -4251,7 +4501,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6+MDr1odN+gfNUzfWtpIwnl3R9U9k/nT8gJFMJka0ns="
+          "Value": "sha256-R695m/bCOK5Ljxqbfo01BYz2VZjqDkmRIErodAqN7to="
         }
       ]
     },
@@ -4338,6 +4588,51 @@
       ]
     },
     {
+      "Route": "css/prodect.4sj27gons5.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\prodect.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pLcARdvm+qgm4HnpapM5rT7HeeWSTup6VqqfwLXI9NM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 18:53:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4sj27gons5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/prodect.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pLcARdvm+qgm4HnpapM5rT7HeeWSTup6VqqfwLXI9NM="
+        }
+      ]
+    },
+    {
       "Route": "css/prodect.css",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\prodect.css",
       "Selectors": [],
@@ -4348,7 +4643,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7373"
+          "Value": "2180"
         },
         {
           "Name": "Content-Type",
@@ -4356,11 +4651,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qrGCNSk8cED07GiwglzdZzbM+4tLb6jNbOBsz5xTFqc=\""
+          "Value": "\"pLcARdvm+qgm4HnpapM5rT7HeeWSTup6VqqfwLXI9NM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Mar 2025 15:35:28 GMT"
+          "Value": "Sun, 13 Apr 2025 18:53:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4370,52 +4665,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qrGCNSk8cED07GiwglzdZzbM+4tLb6jNbOBsz5xTFqc="
-        }
-      ]
-    },
-    {
-      "Route": "css/prodect.ip4m9xcwro.css",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\prodect.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7373"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qrGCNSk8cED07GiwglzdZzbM+4tLb6jNbOBsz5xTFqc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 21 Mar 2025 15:35:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ip4m9xcwro"
-        },
-        {
-          "Name": "label",
-          "Value": "css/prodect.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qrGCNSk8cED07GiwglzdZzbM+4tLb6jNbOBsz5xTFqc="
+          "Value": "sha256-pLcARdvm+qgm4HnpapM5rT7HeeWSTup6VqqfwLXI9NM="
         }
       ]
     },
@@ -4502,6 +4752,51 @@
       ]
     },
     {
+      "Route": "css/recipes.3o14g1tmg9.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\recipes.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+U5oLlbfIdxh1UevaRdrGVqfILS3B/ZITVrOgQHOyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 18:53:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3o14g1tmg9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/recipes.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c+U5oLlbfIdxh1UevaRdrGVqfILS3B/ZITVrOgQHOyo="
+        }
+      ]
+    },
+    {
       "Route": "css/recipes.css",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\recipes.css",
       "Selectors": [],
@@ -4512,7 +4807,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8788"
+          "Value": "3445"
         },
         {
           "Name": "Content-Type",
@@ -4520,11 +4815,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wrw4vsC0eQvgILv73RfnQIHDKWCgE6/OE0FzWx0c0Ns=\""
+          "Value": "\"c+U5oLlbfIdxh1UevaRdrGVqfILS3B/ZITVrOgQHOyo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Mar 2025 15:35:28 GMT"
+          "Value": "Sun, 13 Apr 2025 18:53:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4534,97 +4829,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wrw4vsC0eQvgILv73RfnQIHDKWCgE6/OE0FzWx0c0Ns="
-        }
-      ]
-    },
-    {
-      "Route": "css/recipes.mmpa7nwm0b.css",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\recipes.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8788"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wrw4vsC0eQvgILv73RfnQIHDKWCgE6/OE0FzWx0c0Ns=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 21 Mar 2025 15:35:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mmpa7nwm0b"
-        },
-        {
-          "Name": "label",
-          "Value": "css/recipes.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wrw4vsC0eQvgILv73RfnQIHDKWCgE6/OE0FzWx0c0Ns="
-        }
-      ]
-    },
-    {
-      "Route": "css/Reprises1.cf0rnvnszz.css",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\Reprises1.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6190"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GAItr3+6jBGAAwEWllzw8sqDi7bGCiPKPeQKeiyFlzQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 18:57:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cf0rnvnszz"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Reprises1.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GAItr3+6jBGAAwEWllzw8sqDi7bGCiPKPeQKeiyFlzQ="
+          "Value": "sha256-c+U5oLlbfIdxh1UevaRdrGVqfILS3B/ZITVrOgQHOyo="
         }
       ]
     },
@@ -4639,7 +4844,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6190"
+          "Value": "1140"
         },
         {
           "Name": "Content-Type",
@@ -4647,11 +4852,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GAItr3+6jBGAAwEWllzw8sqDi7bGCiPKPeQKeiyFlzQ=\""
+          "Value": "\"DtzQDZz9E7CkLyfWNtydsyn0KOh7o0b7BqtT5oh4Z4A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 18:57:01 GMT"
+          "Value": "Sun, 13 Apr 2025 18:49:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4661,7 +4866,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GAItr3+6jBGAAwEWllzw8sqDi7bGCiPKPeQKeiyFlzQ="
+          "Value": "sha256-DtzQDZz9E7CkLyfWNtydsyn0KOh7o0b7BqtT5oh4Z4A="
+        }
+      ]
+    },
+    {
+      "Route": "css/Reprises1.ex0lsgxxtl.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\Reprises1.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1140"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DtzQDZz9E7CkLyfWNtydsyn0KOh7o0b7BqtT5oh4Z4A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 18:49:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ex0lsgxxtl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Reprises1.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DtzQDZz9E7CkLyfWNtydsyn0KOh7o0b7BqtT5oh4Z4A="
         }
       ]
     },
@@ -4676,7 +4926,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7844"
+          "Value": "2946"
         },
         {
           "Name": "Content-Type",
@@ -4684,11 +4934,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nJE98Q/XDX2WMW8HCnLD8npsrsCgV5lmqE+05d7CSL4=\""
+          "Value": "\"8nIcS3nD5dAH7ej9D6XiAsZ+Twmcz26NQtinDNnNaw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 11:13:46 GMT"
+          "Value": "Sun, 13 Apr 2025 18:46:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4698,12 +4948,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nJE98Q/XDX2WMW8HCnLD8npsrsCgV5lmqE+05d7CSL4="
+          "Value": "sha256-8nIcS3nD5dAH7ej9D6XiAsZ+Twmcz26NQtinDNnNaw8="
         }
       ]
     },
     {
-      "Route": "css/shop.wl5o0nok6o.css",
+      "Route": "css/shop.mbtu7bl3ns.css",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\shop.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4713,7 +4963,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7844"
+          "Value": "2946"
         },
         {
           "Name": "Content-Type",
@@ -4721,11 +4971,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nJE98Q/XDX2WMW8HCnLD8npsrsCgV5lmqE+05d7CSL4=\""
+          "Value": "\"8nIcS3nD5dAH7ej9D6XiAsZ+Twmcz26NQtinDNnNaw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 11:13:46 GMT"
+          "Value": "Sun, 13 Apr 2025 18:46:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4735,7 +4985,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wl5o0nok6o"
+          "Value": "mbtu7bl3ns"
         },
         {
           "Name": "label",
@@ -4743,7 +4993,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nJE98Q/XDX2WMW8HCnLD8npsrsCgV5lmqE+05d7CSL4="
+          "Value": "sha256-8nIcS3nD5dAH7ej9D6XiAsZ+Twmcz26NQtinDNnNaw8="
         }
       ]
     },
@@ -4934,7 +5184,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 21:09:26 GMT"
+          "Value": "Wed, 23 Apr 2025 11:54:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4971,7 +5221,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 21:09:26 GMT"
+          "Value": "Wed, 23 Apr 2025 11:54:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5016,7 +5266,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 21:09:26 GMT"
+          "Value": "Wed, 23 Apr 2025 11:54:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5061,7 +5311,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 21:09:26 GMT"
+          "Value": "Wed, 23 Apr 2025 11:54:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5814,8 +6064,8 @@
       ]
     },
     {
-      "Route": "img/home/shop/chocolate cake/1.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\1.jpeg",
+      "Route": "img/home/shop/chocolate cake/chocolate2.jpeg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\chocolate2.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5851,8 +6101,8 @@
       ]
     },
     {
-      "Route": "img/home/shop/chocolate cake/1.m6h1ebnz7q.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\1.jpeg",
+      "Route": "img/home/shop/chocolate cake/chocolate2.m6h1ebnz7q.jpeg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\chocolate2.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5887,7 +6137,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/home/shop/chocolate cake/1.jpeg"
+          "Value": "img/home/shop/chocolate cake/chocolate2.jpeg"
         },
         {
           "Name": "integrity",
@@ -5896,8 +6146,8 @@
       ]
     },
     {
-      "Route": "img/home/shop/chocolate cake/2.cl70bqz5qy.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\2.jpeg",
+      "Route": "img/home/shop/chocolate cake/chocolate3.cl70bqz5qy.jpeg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\chocolate3.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5932,7 +6182,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/home/shop/chocolate cake/2.jpeg"
+          "Value": "img/home/shop/chocolate cake/chocolate3.jpeg"
         },
         {
           "Name": "integrity",
@@ -5941,8 +6191,8 @@
       ]
     },
     {
-      "Route": "img/home/shop/chocolate cake/2.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\2.jpeg",
+      "Route": "img/home/shop/chocolate cake/chocolate3.jpeg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate cake\\chocolate3.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5974,88 +6224,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-kNaIHS+UKwzI85o3KII0I+hJxC8t9Umjprpz84TuJW0="
-        }
-      ]
-    },
-    {
-      "Route": "img/home/shop/chocolate.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231942"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Vxr8KeUOjKrOQA4M5hlzciZrOgU+V3/7juDnjQwNbHc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:28:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Vxr8KeUOjKrOQA4M5hlzciZrOgU+V3/7juDnjQwNbHc="
-        }
-      ]
-    },
-    {
-      "Route": "img/home/shop/chocolate.lts7g6fqw8.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\chocolate.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231942"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Vxr8KeUOjKrOQA4M5hlzciZrOgU+V3/7juDnjQwNbHc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:28:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lts7g6fqw8"
-        },
-        {
-          "Name": "label",
-          "Value": "img/home/shop/chocolate.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Vxr8KeUOjKrOQA4M5hlzciZrOgU+V3/7juDnjQwNbHc="
         }
       ]
     },
@@ -6384,88 +6552,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw="
-        }
-      ]
-    },
-    {
-      "Route": "img/home/shop/strawberry.7ayukg73hr.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\strawberry.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "175895"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Dw3irZ3DjxtRjJG7uDmwZFlwNMkyvKSw2760Uni5ODE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:40:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7ayukg73hr"
-        },
-        {
-          "Name": "label",
-          "Value": "img/home/shop/strawberry.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Dw3irZ3DjxtRjJG7uDmwZFlwNMkyvKSw2760Uni5ODE="
-        }
-      ]
-    },
-    {
-      "Route": "img/home/shop/strawberry.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\home\\shop\\strawberry.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "175895"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Dw3irZ3DjxtRjJG7uDmwZFlwNMkyvKSw2760Uni5ODE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:40:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Dw3irZ3DjxtRjJG7uDmwZFlwNMkyvKSw2760Uni5ODE="
         }
       ]
     },
@@ -7208,6 +7294,334 @@
       ]
     },
     {
+      "Route": "img/reprises/Gluten-free-Apple-Bread-360x480.jpg.0qxduy9nb9.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:43:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0qxduy9nb9"
+        },
+        {
+          "Name": "label",
+          "Value": "img/reprises/Gluten-free-Apple-Bread-360x480.jpg.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8="
+        }
+      ]
+    },
+    {
+      "Route": "img/reprises/Gluten-free-Apple-Bread-360x480.jpg.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:43:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8="
+        }
+      ]
+    },
+    {
+      "Route": "img/reprises/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.rqo4qt5fk7.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:25:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqo4qt5fk7"
+        },
+        {
+          "Name": "label",
+          "Value": "img/reprises/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs="
+        }
+      ]
+    },
+    {
+      "Route": "img/reprises/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:25:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs="
+        }
+      ]
+    },
+    {
+      "Route": "img/reprises/Gluten-free-Banana-Muffins-Recipe.jpg.ls4f4mq4l5.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:09:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ls4f4mq4l5"
+        },
+        {
+          "Name": "label",
+          "Value": "img/reprises/Gluten-free-Banana-Muffins-Recipe.jpg.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM="
+        }
+      ]
+    },
+    {
+      "Route": "img/reprises/Gluten-free-Banana-Muffins-Recipe.jpg.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:09:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM="
+        }
+      ]
+    },
+    {
+      "Route": "img/reprises/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.hxmvf0659i.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:23:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hxmvf0659i"
+        },
+        {
+          "Name": "label",
+          "Value": "img/reprises/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw="
+        }
+      ]
+    },
+    {
+      "Route": "img/reprises/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:23:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw="
+        }
+      ]
+    },
+    {
       "Route": "img/Screenshot 2024-12-26 135205-Photoroom.ayu4skenz3.png",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\Screenshot 2024-12-26 135205-Photoroom.png",
       "Selectors": [],
@@ -7618,6 +8032,252 @@
       ]
     },
     {
+      "Route": "img/shop/Reprises/Gluten-free-Apple-Bread-360x480.jpg.0qxduy9nb9.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:43:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0qxduy9nb9"
+        },
+        {
+          "Name": "label",
+          "Value": "img/shop/Reprises/Gluten-free-Apple-Bread-360x480.jpg.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/Reprises/Gluten-free-Apple-Bread-360x480.jpg.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:43:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CB7dZk3lVleLCeOJ0EKRd8oDkddTfrDQ53wLzn3ZrK8="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/Reprises/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.rqo4qt5fk7.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:25:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqo4qt5fk7"
+        },
+        {
+          "Name": "label",
+          "Value": "img/shop/Reprises/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/Reprises/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:25:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q1QDoe734BEPkH4/txqxkAbR+BSZhiCrd2MuQ+oFQgs="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/Reprises/Gluten-free-Banana-Muffins-Recipe.jpg.ls4f4mq4l5.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:09:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ls4f4mq4l5"
+        },
+        {
+          "Name": "label",
+          "Value": "img/shop/Reprises/Gluten-free-Banana-Muffins-Recipe.jpg.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/Reprises/Gluten-free-Banana-Muffins-Recipe.jpg.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:09:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BQJ1AnmMfb0W78zfMJI1NN1EwPSEYsA1I5ugaVeYtNM="
+        }
+      ]
+    },
+    {
       "Route": "img/shop/Reprises/Gluten-free-Chocolate-Banana-Bread-1.jpg",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-1.jpg",
       "Selectors": [],
@@ -7696,6 +8356,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-fILgki55a2gy6/l3BOkKEpUS6WMgv/1dXauAwm8/vDo="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/Reprises/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.hxmvf0659i.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:23:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hxmvf0659i"
+        },
+        {
+          "Name": "label",
+          "Value": "img/shop/Reprises/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/Reprises/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 12:23:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ZSJfUDo+0w0APR1cwCd/8JZ6lNbwZozq79fsrabjxw="
         }
       ]
     },
@@ -7864,88 +8606,6 @@
       ]
     },
     {
-      "Route": "img/shop/shop/braones.h3f9ak63ut.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\braones.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "161129"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"re4SU32EZXYTPBoQ3jnyZdq2qQctzX6fOEQTZHpiHk4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:01:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h3f9ak63ut"
-        },
-        {
-          "Name": "label",
-          "Value": "img/shop/shop/braones.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-re4SU32EZXYTPBoQ3jnyZdq2qQctzX6fOEQTZHpiHk4="
-        }
-      ]
-    },
-    {
-      "Route": "img/shop/shop/braones.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\braones.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "161129"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"re4SU32EZXYTPBoQ3jnyZdq2qQctzX6fOEQTZHpiHk4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:01:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-re4SU32EZXYTPBoQ3jnyZdq2qQctzX6fOEQTZHpiHk4="
-        }
-      ]
-    },
-    {
       "Route": "img/shop/shop/braones1.0ea39x4njl.jpg",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\braones1.jpg",
       "Selectors": [],
@@ -8024,88 +8684,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-WCSDUWiUymJR2wPFL5SueMtfW7vH/m2f9YsUzemsLkM="
-        }
-      ]
-    },
-    {
-      "Route": "img/shop/shop/cheesecake.i8vjlxyqpk.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cheesecake.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "300996"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4h1TamqnMbJeNbI/q89uQUUlDsM+6FRwrkr9nShbBJo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:42:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i8vjlxyqpk"
-        },
-        {
-          "Name": "label",
-          "Value": "img/shop/shop/cheesecake.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4h1TamqnMbJeNbI/q89uQUUlDsM+6FRwrkr9nShbBJo="
-        }
-      ]
-    },
-    {
-      "Route": "img/shop/shop/cheesecake.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cheesecake.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "300996"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4h1TamqnMbJeNbI/q89uQUUlDsM+6FRwrkr9nShbBJo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:42:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4h1TamqnMbJeNbI/q89uQUUlDsM+6FRwrkr9nShbBJo="
         }
       ]
     },
@@ -8192,8 +8770,8 @@
       ]
     },
     {
-      "Route": "img/shop/shop/cinnamon.5iaf2ebrtw.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cinnamon.jpeg",
+      "Route": "img/shop/shop/chocolate1.3esxbasefu.jpg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8202,7 +8780,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "238624"
+          "Value": "178127"
         },
         {
           "Name": "Content-Type",
@@ -8210,11 +8788,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7YwGUadPbx5smLD7EwovsxN7csSrmQuCNwcgAYV+ppA=\""
+          "Value": "\"+6CAScnIgUZvVp7u5uES9shfReMMgx27nE+5HjULBJA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:41:42 GMT"
+          "Value": "Sat, 08 Feb 2025 09:56:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8224,21 +8802,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5iaf2ebrtw"
+          "Value": "3esxbasefu"
         },
         {
           "Name": "label",
-          "Value": "img/shop/shop/cinnamon.jpeg"
+          "Value": "img/shop/shop/chocolate1.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7YwGUadPbx5smLD7EwovsxN7csSrmQuCNwcgAYV+ppA="
+          "Value": "sha256-+6CAScnIgUZvVp7u5uES9shfReMMgx27nE+5HjULBJA="
         }
       ]
     },
     {
-      "Route": "img/shop/shop/cinnamon.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cinnamon.jpeg",
+      "Route": "img/shop/shop/chocolate1.jpg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8247,7 +8825,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "238624"
+          "Value": "178127"
         },
         {
           "Name": "Content-Type",
@@ -8255,11 +8833,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7YwGUadPbx5smLD7EwovsxN7csSrmQuCNwcgAYV+ppA=\""
+          "Value": "\"+6CAScnIgUZvVp7u5uES9shfReMMgx27nE+5HjULBJA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:41:42 GMT"
+          "Value": "Sat, 08 Feb 2025 09:56:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8269,7 +8847,171 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7YwGUadPbx5smLD7EwovsxN7csSrmQuCNwcgAYV+ppA="
+          "Value": "sha256-+6CAScnIgUZvVp7u5uES9shfReMMgx27nE+5HjULBJA="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/shop/chocolate2.jpeg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wuhmNzTbcFbofMunjwcVRVIKzspZefz8ysnsuF5dta0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 16:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wuhmNzTbcFbofMunjwcVRVIKzspZefz8ysnsuF5dta0="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/shop/chocolate2.m6h1ebnz7q.jpeg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wuhmNzTbcFbofMunjwcVRVIKzspZefz8ysnsuF5dta0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 16:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m6h1ebnz7q"
+        },
+        {
+          "Name": "label",
+          "Value": "img/shop/shop/chocolate2.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wuhmNzTbcFbofMunjwcVRVIKzspZefz8ysnsuF5dta0="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/shop/chocolate3.cl70bqz5qy.jpeg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kNaIHS+UKwzI85o3KII0I+hJxC8t9Umjprpz84TuJW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 16:32:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cl70bqz5qy"
+        },
+        {
+          "Name": "label",
+          "Value": "img/shop/shop/chocolate3.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kNaIHS+UKwzI85o3KII0I+hJxC8t9Umjprpz84TuJW0="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/shop/chocolate3.jpeg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\chocolate3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kNaIHS+UKwzI85o3KII0I+hJxC8t9Umjprpz84TuJW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 16:32:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kNaIHS+UKwzI85o3KII0I+hJxC8t9Umjprpz84TuJW0="
         }
       ]
     },
@@ -8356,90 +9098,8 @@
       ]
     },
     {
-      "Route": "img/shop/shop/cookie pan.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookie pan.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "216611"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zTNJlwk2fa2w9vej/b6or8g1vLA2URidSawchhoTReI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:59:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zTNJlwk2fa2w9vej/b6or8g1vLA2URidSawchhoTReI="
-        }
-      ]
-    },
-    {
-      "Route": "img/shop/shop/cookie pan.vletxbh4ey.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookie pan.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "216611"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zTNJlwk2fa2w9vej/b6or8g1vLA2URidSawchhoTReI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:59:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vletxbh4ey"
-        },
-        {
-          "Name": "label",
-          "Value": "img/shop/shop/cookie pan.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zTNJlwk2fa2w9vej/b6or8g1vLA2URidSawchhoTReI="
-        }
-      ]
-    },
-    {
-      "Route": "img/shop/shop/cookie pan1.jpg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookie pan1.jpg",
+      "Route": "img/shop/shop/cookiePan1.jpg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookiePan1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8475,8 +9135,8 @@
       ]
     },
     {
-      "Route": "img/shop/shop/cookie pan1.vhl8c7gq0j.jpg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookie pan1.jpg",
+      "Route": "img/shop/shop/cookiePan1.vhl8c7gq0j.jpg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookiePan1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8511,93 +9171,11 @@
         },
         {
           "Name": "label",
-          "Value": "img/shop/shop/cookie pan1.jpg"
+          "Value": "img/shop/shop/cookiePan1.jpg"
         },
         {
           "Name": "integrity",
           "Value": "sha256-LVkM3WCNhFiU2FAJyogHCGAQdVrXLM0bb9a6g4ouR9A="
-        }
-      ]
-    },
-    {
-      "Route": "img/shop/shop/cookies.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookies.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "94706"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3xIw1vNLsTU6Rl3R/CzqVmnWYnKPr3vg2RuxlHn4C2M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 19:11:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3xIw1vNLsTU6Rl3R/CzqVmnWYnKPr3vg2RuxlHn4C2M="
-        }
-      ]
-    },
-    {
-      "Route": "img/shop/shop/cookies.nywknuwiys.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\cookies.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "94706"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3xIw1vNLsTU6Rl3R/CzqVmnWYnKPr3vg2RuxlHn4C2M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 19:11:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nywknuwiys"
-        },
-        {
-          "Name": "label",
-          "Value": "img/shop/shop/cookies.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3xIw1vNLsTU6Rl3R/CzqVmnWYnKPr3vg2RuxlHn4C2M="
         }
       ]
     },
@@ -8680,88 +9258,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-TdWAlvrpbGRIShXG1eGoNk3c9YA9ANg/sTfwixJZwVs="
-        }
-      ]
-    },
-    {
-      "Route": "img/shop/shop/dounet.irmval8i79.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\dounet.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "157976"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/kI6WB8ocEkKR43i4lopYYcFKQynQb3m/zcDKRRG2+E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:42:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "irmval8i79"
-        },
-        {
-          "Name": "label",
-          "Value": "img/shop/shop/dounet.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/kI6WB8ocEkKR43i4lopYYcFKQynQb3m/zcDKRRG2+E="
-        }
-      ]
-    },
-    {
-      "Route": "img/shop/shop/dounet.jpeg",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\dounet.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "157976"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/kI6WB8ocEkKR43i4lopYYcFKQynQb3m/zcDKRRG2+E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:42:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/kI6WB8ocEkKR43i4lopYYcFKQynQb3m/zcDKRRG2+E="
         }
       ]
     },
@@ -9340,6 +9836,170 @@
       ]
     },
     {
+      "Route": "img/shop/shop/strawberry1.9kn8r1bzwh.jpg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\strawberry1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SThhfRVdV/5hmsY7H/FRGdJolpQqzcBRLx0/fLWpc1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 09:53:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9kn8r1bzwh"
+        },
+        {
+          "Name": "label",
+          "Value": "img/shop/shop/strawberry1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SThhfRVdV/5hmsY7H/FRGdJolpQqzcBRLx0/fLWpc1c="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/shop/strawberry1.jpg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\strawberry1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SThhfRVdV/5hmsY7H/FRGdJolpQqzcBRLx0/fLWpc1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 09:53:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SThhfRVdV/5hmsY7H/FRGdJolpQqzcBRLx0/fLWpc1c="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/shop/vanilla.0fcv8rpdw2.jpeg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\vanilla.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZIvTriNR3z6ME163DNo/WkSgg4yxF1n4/HcNzz3Caco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 16:40:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0fcv8rpdw2"
+        },
+        {
+          "Name": "label",
+          "Value": "img/shop/shop/vanilla.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZIvTriNR3z6ME163DNo/WkSgg4yxF1n4/HcNzz3Caco="
+        }
+      ]
+    },
+    {
+      "Route": "img/shop/shop/vanilla.jpeg",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\vanilla.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZIvTriNR3z6ME163DNo/WkSgg4yxF1n4/HcNzz3Caco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 16:40:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZIvTriNR3z6ME163DNo/WkSgg4yxF1n4/HcNzz3Caco="
+        }
+      ]
+    },
+    {
       "Route": "img/Untitled design lo.0w6h7a1wle.png",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\Untitled design lo.png",
       "Selectors": [],
@@ -9586,6 +10246,88 @@
       ]
     },
     {
+      "Route": "img/UserImg/Screenshot 2025-03-11 141202.c009ztsu25.png",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\UserImg\\Screenshot 2025-03-11 141202.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TD9TqtxWPp9ZfGLnHOHwbC4ZZnDHyTE2WkneQutkg94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 18:35:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c009ztsu25"
+        },
+        {
+          "Name": "label",
+          "Value": "img/UserImg/Screenshot 2025-03-11 141202.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TD9TqtxWPp9ZfGLnHOHwbC4ZZnDHyTE2WkneQutkg94="
+        }
+      ]
+    },
+    {
+      "Route": "img/UserImg/Screenshot 2025-03-11 141202.png",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\UserImg\\Screenshot 2025-03-11 141202.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TD9TqtxWPp9ZfGLnHOHwbC4ZZnDHyTE2WkneQutkg94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 18:35:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TD9TqtxWPp9ZfGLnHOHwbC4ZZnDHyTE2WkneQutkg94="
+        }
+      ]
+    },
+    {
       "Route": "js/aboutUs.7zizceqvyg.js",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\aboutUs.js",
       "Selectors": [],
@@ -9746,6 +10488,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin/daynamicPage/Indix.3r8b2a0bt1.js",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\daynamicPage\\Indix.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 13:21:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/admin/daynamicPage/Indix.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin/daynamicPage/Indix.js",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\daynamicPage\\Indix.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 13:21:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
         }
       ]
     },

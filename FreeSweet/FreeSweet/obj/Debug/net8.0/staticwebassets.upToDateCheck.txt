@@ -1,4 +1,5 @@
 wwwroot\css\aboutUs.css
+wwwroot\css\admin\Indix.css
 wwwroot\css\admin\style.css
 wwwroot\css\cart.css
 wwwroot\css\ckeckout.css
@@ -28,14 +29,12 @@ wwwroot\img\home\AVdzXMuw.png
 wwwroot\img\home\Celiac.png
 wwwroot\img\home\hq720.jpg
 wwwroot\img\home\OIP.jpg
-wwwroot\img\home\shop\chocolate cake\1.jpeg
-wwwroot\img\home\shop\chocolate cake\2.jpeg
-wwwroot\img\home\shop\chocolate.jpeg
+wwwroot\img\home\shop\chocolate cake\chocolate2.jpeg
+wwwroot\img\home\shop\chocolate cake\chocolate3.jpeg
 wwwroot\img\home\shop\chocolate1.jpg
 wwwroot\img\home\shop\Gluten-free-Apple-Bread-360x480.jpg.webp
 wwwroot\img\home\shop\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp
 wwwroot\img\home\shop\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp
-wwwroot\img\home\shop\strawberry.jpeg
 wwwroot\img\home\shop\strawberry1.jpg
 wwwroot\img\home\shop\vanilla.jpeg
 wwwroot\img\home\StrawberryVanillaCake_132-c2776ede941c419a8e47d1048ea88a3c.jpg
@@ -45,25 +44,30 @@ wwwroot\img\info\ds00319_im04515_mcdc7_celiac_diseasethu_jpg.webp
 wwwroot\img\info\Screenshot 2025-03-11 150006-Photoroom.png
 wwwroot\img\info\Screenshot 2025-03-11 152057.png
 wwwroot\img\logo.png
+wwwroot\img\reprises\Gluten-free-Apple-Bread-360x480.jpg.webp
+wwwroot\img\reprises\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp
+wwwroot\img\reprises\Gluten-free-Banana-Muffins-Recipe.jpg.webp
+wwwroot\img\reprises\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp
 wwwroot\img\Screenshot 2024-12-26 135205-Photoroom.png
 wwwroot\img\shop\Gluten-free-Apple-Bread-360x480.jpg.webp
 wwwroot\img\shop\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp
 wwwroot\img\shop\Gluten-free-Banana-Muffins-Recipe.jpg.webp
 wwwroot\img\shop\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp
+wwwroot\img\shop\Reprises\Gluten-free-Apple-Bread-360x480.jpg.webp
+wwwroot\img\shop\Reprises\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp
+wwwroot\img\shop\Reprises\Gluten-free-Banana-Muffins-Recipe.jpg.webp
 wwwroot\img\shop\Reprises\Gluten-free-Chocolate-Banana-Bread-1.jpg
+wwwroot\img\shop\Reprises\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp
 wwwroot\img\shop\Reprises\Gluten-free-Chocolate-Chip-Banana-Bread.jpg.webp
 wwwroot\img\shop\Reprises\Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.webp
-wwwroot\img\shop\shop\braones.jpeg
 wwwroot\img\shop\shop\braones1.jpg
-wwwroot\img\shop\shop\cheesecake.jpeg
 wwwroot\img\shop\shop\cheesecake1.jpg
-wwwroot\img\shop\shop\cinnamon.jpeg
+wwwroot\img\shop\shop\chocolate1.jpg
+wwwroot\img\shop\shop\chocolate2.jpeg
+wwwroot\img\shop\shop\chocolate3.jpeg
 wwwroot\img\shop\shop\cinnamon1.jpg
-wwwroot\img\shop\shop\cookie pan.jpeg
-wwwroot\img\shop\shop\cookie pan1.jpg
-wwwroot\img\shop\shop\cookies.jpeg
+wwwroot\img\shop\shop\cookiePan1.jpg
 wwwroot\img\shop\shop\cookies1.jpg
-wwwroot\img\shop\shop\dounet.jpeg
 wwwroot\img\shop\shop\dounet1.jpg
 wwwroot\img\shop\shop\img1.jpeg
 wwwroot\img\shop\shop\img2.jpeg
@@ -71,11 +75,15 @@ wwwroot\img\shop\shop\img3.jpeg
 wwwroot\img\shop\shop\img4.jpeg
 wwwroot\img\shop\shop\img5.jpeg
 wwwroot\img\shop\shop\khnafeh.jpeg
+wwwroot\img\shop\shop\strawberry1.jpg
+wwwroot\img\shop\shop\vanilla.jpeg
 wwwroot\img\Untitled design lo.png
 wwwroot\img\Untitled design new.png
 wwwroot\img\Untitled design.png
+wwwroot\img\UserImg\Screenshot 2025-03-11 141202.png
 wwwroot\js\aboutUs.js
 wwwroot\js\admin\bootstrap.js
+wwwroot\js\admin\daynamicPage\Indix.js
 wwwroot\js\admin\jquery.min.js
 wwwroot\js\admin\main.js
 wwwroot\js\admin\popper.js

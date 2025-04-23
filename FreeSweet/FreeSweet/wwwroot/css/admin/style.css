@@ -8305,11 +8305,19 @@ a[data-toggle="collapse"] {
   transition: all 0.3s; }
 
 .btn.btn-primary {
-  background: #494ca2;
-  border-color: #494ca2; }
-  .btn.btn-primary:hover, .btn.btn-primary:focus {
-    background: #494ca2 !important;
-    border-color: #494ca2 !important; }
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+    .btn.btn-primary:hover, .btn.btn-primary:focus {
+        background: white !important;
+        border-color: white !important;
+    }
 
 .footer p {
   color: rgba(255, 255, 255, 0.5); }

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<FreeSweet.Models.Recipe>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link href="~/css/recipes.css" rel="stylesheet" />
+
+
+<p>
+    <a class="btn btn-primary" asp-controller="Admin" asp-action="CreateRecipe">Create New</a>
+</p>
+@foreach (var item in Model)
+{
+    <div class="card">
+        <img src="/img/shop/Reprises/@item.Img1" alt="Gluten-Free Banana Muffins">
+        <div class="card-content">
+            <h2>@item.Name</h2>
+            <p>@item.Description</p>
+
+            @* <button class="btn btn-primary" onclick="location.href='@Url.Action("RecipeDetalis", "Admin", new { id = item.Id })'"> *@
+            @*     Read More *@
+            @* </button> *@
+
+            <a class="btn btn-primary" asp-controller="Admin" asp-action="EditRecipe" asp-route-id="@item.Id">Edit</a> |
+            <a class="btn btn-primary" asp-controller="Admin" asp-action="RecipeDetalis" asp-route-id="@item.Id">Details</a> |
+            <a class="btn btn-primary" asp-controller="Admin" asp-action="DeleteRecipe" asp-route-id="@item.Id">Delete</a>
+        </div>
+    </div>
+}

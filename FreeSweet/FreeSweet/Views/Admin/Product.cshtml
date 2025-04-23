@@ -1,0 +1,72 @@
+﻿@model IEnumerable<FreeSweet.Models.Product>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link href="~/css/shop.css" rel="stylesheet" />
+
+<p >
+    <a asp-controller="Admin" asp-action="CreateProduct">Create New Product</a>
+</p>
+
+<style>
+    .btn-btnprimary{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: white;
+        color: teal;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+        
+    }
+
+    .btn-btndanger{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: white;
+        color: teal;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+</style>
+<div class="item">
+    @foreach (var item in Model)
+    {
+        <div class="card" style="width: 18rem;" data-category="cake">
+            <img src="/img/shop/shop/@item.Img1" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@item.Name</h5>
+                <p class="card-text">From @item.Price jd </p>
+                <div class="rating">
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    @* <i class="fa-solid fa-cart-shopping"></i> *@
+                </div>
+                <div class="d-flex justify-content-between">
+
+                <a asp-area="" asp-controller="Admin" asp-action="ProductDetalis" class="btn btn-primary" asp-route-id="@item.Id"> View Item </a>
+                    <a asp-area="" asp-controller="Admin" asp-action="EditProduct" class="btn btn-primary" asp-route-id="@item.Id"> Edit Item </a>
+                <form method="post" action="@Url.Action("DeleteProduct", "Admin")" onsubmit="return confirm('Are you sure you want to delete this department?');">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <button type="submit" class="btn btn-danger">Delete Item</button>
+                </form>
+                </div>
+
+             
+            </div>
+        </div>
+    }
+</div>
+
+<script src="~/js/shop.js"></script>

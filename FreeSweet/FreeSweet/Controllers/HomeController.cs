@@ -23,8 +23,8 @@ namespace FreeSweet.Controllers
 
         public IActionResult Index()
         {
-            var products = _context.Products.ToList();
-            var recipes = _context.Recipes.ToList();
+            var products = _context.Products.Take(4).ToList();
+            var recipes = _context.Recipes.Take(4).ToList();
             var viewModel = new ProductRecipeViewModel
             {
                 Products = products,
@@ -56,7 +56,7 @@ namespace FreeSweet.Controllers
                 secialOrder.Id = 0;
                 _context.SecialOrders.Add(secialOrder);
                 _context.SaveChanges();
-                return RedirectToAction("", "Admin");
+                return RedirectToAction("Index", "Home");
             }
             return View();
         }
@@ -80,89 +80,64 @@ namespace FreeSweet.Controllers
             return View(_context.Recipes.ToList());
         }
 
-        //public IActionResult DetailsRecipes(int id)
-        public IActionResult DetailsRecipes()
+       
+        public IActionResult DetailsRecipes(int id)
         {
-            //if (id == null)
-            //{
-            //    return NotFound();
-            //}
-
-            //var racipes = _context.Recipes.FirstOrDefault(x => x.Id == id);
-            //if (racipes == null) 
-            //{
-            //    return NotFound();
-            //}
-
-            //return View(racipes);
-            return View();
-        }
-
-
-
-
-
-        public IActionResult Shop()
-        {
-            return View(_context.Products.ToList());
-        }
-
-
-        //public IActionResult Products(int? id)
-        public IActionResult Products()
-        {
-            //    if (id == null)
-            //    {
-            //        return NotFound();
-            //    }
-
-            //    var product = _context.Products
-            //        .FirstOrDefault(m => m.Id == id);
-            //    if (product == null)
-            //    {
-            //        return NotFound();
-            //    }
-
-            //    return View(product);
-            return View();
-
-        }
-
-        public IActionResult CakeProducts()
-        {
-            var cakeCategory = _context.Categories.FirstOrDefault(c => c.Name == "Cake");
-            if (cakeCategory == null)
-            {
-                return NotFound(); 
-            }
-            var products = _context.Products.Where(p => p.CategoryId == cakeCategory.Id).ToList();
-
-            return View(products);
-        }
-
-        public IActionResult WesternProducts()
-        {
-            var westrenCategory = _context.Categories.FirstOrDefault(c => c.Name == "Western");
-            if (westrenCategory == null)
+            if (id == null)
             {
                 return NotFound();
             }
-            var products = _context.Products.Where(p => p.CategoryId == westrenCategory.Id).ToList();
 
-            return View(products);
-        }
-
-        public IActionResult ArabicProducts()
-        {
-            var arabicCategory = _context.Categories.FirstOrDefault(c => c.Name == "Arabic");
-            if (arabicCategory == null)
+            var racipes = _context.Recipes.FirstOrDefault(x => x.Id == id);
+            if (racipes == null)
             {
                 return NotFound();
             }
-            var products = _context.Products.Where(p => p.CategoryId == arabicCategory.Id).ToList();
 
-            return View(products);
+            return View(racipes);
+
         }
+
+        
+
+        public IActionResult Shop(int? Id)
+        {
+            ViewBag.SelectedCategoryId = Id;
+            if (Id == null)
+            {
+                return View(_context.Products.ToList());
+            }
+            else
+            {
+                var cakeCategory = _context.Categories.FirstOrDefault(c => c.Id == Id);
+                if (cakeCategory == null)
+                {
+                    return NotFound();
+                }
+                var products = _context.Products.Where(p => p.CategoryId == cakeCategory.Id).ToList();
+
+                return View(products);
+            }
+        }
+
+        public IActionResult Products(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var product = _context.Products
+                .FirstOrDefault(m => m.Id == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            return View(product);
+        }
+
+
 
 
         public IActionResult CountactUs()

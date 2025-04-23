@@ -1,4 +1,104 @@
 ﻿@{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-<h1>hello</h1>
+
+<link href="~/css/admin/indix.css" rel="stylesheet" />
+
+<main class="main-content">
+    <header>
+        <div class="header-content">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="user-info">
+                <i class="fas fa-bell"></i>
+                <div class="user-profile">
+                    <img src="https://via.placeholder.com/40" alt="User Profile">
+                    <span>Admin User</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="dashboard-content">
+        <!-- Stats Cards -->
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-icon" style="background-color: #ff6b6b;">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>Total Orders</h3>
+                    <p>1,234</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background-color: #4ecdc4;">
+                    <i class="fas fa-dollar-sign"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>Revenue</h3>
+                    <p>$45,678</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background-color: #45b7d1;">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>Customers</h3>
+                    <p>892</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background-color: #96ceb4;">
+                    <i class="fas fa-box"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>Products</h3>
+                    <p>456</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Orders Table -->
+        <div class="recent-orders">
+            <h2>Recent Orders</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Product</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#12345</td>
+                        <td>John Doe</td>
+                        <td>iPhone 13 Pro</td>
+                        <td>$999</td>
+                        <td><span class="status completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>#12346</td>
+                        <td>Jane Smith</td>
+                        <td>MacBook Air</td>
+                        <td>$1299</td>
+                        <td><span class="status pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>#12347</td>
+                        <td>Mike Johnson</td>
+                        <td>AirPods Pro</td>
+                        <td>$249</td>
+                        <td><span class="status processing">Processing</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>

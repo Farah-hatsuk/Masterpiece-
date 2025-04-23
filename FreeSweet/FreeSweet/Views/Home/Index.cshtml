@@ -85,10 +85,10 @@
     <div class="item">
         @foreach (var product in Model.Products){
         <div class="card" style="width: 18rem;" >
-            <img src="/img/home/shop/chocolate1.jpg" class="card-img-top" alt="...">
+            <img src="/img/shop/shop/@product.Img1" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Chocolate Cake</h5>
-                <p class="card-text">From 5 jd </p>
+                <h5 class="card-title">@product.Name</h5>
+                <p class="card-text">From @product.Price jd </p>
                 <div class="rating">
                     <div class="star">
                         <i class="fa-solid fa-star"></i>
@@ -100,71 +100,11 @@
 
                     <i class="fa-solid fa-cart-shopping"></i>
                 </div>
-                <a href="/html/prodect.html" target="_blank" class="btn btn-primary">View Item </a>
+              
+               <a asp-area="" asp-controller="Home" asp-action="Products" class="btn btn-primary" asp-route-id="@product.Id"> View Item </a>
             </div>
         </div>
         }
-
-        @* <div class="card" style="width: 18rem;"> *@
-        @*     <img src="/img/home/shop/vanilla.jpeg" class="card-img-top" alt="..."> *@
-        @*     <div class="card-body"> *@
-        @*         <h5 class="card-title">Vanilla Cake</h5> *@
-        @*         <p class="card-text">From 5 jd </p> *@
-        @*         <div class="rating"> *@
-        @*             <div class="star"> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*             </div> *@
-
-        @*             <i class="fa-solid fa-cart-shopping"></i> *@
-        @*         </div> *@
-        @*         <a href="#" class="btn btn-primary">View Item </a> *@
-        @*     </div> *@
-        @* </div> *@
-
-        @* <div class="card" style="width: 18rem;"> *@
-        @*     <img src="/img/home/shop/strawberry1.jpg" class="card-img-top" alt="..."> *@
-        @*     <div class="card-body"> *@
-        @*         <h5 class="card-title">Strawberry Cake</h5> *@
-        @*         <p class="card-text">From 5 jd </p> *@
-        @*         <div class="rating"> *@
-        @*             <div class="star"> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-regular fa-star"></i> *@
-        @*             </div> *@
-
-        @*             <i class="fa-solid fa-cart-shopping"></i> *@
-        @*         </div> *@
-        @*         <a href="#" class="btn btn-primary">View Item </a> *@
-        @*     </div> *@
-        @* </div> *@
-
-        @* <div class="card" style="width: 18rem;"> *@
-        @*     <img src="/img/home/shop/strawberry1.jpg" class="card-img-top" alt="..."> *@
-        @*     <div class="card-body"> *@
-        @*         <h5 class="card-title">Strawberry Cake</h5> *@
-        @*         <p class="card-text">From 5 jd </p> *@
-        @*         <div class="rating"> *@
-        @*             <div class="star"> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-solid fa-star"></i> *@
-        @*                 <i class="fa-regular fa-star"></i> *@
-        @*             </div> *@
-
-        @*             <i class="fa-solid fa-cart-shopping"></i> *@
-        @*         </div> *@
-        @*         <a href="#" class="btn btn-primary">View Item </a> *@
-        @*     </div> *@
-        @* </div> *@
-
     </div>
 
     <a href="/html/shop.html" class="Explore"><button>Explore more </button></a>
@@ -257,49 +197,9 @@
             </div>
         </div>
         }
-
-        @* <div class="card" style="width: 18rem;"> *@
-
-        @*     <div class="card-body"> *@
-        @*         <h5 class="card-title">Gluten-free Apple <br>Bread</h5> *@
-        @*     </div> *@
-
-        @*     <img src="/img/home/shop/Gluten-free-Apple-Bread-360x480.jpg.webp" class="card-img-top" alt="..."> *@
-
-        @*     <div class="card-body"> *@
-        @*         <a href="#" class="btn btn-primary">View Item </a> *@
-        @*     </div> *@
-        @* </div> *@
-
-        @* <div class="card" style="width: 18rem;"> *@
-        @*     <div class="card-body"> *@
-        @*         <h5 class="card-title">Gluten-free Apple Cinnamon Baked Oatmeal Squares</h5> *@
-
-
-        @*     </div> *@
-        @*     <img src="/img/home/shop/Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp" *@
-        @*          class="card-img-top" alt="..."> *@
-        @*     <div class="card-body"> *@
-        @*         <a href="#" class="btn btn-primary">View Item </a> *@
-        @*     </div> *@
-        @* </div> *@
-
-        @* <div class="card" style="width: 18rem;"> *@
-        @*     <div class="card-body"> *@
-        @*         <h5 class="card-title">Gluten-free Chocolate Banana Bread</h5> *@
-
-
-        @*     </div> *@
-        @*     <img src="/img/home/shop/Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp" class="card-img-top" *@
-        @*          alt="..."> *@
-        @*     <div class="card-body"> *@
-        @*         <a href="/html/Reprises1.html" class="btn btn-primary">View Item </a> *@
-        @*     </div> *@
-
-        @* </div> *@
     </div>
 
-    <a href="/html/recipes.html" class="Explore"><button>Explore more </button></a>
+    <a  asp-controller="Home" asp-action="Shop" class="Explore">Explore more </a>
 
 
 

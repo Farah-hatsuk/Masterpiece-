@@ -1,0 +1,134 @@
+﻿@model FreeSweet.Models.Product
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link href="~/css/prodect.css" rel="stylesheet" />
+
+
+@* <div> *@
+@*     <h4>Product</h4> *@
+@*     <hr /> *@
+@*     <dl class="row"> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Name) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Name) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Price) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Price) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Size) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Size) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Description) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Description) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Type) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Type) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Img1) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Img1) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Img2) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Img2) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Img3) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Img3) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Img4) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Img4) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Rating) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Rating) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Category) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Category.Id) *@
+@*         </dd> *@
+@*     </dl> *@
+@* </div> *@
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<div class="shop-section">
+<div class="product-details">
+    <!-- Slider Section -->
+    <div class="slider">
+        <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img1)" alt="Image Of product"></div>
+        @if (!string.IsNullOrEmpty(Model.Img2))
+        {
+            <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img2)" alt="Image Of product"></div>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Img3))
+        {
+            <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img3)" alt="Image Of product"></div>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Img4))
+        {
+            <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img4)" alt="Image Of product"></div>
+        }
+
+    </div>
+
+    <!-- Product Information -->
+    <div class="product-info">
+        <h3>  @Html.DisplayFor(model => model.Name)</h3>
+        <p> @Html.DisplayFor(model => model.Description) </p>
+        <p class="price" id="price">@Html.DisplayFor(model => model.Price) JD</p>
+        <p>Mini : 5jd</p>
+        <p> Small : 15 jd </p>
+        <p> Medium : 20 jd </p>
+        <p> Large : 30 jd </p>
+        <div class="options">
+            <select id="size">
+                <option value="mini">Mini</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            @* <input type="number" value="1" min="1"> *@
+            <br>
+            @* <textarea placeholder="Notes" rows="4" cols="20"></textarea> *@
+        </div>
+        <a href="/html/cart.html"><button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button></a>
+        <br />
+        <a href="/html/cart.html"><button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button></a>
+    </div>
+</div>
+</div>

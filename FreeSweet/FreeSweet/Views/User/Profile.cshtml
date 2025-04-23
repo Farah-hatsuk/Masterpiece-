@@ -6,7 +6,7 @@
     <!-- Sidebar -->
     <div class="sidebar">
         <!-- Profile Image -->
-        <img src="@Model.Img" class="profile-image" alt="Profile">
+        <img src="/img/UserImg/@Model.Img" class="profile-image" alt="Profile">
         <!-- Profile Info -->
         @* <div class="profile-info"> *@
         @*     <h2>@Context.Session.GetString("UserName")</h2> *@
@@ -84,24 +84,28 @@
         </div>
 
         <!-- Reset Password Tab -->
-        @* <div id="resetTab" class="tab-content"> *@
-        @*     <form class="profile-view"> *@
-        @*         <h2>Reset Password</h2> *@
-        @*         <div class="form-group"> *@
-        @*             <label class="info-label">Current Password</label> *@
-        @*             <input type="password" class="input-field"> *@
-        @*         </div> *@
-        @*         <div class="form-group"> *@
-        @*             <label class="info-label">New Password</label> *@
-        @*             <input type="password" class="input-field"> *@
-        @*         </div> *@
-        @*         <div class="form-group"> *@
-        @*             <label class="info-label">Confirm Password</label> *@
-        @*             <input type="password" class="input-field"> *@
-        @*         </div> *@
-        @*         <button type="submit" class="save-button">Update Password</button> *@
-        @*     </form> *@
-        @* </div> *@
+        <div id="resetTab" class="tab-content">
+            <form asp-controller="User" asp-action="ResetPassword" method="post" class="profile-view">
+                <h2>Reset Password</h2> 
+                 <div class="form-group"> 
+                    <label class="info-label">Current Password</label> 
+                    <input type="password" name="currentPassword" class="input-field" required>
+                </div> 
+                <div class="form-group"> 
+                     <label class="info-label">New Password</label> 
+                    <input type="password" name="newPassword" class="input-field" required>
+                </div> 
+               <div class="form-group"> 
+                    <label class="info-label">Confirm Password</label>
+                    <input type="password" name="confirmPassword" class="input-field" required>
+                </div>
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <p>@ViewBag.ErrorMessage</p>
+                }
+                 <button type="submit" class="save-button">Update Password</button> 
+             </form> 
+         </div>
 
         <!-- Order History Tab -->
         @* <div id="historyTab" class="tab-content"> *@
