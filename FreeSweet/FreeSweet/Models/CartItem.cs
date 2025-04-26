@@ -19,7 +19,7 @@ public partial class CartItem
 
     public double? Price { get; set; }
 
-    public virtual Product Id1 { get; set; } = null!;
+    public virtual Cart? Cart { get; set; }
 
-    public virtual Cart IdNavigation { get; set; } = null!;
+    public virtual Product? Product { get; set; }
 }

@@ -330,6 +330,7 @@ button {
     transition: background-color 0.3s;
 }
 
+
     .btn-primary:hover {
         background-color: #ddd;
         color: teal;

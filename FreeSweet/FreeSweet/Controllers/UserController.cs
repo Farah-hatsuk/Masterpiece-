@@ -28,6 +28,7 @@ namespace FreeSweet.Controllers
         public IActionResult Registration(User user)
         {
             user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+            user.Role = "user";
             _context.Users.Add(user);
             _context.SaveChanges();
 
@@ -37,33 +38,30 @@ namespace FreeSweet.Controllers
         }
 
 
+    
+
         [HttpPost]
         public async Task<IActionResult> Login(User user)
         {
-            var userinfo = _context.Users.FirstOrDefault(u => u.Email == user.Email && u.Password == user.Password);
-            if (userinfo.Role == "admin")
-            {
-                return RedirectToAction("Index", "Admin");
-            }
-            if (userinfo != null)
-            {
-                HttpContext.Session.SetInt32("userId", userinfo.Id);
-                HttpContext.Session.SetString("UserName", userinfo.Name ?? "");
-                HttpContext.Session.SetString("UserEmail", userinfo.Email);
-                HttpContext.Session.SetString("UserImg", userinfo.Img ?? "");
-                HttpContext.Session.SetString("UserPhone", userinfo.Phone ?? "");
-                HttpContext.Session.SetString("UserAddress", userinfo.Address ?? "");
-                HttpContext.Session.SetString("UserPassword", userinfo.Password);
+            var userinfo = _context.Users.FirstOrDefault(u => u.Email == user.Email);
 
+            if (userinfo != null && BCrypt.Net.BCrypt.Verify(user.Password, userinfo.Password))
+            {
+                if (userinfo.Role == "admin")
+                {
+                    return RedirectToAction("Index", "Admin");
+                }
+
+                HttpContext.Session.SetInt32("userId", userinfo.Id);
+                HttpContext.Session.SetString("UserEmail", userinfo.Email);
                 await HttpContext.Session.CommitAsync();
 
-             
                 return RedirectToAction("Index", "Home");
             }
             else
             {
                 ModelState.AddModelError("", "Email or password is incorrect");
-                return View();
+                return View("RegistrationLogin");
             }
         }
 
@@ -124,6 +122,8 @@ namespace FreeSweet.Controllers
                 HttpContext.Session.SetString("UserPhone", user.Phone ?? "");
                 HttpContext.Session.SetString("UserAddress", user.Address ?? "");
 
+                TempData["SuccessMessage"] = "Profile updated successfully!";
+
                 return RedirectToAction("Profile");
             }
 
@@ -131,56 +131,89 @@ namespace FreeSweet.Controllers
         }
 
 
+        //[HttpPost]
+        //public IActionResult ResetPassword(string currentPassword, string newPassword, string confirmPassword)
+        //{
+        //    if (newPassword != confirmPassword)
+        //    {
+        //        ViewBag.ErrorMessage = "Passwords do not match.";
+        //        return View();
+        //    }
+        //    string userEmail = HttpContext.Session.GetString("UserEmail");
+        //    var user = _context.Users.FirstOrDefault(u => u.Email == userEmail);
+        //    if (currentPassword != user.Password)
+        //    {
+        //        ViewBag.ErrorMessage = "Current Passwords do not match.";
+        //        return View();
+        //    }
+
+        //        if (!user.Password.StartsWith("$2a$"))
+        //    {
+
+        //        user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+        //        _context.SaveChanges();
+        //    }
+        //    if (user != null)
+        //    {
+
+        //        if (BCrypt.Net.BCrypt.Verify(currentPassword, user.Password))
+        //        {
+
+        //            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(newPassword);
+
+
+        //            user.Password = hashedPassword;
+        //            _context.SaveChanges();
+        //            return RedirectToAction("Profile");
+        //        }
+        //        else
+        //        {
+
+        //            ViewBag.ErrorMessage = "Incorrect old password.";
+        //            return View();
+        //        }
+        //    }
+        //    else
+        //    {
+
+        //        ViewBag.ErrorMessage = "User not found.";
+        //        return View();
+        //    }
+
+        //}
+
         [HttpPost]
         public IActionResult ResetPassword(string currentPassword, string newPassword, string confirmPassword)
         {
             if (newPassword != confirmPassword)
             {
-                ViewBag.ErrorMessage = "Passwords do not match.";
-                return View();
+                TempData["ErrorMessage"] = "Passwords do not match.";
+                return RedirectToAction("Profile");
             }
+
             string userEmail = HttpContext.Session.GetString("UserEmail");
             var user = _context.Users.FirstOrDefault(u => u.Email == userEmail);
-            if (currentPassword != user.Password)
+
+            if (user == null)
             {
-                ViewBag.ErrorMessage = "Current Passwords do not match.";
-                return View();
+                TempData["ErrorMessage"] = "User not found.";
+                return RedirectToAction("Profile");
             }
 
-                if (!user.Password.StartsWith("$2a$"))
+            if (!BCrypt.Net.BCrypt.Verify(currentPassword, user.Password))
             {
-
-                user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
-                _context.SaveChanges();
-            }
-            if (user != null)
-            {
-
-                if (BCrypt.Net.BCrypt.Verify(currentPassword, user.Password))
-                {
-
-                    string hashedPassword = BCrypt.Net.BCrypt.HashPassword(newPassword);
-
-
-                    user.Password = hashedPassword;
-                    _context.SaveChanges();
-                    return RedirectToAction("HrProfile");
-                }
-                else
-                {
-
-                    ViewBag.ErrorMessage = "Incorrect old password.";
-                    return View();
-                }
-            }
-            else
-            {
-
-                ViewBag.ErrorMessage = "User not found.";
-                return View();
+                TempData["ErrorMessage"] = "Incorrect current password.";
+                return RedirectToAction("Profile");
             }
 
+            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(newPassword);
+            user.Password = hashedPassword;
+            _context.SaveChanges();
+
+            TempData["SuccessMessage"] = "Password updated successfully!";
+            return RedirectToAction("Profile");
         }
+
 
 
 
@@ -189,16 +222,16 @@ namespace FreeSweet.Controllers
             return View();
         }
 
-        public IActionResult Cart() 
-        {
-            return View();
-        }
+        //public IActionResult Cart() 
+        //{
+        //    return View();
+        //}
 
 
-        public IActionResult Checkout()
-        {
-            return View();
-        }
+        //public IActionResult Checkout()
+        //{
+        //    return View();
+        //}
        
     }
 

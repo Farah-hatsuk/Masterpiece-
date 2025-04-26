@@ -8,6 +8,9 @@
 
 <h4>Category</h4>
 <hr />
+<div>
+    <a class="btn btn-primary" asp-controller="Admin" asp-action="Category">Back to List</a>
+</div>
 <div class="row">
     <div class="col-md-4">
         <form asp-action="EditCategory">
@@ -20,7 +23,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Image" class="control-label"></label>
-                <input asp-for="Image" class="form-control" />
+                <input type="file" asp-for="Image" class="form-control" />
                 <span asp-validation-for="Image" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -30,7 +33,5 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 

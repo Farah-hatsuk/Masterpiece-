@@ -56,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFJlY2lwZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Orange/Desktop/ASP.NET Core MVC1/FreeSweet/FreeSweet/Views/Admin/FeedBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRmVlZEJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Orange/Desktop/ASP.NET Core MVC1/FreeSweet/FreeSweet/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,6 +78,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Orange/Desktop/ASP.NET Core MVC1/FreeSweet/FreeSweet/Views/Admin/RecipeDetalis.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVjaXBlRGV0YWxpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Orange/Desktop/ASP.NET Core MVC1/FreeSweet/FreeSweet/Views/Admin/SpecialOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3BlY2lhbE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Orange/Desktop/ASP.NET Core MVC1/FreeSweet/FreeSweet/Views/Admin/SpecialOrderDetalis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3BlY2lhbE9yZGVyRGV0YWxpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Orange/Desktop/ASP.NET Core MVC1/FreeSweet/FreeSweet/Views/Cart/AddToCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxBZGRUb0NhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Orange/Desktop/ASP.NET Core MVC1/FreeSweet/FreeSweet/Views/Home/AboutUs.cshtml]

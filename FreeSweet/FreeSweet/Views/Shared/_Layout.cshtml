@@ -35,28 +35,21 @@
                 <li><a class="aNav" asp-area="" asp-controller="Home" asp-action="Recipes">Recipes</a></li>
                 <li><a class="aNav" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us </a></li>
                 <li><a class="aNav" asp-area="" asp-controller="Home" asp-action="CountactUs">Countact Us </a></li>
-                 @if (!string.IsNullOrEmpty(Context.Session.GetString("UserName"))){
+                @if (!string.IsNullOrEmpty(Context.Session.GetString("userId")))
+                {
                 
                     <li><a class="aNav" asp-area="" asp-controller="User" asp-action="Profile">Profile</a></li>
                     <li><a class="aNav" asp-area="" asp-controller="User" asp-action="Logout">Logout</a></li>
+                    <li><a class="aNav" asp-area="" asp-controller="User" asp-action="Cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
 
                  }
                   else{
                     <li><a class="aNav" asp-area="" asp-controller="User" asp-action="RegistrationLogin">Login/Rigester</a></li>
 
                   }
-                <li><a class="aNav" asp-area="" asp-controller="User" asp-action="Cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
-
-                @* <li><a class="aNav" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li> *@
-                @* <li><a class="aNav" asp-area="" asp-controller="Home" asp-action="Info">Information</a></li> *@
-                @* <li><a class="aNav" asp-area="" asp-controller="Home" asp-action="Shop">Shop</a></li> *@
-                @* <li><a class="aNav" asp-area="" asp-controller="Home" asp-action="Recipes">Recipes</a></li> *@
-                @* <li><a class="aNav" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us </a></li> *@
               
-                @* <li><a class="aNav" asp-area="" asp-controller="User" asp-action="Profile">Profile</a></li> *@
-                @* <li><a class="aNav" asp-area="" asp-controller="Home" asp-action="AboutUs">Sign In</a></li> *@
-                @* <li><a class="aNav" asp-area="" asp-controller="Home" asp-action="AboutUs">Rigester</a></li> *@
-                @* <li><a class="aNav" asp-area="" asp-controller="User" asp-action="Cart"><i class="fa-solid fa-cart-shopping"></i></a></li> *@
+
+     
 
             </ul>
 
@@ -186,7 +179,7 @@
     </footer>
 
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script> 
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="https://kit.fontawesome.com/20637403cc.js" crossorigin="anonymous"></script>

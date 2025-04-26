@@ -29,9 +29,7 @@ public partial class Product
 
     public int Rating { get; set; }
 
-    public virtual Cart? Cart { get; set; }
-
-    public virtual CartItem? CartItem { get; set; }
+    public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
 
     public virtual Category Category { get; set; } = null!;
 

@@ -1,4 +1,4 @@
-
+﻿
 
 .shop {
     text-align: center;
@@ -76,6 +76,7 @@ header h1 {
 }
 
 .card-title {
+    color: white;
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
@@ -147,6 +148,8 @@ header h1 {
 .Explore button:hover {
     background-color: #005f5f;
 }
+
+
 
 @media (max-width: 426px){
     .images-titles .shuffle {

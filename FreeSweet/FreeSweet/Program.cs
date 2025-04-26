@@ -15,7 +15,7 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromSeconds(1000);
+    options.IdleTimeout = TimeSpan.FromMinutes(1000);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });

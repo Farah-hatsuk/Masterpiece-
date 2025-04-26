@@ -1,7 +1,4 @@
-﻿
-@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model FreeSweet.Models.Contect
 
 
 <link href="~/css/css/homestyles/bootstrap.min.css" rel="stylesheet" />
@@ -45,7 +42,7 @@
 						<h2>Contact With Us</h2>
 						<p>If you have any questions please fell free to contact with us.</p>
 						<!-- Form -->
-						<form class="form" method="post" asp-action="Contact" asp-controller="HomePages">
+						<form class="form" method="post" asp-action="CountactUs" asp-controller="Home">
 							<div class="row">
 								<div class="col-lg-6">
 									<div class="form-group">
@@ -57,11 +54,6 @@
 										<input type="email" name="Email" placeholder="Email" required>
 									</div>
 								</div>
-								@* <div class="col-lg-12"> *@
-								@* 	<div class="form-group"> *@
-								@* 		<input type="text" name="Subject" placeholder="Subject" required> *@
-								@* 	</div> *@
-								@* </div> *@
 								<div class="col-lg-12">
 									<div class="form-group">
 										<textarea name="Message" placeholder="Your Message" required></textarea>

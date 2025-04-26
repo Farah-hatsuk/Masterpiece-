@@ -54,11 +54,6 @@ public partial class MyDbContext : DbContext
             entity.HasOne(d => d.IdNavigation).WithOne(p => p.Cart)
                 .HasForeignKey<Cart>(d => d.Id)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Cart__Id__5AEE82B9");
-
-            entity.HasOne(d => d.Id1).WithOne(p => p.Cart)
-                .HasForeignKey<Cart>(d => d.Id)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Cart__Id__59FA5E80");
         });
 
@@ -68,19 +63,15 @@ public partial class MyDbContext : DbContext
 
             entity.ToTable("CartItem");
 
-            entity.Property(e => e.Id)
-                .ValueGeneratedOnAdd()
-                .HasColumnName("id");
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Size).HasMaxLength(100);
 
-            entity.HasOne(d => d.IdNavigation).WithOne(p => p.CartItem)
-                .HasForeignKey<CartItem>(d => d.Id)
-                .OnDelete(DeleteBehavior.ClientSetNull)
+            entity.HasOne(d => d.Cart).WithMany(p => p.CartItems)
+                .HasForeignKey(d => d.CartId)
                 .HasConstraintName("FK__CartItem__Size__1CBC4616");
 
-            entity.HasOne(d => d.Id1).WithOne(p => p.CartItem)
-                .HasForeignKey<CartItem>(d => d.Id)
-                .OnDelete(DeleteBehavior.ClientSetNull)
+            entity.HasOne(d => d.Product).WithMany(p => p.CartItems)
+                .HasForeignKey(d => d.ProductId)
                 .HasConstraintName("FK__CartItem__id__1DB06A4F");
         });
 
@@ -113,19 +104,17 @@ public partial class MyDbContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__Orders__3214EC077EEA5561");
 
-            entity.Property(e => e.Id).ValueGeneratedOnAdd();
             entity.Property(e => e.Address).HasMaxLength(100);
             entity.Property(e => e.Date).HasColumnType("datetime");
             entity.Property(e => e.Note).HasMaxLength(500);
 
-            entity.HasOne(d => d.IdNavigation).WithOne(p => p.Order)
-                .HasForeignKey<Order>(d => d.Id)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Orders__Id__5DCAEF64");
-
             entity.HasOne(d => d.Payment).WithMany(p => p.Orders)
                 .HasForeignKey(d => d.PaymentId)
                 .HasConstraintName("FK_Orders_Payment");
+
+            entity.HasOne(d => d.Users).WithMany(p => p.Orders)
+                .HasForeignKey(d => d.UsersId)
+                .HasConstraintName("UserId");
         });
 
         modelBuilder.Entity<OrderItem>(entity =>

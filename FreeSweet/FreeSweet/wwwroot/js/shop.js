@@ -22,21 +22,21 @@ function filers(category) {
     })
 }
 
-catagories.forEach((classs) => {
-    // Add event listener to each category
-    classs.addEventListener("click", function() {
-    // Update active class
+//catagories.forEach((classs) => {
+//    // Add event listener to each category
+//    classs.addEventListener("click", function() {
+//    // Update active class
 
-        catagories.forEach((removes) => removes.classList.remove("active"));
-        classs.classList.add("active")
+//        catagories.forEach((removes) => removes.classList.remove("active"));
+//        classs.classList.add("active")
 
-        // Update active class
-        let selectedCategory = classs.getAttribute('data-category');
+//        // Update active class
+//        let selectedCategory = classs.getAttribute('data-category');
     
-            // Call the function to filter boxes
-        filers(selectedCategory);
-    })
+//            // Call the function to filter boxes
+//        filers(selectedCategory);
+//    })
 
-})
+//})
 
-filterCategory('all');
+//filterCategory('all');

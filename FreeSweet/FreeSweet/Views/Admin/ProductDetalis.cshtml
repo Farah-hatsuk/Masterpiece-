@@ -80,8 +80,8 @@
 @*     </dl> *@
 @* </div> *@
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+    <a class="btn btn-primary" asp-controller="Admin" asp-action="Product">Back to List</a>
 </div>
 
 <div class="shop-section">
@@ -126,9 +126,8 @@
             <br>
             @* <textarea placeholder="Notes" rows="4" cols="20"></textarea> *@
         </div>
-        <a href="/html/cart.html"><button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button></a>
-        <br />
-        <a href="/html/cart.html"><button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button></a>
+        @* <a href="/html/cart.html"><button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button></a> *@
+
     </div>
 </div>
 </div>

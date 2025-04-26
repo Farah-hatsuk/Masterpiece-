@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.IO;
+using System.Text.RegularExpressions;
 using FreeSweet.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -78,7 +79,7 @@ namespace FreeSweet.Controllers
                 product.Id = 0;
                 _context.Products.Add(product);
                 _context.SaveChanges();
-                return RedirectToAction("", "Admin");
+                return RedirectToAction("Product", "Admin");
             }
             return View();
         }
@@ -108,6 +109,7 @@ namespace FreeSweet.Controllers
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
             return View(product);
         }
+        [HttpPost]
         public IActionResult EditProduct(Product product, IFormFile image1, IFormFile image2, IFormFile image3, IFormFile image4)
         {
             var Pro = _context.Products.Find(product.Id);
@@ -174,7 +176,7 @@ namespace FreeSweet.Controllers
             {
                 string fileName = Path.GetFileName(image.FileName);
 
-                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop", fileName);
+                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/category", fileName);
 
                 using (var stream = new FileStream(path, FileMode.Create))
                 {
@@ -189,7 +191,7 @@ namespace FreeSweet.Controllers
                 category.Id = 0;
                 _context.Categories.Add(category);
                 _context.SaveChanges();
-                return RedirectToAction("", "Admin");
+                return RedirectToAction("Category", "Admin");
             }
             return View();
         }
@@ -225,9 +227,7 @@ namespace FreeSweet.Controllers
 
         public IActionResult Recipe()
         {
-            {
-                return View(_context.Recipes.ToList());
-            }
+            return View(_context.Recipes.ToList());
         }
 
         public IActionResult RecipeDetalis(int id)
@@ -252,12 +252,57 @@ namespace FreeSweet.Controllers
             return View();
         }
 
+        //[HttpPost]
+        //public IActionResult CreateRecipe(Recipe recipe)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        // تحويل كل نص إلى قائمة HTML
+        //        recipe.Ingredient = ConvertToHtmlList(recipe.Ingredient);
+        //        recipe.Instructions = ConvertToHtmlList(recipe.Instructions);
+        //        recipe.Notes = ConvertToHtmlList(recipe.Notes);
+
+        //        _context.Recipes.Add(recipe);
+        //        _context.SaveChanges();
+
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View(recipe);
+        //}
+
         [HttpPost]
-        public IActionResult CreateRecipe(Recipe recipe)
+        public IActionResult CreateRecipe(Recipe recipe, IFormFile image1, IFormFile image2, IFormFile image3, IFormFile image4, IFormFile image5)
         {
+            if (image1 != null || image2 != null || image3 != null || image4 != null || image5 != null)
+            {
+                string fileName1 = Path.GetFileName(image1.FileName);
+                string fileName2 = Path.GetFileName(image2.FileName);
+                string fileName3 = Path.GetFileName(image3.FileName);
+                string fileName4 = Path.GetFileName(image4.FileName);
+                string fileName5 = Path.GetFileName(image5.FileName);
+
+                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop", fileName1, fileName2, fileName3, fileName4, fileName5);
+
+
+
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    image1.CopyTo(stream);
+                    image2.CopyTo(stream);
+                    image3.CopyTo(stream);
+                    image4.CopyTo(stream);
+                    image5.CopyTo(stream);
+                }
+
+                recipe.Img1 = fileName1; 
+                recipe.Img2 = fileName2;
+                recipe.Img3 = fileName3;
+                recipe.Img4 = fileName4;
+                recipe.Img5 = fileName5;
+            }
+
             if (ModelState.IsValid)
             {
-                // تحويل كل نص إلى قائمة HTML
                 recipe.Ingredient = ConvertToHtmlList(recipe.Ingredient);
                 recipe.Instructions = ConvertToHtmlList(recipe.Instructions);
                 recipe.Notes = ConvertToHtmlList(recipe.Notes);
@@ -265,10 +310,12 @@ namespace FreeSweet.Controllers
                 _context.Recipes.Add(recipe);
                 _context.SaveChanges();
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Recipe");
             }
+
             return View(recipe);
         }
+
 
         // دالة لتحويل النص إلى HTML List
         private string ConvertToHtmlList(string text)
@@ -325,7 +372,7 @@ namespace FreeSweet.Controllers
                 _context.Recipes.Update(recipe);
                 _context.SaveChanges();
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Recipe");
             }
             return View(recipe);
         }
@@ -346,6 +393,30 @@ namespace FreeSweet.Controllers
             return RedirectToAction("Recipe", "Admin"); 
         }
 
+        public IActionResult SpecialOrder()
+        {
+            return View(_context.SecialOrders.ToList());
+        }
 
+        public IActionResult SpecialOrderDetalis(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var SpecialOrder = _context.SecialOrders.FirstOrDefault(m => m.Id == id);
+            if (SpecialOrder == null)
+            {
+                return NotFound();
+            }
+
+            return View(SpecialOrder);
+        }
+
+        public IActionResult FeedBack()
+        {
+            return View(_context.Contects.ToList());
+        }
     }
 }

@@ -52,10 +52,11 @@ header h1 {
     padding: 10px;
 }
 
-.product-info h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
+    .product-info h3 {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
 
 .product-info p {
     margin: 10px 0;

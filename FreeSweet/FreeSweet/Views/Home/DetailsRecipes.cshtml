@@ -4,7 +4,7 @@
 <link href="~/css/reprises1.css" rel="stylesheet" />
 
 <div class="recipe">
-    <img src="/img/shop/Reprises/Gluten-free-Chocolate-Banana-Bread-1.jpg">
+    <img src="/img/shop/Reprises/@Model.Img2">
     <h2>@Model.Name</h2>
     <p>@Model.Description</p>
 
@@ -40,10 +40,15 @@
     }
 
     <div class="imgs">
-        <img src="https://mygluten-freekitchen.com/wp-content/uploads/2018/06/Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.webp"
-             alt="">
-        <img src="https://mygluten-freekitchen.com/wp-content/uploads/2018/06/Gluten-free-Chocolate-Banana-Bread-with-mini-chocolate-chips.jpg.webp"
-             alt="">
+        @if (!string.IsNullOrEmpty(Model.Img3))
+        {
+            <img src="/img/shop/Reprises/@Model.Img3" alt="Image 3">
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Img4))
+        {
+            <img src="/img/shop/Reprises/@Model.Img4" alt="Image 4">
+        }
     </div>
 
     <!-- <a href=""><button>back to all recipes</button></a> -->

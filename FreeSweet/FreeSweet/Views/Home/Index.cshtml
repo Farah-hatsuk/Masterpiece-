@@ -129,8 +129,8 @@
         <form>
             <div style="display: flex; gap: 10px;">
                 <div class="mb-3">
-                    <label for="uf-imail" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="uf-imail" aria-describedby="emailHelp">
+                    <label for="Email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                     <label for="uf-iname" class="form-label">Your name</label>
@@ -187,14 +187,17 @@
         <div class="card" style="width: 18rem;">
 
             <div class="card-body">
-                <h5 class="card-title">Gluten-free Apple <br>Bread</h5>
+                    <h5 class="card-title">@recipe.Name</h5>
             </div>
 
-            <img src="/img/home/shop/Gluten-free-Apple-Bread-360x480.jpg.webp" class="card-img-top" alt="...">
+                <img src="img/shop/Reprises/@recipe.Img1" class="card-img-top" alt="...">
 
-            <div class="card-body">
-                <a href="#" class="btn btn-primary">View Item </a>
-            </div>
+            @* <div class="card-body"> *@
+            @*     <a href="#" class="btn btn-primary">View Item </a> *@
+            @* </div> *@
+                <button class="btn btn-primary" onclick="location.href='@Url.Action("DetailsRecipes", "Home", new { id = recipe.Id })'">
+                    Read More
+                </button>
         </div>
         }
     </div>
@@ -222,7 +225,7 @@
             <img src="/img/home/AVdzXMuw.png" alt="Celiac">
         </div>
     </div>
-    <a href=""><button>Explore more </button></a>
+    <a href=""><button  onclick="location.href='@Url.Action("About", "Home")'">Explore more </button></a>
 
 </div>
 

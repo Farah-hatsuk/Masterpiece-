@@ -6,7 +6,9 @@
     <!-- Sidebar -->
     <div class="sidebar">
         <!-- Profile Image -->
-        <img src="/img/UserImg/@Model.Img" class="profile-image" alt="Profile">
+        <img src="@(string.IsNullOrEmpty(Model.Img) ? "https://thumb.ac-illust.com/51/51e1c1fc6f50743937e62fca9b942694_t.jpeg" : "/img/UserImg/" + Model.Img)" class="profile-image" alt="Profile">
+
+        @* <img src="/img/UserImg/@Model.Img" class="profile-image" alt="Profile"> *@
         <!-- Profile Info -->
         @* <div class="profile-info"> *@
         @*     <h2>@Context.Session.GetString("UserName")</h2> *@
@@ -81,10 +83,23 @@
                 </div>
                 <button type="submit" class="save-button">Save Changes</button>
             </form>
+            <br />
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success" role="alert">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
         </div>
 
         <!-- Reset Password Tab -->
         <div id="resetTab" class="tab-content">
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger" role="alert">
+                    @TempData["ErrorMessage"]
+                </div>
+            }
             <form asp-controller="User" asp-action="ResetPassword" method="post" class="profile-view">
                 <h2>Reset Password</h2> 
                  <div class="form-group"> 
@@ -108,33 +123,33 @@
          </div>
 
         <!-- Order History Tab -->
-        @* <div id="historyTab" class="tab-content"> *@
-        @*     <div class="profile-view"> *@
-        @*         <h2>Order History</h2> *@
-        @*         <div class="responsive-table"> *@
-        @*             <table class="order-table"> *@
-        @*                 <thead> *@
-        @*                     <tr> *@
-        @*                         <th>Order ID</th> *@
-        @*                         <th>Recipient</th> *@
-        @*                         <th>Status</th> *@
-        @*                         <th>Total</th> *@
-        @*                         <th>Date</th> *@
-        @*                     </tr> *@
-        @*                 </thead> *@
-        @*                 <tbody> *@
-        @*                     <tr> *@
-        @*                         <td>#SO-13487</td> *@
-        @*                         <td>John Doe</td> *@
-        @*                         <td><span class="status-badge delivered">Delivered</span></td> *@
-        @*                         <td>$2674.00</td> *@
-        @*                         <td>2024-03-15</td> *@
-        @*                     </tr> *@
-        @*                 </tbody> *@
-        @*             </table> *@
-        @*         </div> *@
-        @*     </div> *@
-        @* </div> *@
+        <div id="historyTab" class="tab-content"> 
+             <div class="profile-view">
+                 <h2>Order History</h2> 
+                 <div class="responsive-table"> 
+                     <table class="order-table"> 
+                         <thead> 
+                            <tr> 
+                                <th>Order ID</th> 
+                                <th>Recipient</th> 
+                               <th>Status</th> 
+                               <th>Total</th> 
+                                <th>Date</th> 
+                            </tr> 
+                        </thead> 
+                        <tbody> 
+                            <tr> 
+                                <td>#SO-13487</td> 
+                                <td>John Doe</td> 
+                                <td><span class="status-badge delivered">Delivered</span></td> 
+                                <td>$2674.00</td> 
+                                <td>2024-03-15</td> 
+                            </tr> 
+                         </tbody> 
+                     </table> 
+                </div> 
+            </div> 
+         </div> 
     </div>
 </section>
 

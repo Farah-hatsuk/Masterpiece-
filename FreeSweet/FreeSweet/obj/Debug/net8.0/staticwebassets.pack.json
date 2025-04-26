@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\css\\css\\HomeStyles\\styles.css"
     },
     {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\css\\recipesAdmin.css",
+      "PackagePath": "staticwebassets\\css\\css\\recipesAdmin.css"
+    },
+    {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
@@ -107,6 +111,10 @@
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\Untitled design.png",
       "PackagePath": "staticwebassets\\img\\Untitled design.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\UserImg\\Screenshot 2025-03-11 141136.png",
+      "PackagePath": "staticwebassets\\img\\UserImg\\Screenshot 2025-03-11 141136.png"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\UserImg\\Screenshot 2025-03-11 141202.png",
@@ -241,32 +249,64 @@
       "PackagePath": "staticwebassets\\img\\shop\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp",
-      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Apple-Bread-360x480.jpg.webp"
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Baked-Oatmeal-Squares.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Apple-Baked-Oatmeal-Squares.jpg.png"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp",
-      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.webp"
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Bread-360x480.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Apple-Bread-360x480.jpg.png"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp",
-      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.webp"
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Cinn-Baked-Oatmeal-Squares.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Apple-Cinn-Baked-Oatmeal-Squares.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Apple-Cinnamon-Baked-Oatmeal-Squares-360x480.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-3.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-3.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Banana-Muffins-Recipe.jpg.png"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-1.jpg",
       "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp",
-      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.webp"
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.png"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chip-Banana-Bread.jpg.webp",
-      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chip-Banana-Bread.jpg.webp"
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chip-Banana-Bread.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chip-Banana-Bread.jpg.png"
     },
     {
-      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.webp",
-      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.webp"
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Gluten-free-apple-quick-bread.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Gluten-free-apple-quick-bread.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Making-gluten-free-apple-cinnamon-baked-oatmeal-squares.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Making-gluten-free-apple-cinnamon-baked-oatmeal-squares.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Slice-of-Gluten-free-Apple-Bread.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Slice-of-Gluten-free-Apple-Bread.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\Sliced-Gluten-free-Apple-Cinnamon-Bread.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\Sliced-Gluten-free-Apple-Cinnamon-Bread.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\Reprises\\gluten-free-banana-bread-muffins.jpg.png",
+      "PackagePath": "staticwebassets\\img\\shop\\Reprises\\gluten-free-banana-bread-muffins.jpg.png"
     },
     {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\img\\shop\\shop\\braones1.jpg",
