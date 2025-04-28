@@ -284,5 +284,17 @@ namespace FreeSweet.Controllers
         }
 
 
+        public IActionResult Index()
+        {
+
+            int? userId = HttpContext.Session.GetInt32("userId");
+
+            var cart = _context.Carts
+                .Include(c => c.CartItems)
+                .ThenInclude(ci => ci.Product) // Assuming you have a Product relation
+                .Where(x => x.UsersId == userId).FirstOrDefault(); // أو حسب الـ UserId لو بدك كارت لمستخدم محدد
+
+            return View(cart);
+        }
     }
 }

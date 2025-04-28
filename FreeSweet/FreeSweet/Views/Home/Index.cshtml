@@ -126,40 +126,72 @@
                     type="video/webm">
         </video>
 
-        <form>
+        @* <form method="post" asp-action="SpecialOrder" asp-controller="Home" enctype="multipart/form-data"> *@
+        @*     <div style="display: flex; gap: 10px;"> *@
+        @*         <div class="mb-3"> *@
+        @*             <label for="Email" class="form-label">Email address</label> *@
+        @*             <input type="email" name="Email" class="form-control" id="Email" aria-describedby="emailHelp"> *@
+        @*         </div> *@
+        @*         <div class="mb-3"> *@
+        @*             <label for="Name" class="form-label">Your name</label> *@
+        @*             <input type="text" name="Name" class="form-control" id="Name"> *@
+        @*         </div> *@
+        @*     </div> *@
+        @*     <div style="display: flex; gap: 10px;"> *@
+        @*         <div class="mb-3"> *@
+        @*             <label for="Phone" class="form-label">Your Phone Number</label> *@
+        @*             <input type="number" name="Phone" class="form-control" id="Phone"> *@
+        @*         </div> *@
+        @*         <div class="mb-3"> *@
+        @*             <label for="Date" class="form-label">Date</label> *@
+        @*             <input type="datetime-local" name="Date" class="form-control" id="Date"> *@
+        @*         </div> *@
+             
+        @*     </div> *@
+        @*     <div class="mb-3"> *@
+
+        @*         <label for="Img" class="form-label">Picture</label> *@
+        @*         <input type="file" name="Img" class="form-control" id="Img"> *@
+              
+               
+        @*     </div> *@
+        @*     <div class="mb-3"> *@
+        @*         <label for="Message" class="form-label">Your message</label> *@
+        @*         <textarea class="form-control" name="Message" id="Message" rows="3"></textarea> *@
+        @*     </div> *@
+
+        @*     <button class="submit" type="submit">Submit</button> *@
+        @* </form> *@
+
+        <form method="post" asp-action="SpecialOrder" asp-controller="Home" enctype="multipart/form-data">
             <div style="display: flex; gap: 10px;">
                 <div class="mb-3">
                     <label for="Email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                    <input type="email" name="Email" class="form-control" id="Email" aria-describedby="emailHelp" required>
                 </div>
                 <div class="mb-3">
-                    <label for="uf-iname" class="form-label">Your name</label>
-                    <input type="text" class="form-control" id="uf-iname">
+                    <label for="Name" class="form-label">Your name</label>
+                    <input type="text" name="Name" class="form-control" id="Name" required>
                 </div>
             </div>
             <div style="display: flex; gap: 10px;">
                 <div class="mb-3">
-                    <label for="uf-iname" class="form-label">Your Phone Number</label>
-                    <input type="number" class="form-control" id="uf-iname">
+                    <label for="Phone" class="form-label">Your Phone Number</label>
+                    <input type="text" name="Phone" class="form-control" id="Phone" required>
                 </div>
                 <div class="mb-3">
-                    <label for="uf-iname" class="form-label">Date</label>
-                    <input type="datetime-local" class="form-control" id="uf-iname">
+                    <label for="Date" class="form-label">Date</label>
+                    <input type="datetime-local" name="Date" class="form-control" id="Date" required>
                 </div>
-             
             </div>
             <div class="mb-3">
-                
-                    <label for="uf-iname" class="form-label">Picture</label>
-                    <input type="file" class="form-control" id="uf-iname">
-              
-               
+                <label for="Img" class="form-label">Picture</label>
+                <input type="file" name="image" class="form-control" id="Img">
             </div>
             <div class="mb-3">
-                <label for="uf-itextarea" class="form-label">Your message</label>
-                <textarea class="form-control" id="uf-itextarea" rows="3"></textarea>
+                <label for="Message" class="form-label">Your message</label>
+                <textarea class="form-control" name="Message" id="Message" rows="3"></textarea>
             </div>
-
             <button class="submit" type="submit">Submit</button>
         </form>
 
@@ -190,19 +222,21 @@
                     <h5 class="card-title">@recipe.Name</h5>
             </div>
 
-                <img src="img/shop/Reprises/@recipe.Img1" class="card-img-top" alt="...">
+                <img src="/img/shop/Reprises/@recipe.Img1" class="card-img-top" alt="...">
 
-            @* <div class="card-body"> *@
-            @*     <a href="#" class="btn btn-primary">View Item </a> *@
+            @* <div class="card-body">  *@
+            @*      <a href="#" class="btn btn-primary">View Item </a>  *@
             @* </div> *@
-                <button class="btn btn-primary" onclick="location.href='@Url.Action("DetailsRecipes", "Home", new { id = recipe.Id })'">
+                <div class="card-body">
+                <a class="btn btn-primary" onclick="location.href='@Url.Action("DetailsRecipes", "Home", new { id = recipe.Id })'">
                     Read More
-                </button>
+                </a>
+                </div>
         </div>
         }
     </div>
 
-    <a  asp-controller="Home" asp-action="Shop" class="Explore">Explore more </a>
+    <a asp-controller="Home" asp-action="Shop" class="Explore"><button>Explore more </button> </a>
 
 
 

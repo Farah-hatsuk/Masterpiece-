@@ -9,6 +9,7 @@ C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\bin\Debug\net8.0\F
 C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\bin\Debug\net8.0\FreeSweet.pdb
 C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -287,4 +288,3 @@ C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\obj\Debug\net8.0\r
 C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\obj\Debug\net8.0\FreeSweet.pdb
 C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\obj\Debug\net8.0\FreeSweet.genruntimeconfig.cache
 C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\obj\Debug\net8.0\ref\FreeSweet.dll
-C:\Users\Orange\Desktop\ASP.NET Core MVC1\FreeSweet\FreeSweet\bin\Debug\net8.0\BCrypt.Net-Next.dll

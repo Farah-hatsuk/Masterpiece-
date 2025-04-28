@@ -1,4 +1,6 @@
-﻿<link href="~/css/ckeckout.css" rel="stylesheet" />
+﻿@model FreeSweet.Models.User
+
+<link href="~/css/ckeckout.css" rel="stylesheet" />
 
 <div class="container-fluid" id="grad1">
     <div class="row justify-content-center mt-0">
@@ -8,68 +10,59 @@
                 <p>Fill all form field to go to next step</p>
                 <div class="row">
                     <div class="col-md-12 mx-0">
-                        <form id="msform">
+                        <form id="msform" method="post" asp-action="Checkout" >
                             <!-- progressbar -->
                             <ul id="progressbar" class="d-flex justify-content-center">
-                                <!-- <li class="active" id="account"><strong>Account</strong></li> -->
                                 <li class="active" id="personal"><strong>Personal</strong></li>
                                 <li id="payment"><strong>Payment</strong></li>
                                 <li id="confirm"><strong>Finish</strong></li>
                             </ul>
-                            <!-- fieldsets -->
-                            <!-- <fieldset>
-                                <div class="form-card">
-                                    <h2 class="fs-title">Account Information</h2>
-                                    <input type="email" name="email" placeholder="Email Id"/>
-                                    <input type="text" name="uname" placeholder="UserName"/>
-                                    <input type="password" name="pwd" placeholder="Password"/>
-                                    <input type="password" name="cpwd" placeholder="Confirm Password"/>
-                                </div>
-                                <input type="button" name="next" class="next action-button" value="Next Step"/>
-                            </fieldset> -->
+
+                            <!-- Step 1: Personal Information -->
                             <fieldset>
                                 <div class="form-card">
                                     <h2 class="fs-title">Personal Information</h2>
-                                    <input type="text" name="fname" placeholder="First Name" />
-                                    <input type="text" name="lname" placeholder="Last Name" />
-                                    <input type="text" name="phno" placeholder="Contact No." />
-                                    <input type="text" name="phno_2" placeholder="Alternate Contact No." />
+                                    <input type="text" asp-for="Name" placeholder="Full Name" />
+                                    <input type="text" asp-for="Address" placeholder="Address" />
+                                    <input type="text" asp-for="Phone" placeholder="Phone" />
+                                    <input type="email" asp-for="Email" placeholder="Email" />
                                 </div>
-                                <input type="button" name="previous" class="previous action-button-previous"
-                                       value="Previous" />
                                 <input type="button" name="next" class="next action-button" value="Next Step" />
                             </fieldset>
+
+                            <!-- Step 2: Payment Information -->
                             <fieldset>
                                 <div class="form-card">
                                     <h2 class="fs-title">Payment Information</h2>
                                     <div class="radio-group">
-                                        <div class='radio' data-value="credit">
-                                            <img src="https://i.imgur.com/XzOzVHZ.jpg" width="200px" height="100px">
-                                        </div>
-                                        <div class='radio' data-value="paypal">
-                                            <img src="https://i.imgur.com/jXjwZlj.jpg" width="200px" height="100px">
-                                        </div>
-                                        <br>
+                                        <label>
+                                            <input type="radio" name="PaymentMethod" value="CreditCard" checked />
+                                            <img src="https://i.imgur.com/XzOzVHZ.jpg" width="200" height="100" />
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="PaymentMethod" value="Paypal" />
+                                            <img src="https://i.imgur.com/jXjwZlj.jpg" width="200" height="100" />
+                                        </label>
                                     </div>
+
                                     <label class="pay">Card Holder Name*</label>
-                                    <input type="text" name="holdername" placeholder="" />
+                                    <input type="text" name="HolderName" placeholder="Card Holder Name" />
+
                                     <div class="row">
                                         <div class="col-9">
                                             <label class="pay">Card Number*</label>
-                                            <input type="text" name="cardno" placeholder="" />
+                                            <input type="text" name="CardNumber" placeholder="Card Number" />
                                         </div>
                                         <div class="col-3">
                                             <label class="pay">CVC*</label>
-                                            <input type="password" name="cvcpwd" placeholder="***" />
+                                            <input type="password" name="CVC" placeholder="***" />
                                         </div>
                                     </div>
+
                                     <div class="row">
-                                        <div class="col-3">
-                                            <label class="pay">Expiry Date*</label>
-                                        </div>
-                                        <div class="col-9">
-                                            <select class="list-dt" id="month" name="expmonth">
-                                                <option selected>Month</option>
+                                        <div class="col-6">
+                                            <label class="pay">Expiry Month*</label>
+                                            <select class="list-dt" name="ExpiryMonth">
                                                 <option>January</option>
                                                 <option>February</option>
                                                 <option>March</option>
@@ -83,8 +76,17 @@
                                                 <option>November</option>
                                                 <option>December</option>
                                             </select>
-                                            <select class="list-dt" id="year" name="expyear">
-                                                <option selected>Year</option>
+                                        </div>
+                                        <div class="col-6">
+                                            <label class="pay">Expiry Year*</label>
+                                            <select class="list-dt" name="ExpiryYear">
+                                                @{
+                                                    int currentYear = DateTime.Now.Year;
+                                                    for (int i = 0; i < 10; i++)
+                                                    {
+                                                        <option value="@(@currentYear + i)">@(@currentYear + i)</option>
+                                                    }
+                                                }
                                             </select>
                                         </div>
                                     </div>
@@ -93,24 +95,24 @@
                                     <h2 class="fs-title">Cash On Delivery</h2>
                                     <div class="radio-group">
                                         <div class='radio' data-value="credit">
-                                            <img src="https://i.imgur.com/XzOzVHZ.jpg" width="200px" height="100px">
+                                            <input type="radio" name="PaymentMethod" value="Cash" />
+                                            <img src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/05/cashondelivery1.jpg" width="200px" height="100px">
                                         </div>
                                         <br>
                                     </div>
                                 </div>
-                                <input type="button" name="previous" class="previous action-button-previous"
-                                       value="Previous" />
-                                <input type="button" name="make_payment" class="next action-button"
-                                       value="Confirm" />
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                                <input type="submit" name="make_payment" class="next action-button" value="Confirm" />
                             </fieldset>
+
+                            <!-- Step 3: Success Message -->
                             <fieldset>
                                 <div class="form-card">
-                                    <h2 class="fs-title text-center">Success !</h2>
+                                    <h2 class="fs-title text-center">Success!</h2>
                                     <br><br>
                                     <div class="row justify-content-center">
                                         <div class="col-3">
-                                            <img src="https://img.icons8.com/color/96/000000/ok--v2.png"
-                                                 class="fit-image">
+                                            <img src="https://img.icons8.com/color/96/000000/ok--v2.png" class="fit-image" />
                                         </div>
                                     </div>
                                     <br><br>
@@ -121,6 +123,7 @@
                                     </div>
                                 </div>
                             </fieldset>
+
                         </form>
                     </div>
                 </div>
@@ -129,6 +132,7 @@
     </div>
 </div>
 
+<!-- Scripts -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"></script>

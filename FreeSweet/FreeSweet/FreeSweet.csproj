@@ -28,6 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\img\specialOrder\" />
     <Folder Include="wwwroot\img\UserImg\" />
     <Folder Include="wwwroot\uploads\" />
   </ItemGroup>

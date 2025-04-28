@@ -1,63 +1,201 @@
 ﻿@model FreeSweet.Models.SecialOrder
 
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>SpecialOrderDetalis</title>
-</head>
-<body>
 
-<div>
-    <h4>SecialOrder</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Phone)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Phone)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Img)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Img)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Date)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Date)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Message)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Message)
-        </dd>
-    </dl>
+
+@* <div> *@
+@*     <h4>SecialOrder</h4> *@
+@*     <hr /> *@
+@*     <dl class="row"> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Name) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Name) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Email) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Email) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Phone) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Phone) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Img) *@
+@*         </dt> *@
+@*         <dd class="col-sm-10"> *@
+@*             <img src="~/img/specialOrder/@Model.Img" alt="Uploaded Image" width="100" height="100" /> *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Date) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Date) *@
+@*         </dd> *@
+@*         <dt class = "col-sm-2"> *@
+@*             @Html.DisplayNameFor(model => model.Message) *@
+@*         </dt> *@
+@*         <dd class = "col-sm-10"> *@
+@*             @Html.DisplayFor(model => model.Message) *@
+@*         </dd> *@
+@*     </dl> *@
+@* </div> *@
+@* <div> *@
+@*     <a asp-action="SpecialOrder" asp-controller="Admin">Back to List</a> *@
+@* </div> *@
+
+<div class="special-order-container">
+    <div class="special-order-header">
+        <h4 class="special-order-title">Special Order Details</h4>
+        <div class="special-order-divider"></div>
+    </div>
+    
+    <div class="special-order-details">
+        <dl class="row">
+            <dt class="col-sm-3 col-md-2 detail-label">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-9 col-md-10 detail-value">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            
+            <dt class="col-sm-3 col-md-2 detail-label">
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd class="col-sm-9 col-md-10 detail-value">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            
+            <dt class="col-sm-3 col-md-2 detail-label">
+                @Html.DisplayNameFor(model => model.Phone)
+            </dt>
+            <dd class="col-sm-9 col-md-10 detail-value">
+                @Html.DisplayFor(model => model.Phone)
+            </dd>
+            
+            <dt class="col-sm-3 col-md-2 detail-label">
+                @Html.DisplayNameFor(model => model.Img)
+            </dt>
+            <dd class="col-sm-9 col-md-10 detail-value">
+                <img src="~/img/specialOrder/@Model.Img" alt="Uploaded Image" class="order-image" />
+            </dd>
+            
+            <dt class="col-sm-3 col-md-2 detail-label">
+                @Html.DisplayNameFor(model => model.Date)
+            </dt>
+            <dd class="col-sm-9 col-md-10 detail-value">
+                @Html.DisplayFor(model => model.Date)
+            </dd>
+            
+            <dt class="col-sm-3 col-md-2 detail-label">
+                @Html.DisplayNameFor(model => model.Message)
+            </dt>
+            <dd class="col-sm-9 col-md-10 detail-value message-content">
+                @Html.DisplayFor(model => model.Message)
+            </dd>
+        </dl>
+    </div>
+    
+    <div class="special-order-actions">
+        <a asp-action="SpecialOrder" asp-controller="Admin" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to List
+        </a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
-</body>
-</html>
+
+<style>
+    .special-order-container {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        padding: 25px;
+        margin: 20px auto;
+        max-width: 900px;
+    }
+
+    .special-order-header {
+        margin-bottom: 25px;
+    }
+
+    .special-order-title {
+        color: #2c3e50;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .special-order-divider {
+        height: 2px;
+        background: linear-gradient(to right, #15b5cc, #ddf3f5);
+        margin-bottom: 20px;
+    }
+
+    .detail-label {
+        color: #7f8c8d;
+        font-weight: 500;
+        padding: 8px 0;
+    }
+
+    .detail-value {
+        padding: 8px 0;
+        color: #34495e;
+    }
+
+    .order-image {
+        max-width: 150px;
+        max-height: 150px;
+        border-radius: 4px;
+        border: 1px solid #eee;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .order-image:hover {
+        transform: scale(1.05);
+    }
+
+    .message-content {
+        white-space: pre-wrap;
+        background-color: #e0e0e038;
+        /* padding: 15px; */
+        border-radius: 4px;
+        border-left: 4px solid #15b5cc;
+    }
+
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        color: #15b5cc;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.2s;
+    }
+
+    .back-link:hover {
+        color: #2980b9;
+        text-decoration: underline;
+    }
+
+    .back-link i {
+        margin-right: 8px;
+    }
+
+    @@media (max-width: 768px) {
+        .detail-label, .detail-value {
+            padding: 6px 0;
+        }
+        
+        .special-order-container {
+            padding: 15px;
+            margin: 10px;
+        }
+    }
+</style>

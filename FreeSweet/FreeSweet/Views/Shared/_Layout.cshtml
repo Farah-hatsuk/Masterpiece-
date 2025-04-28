@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/FreeSweet.styles.css" asp-append-version="true" />
+    @* <link rel="stylesheet" href="~/css/info.css" asp-append-version="true" /> *@
+
     @RenderSection("style", required: false)
 
 </head>
@@ -40,7 +42,7 @@
                 
                     <li><a class="aNav" asp-area="" asp-controller="User" asp-action="Profile">Profile</a></li>
                     <li><a class="aNav" asp-area="" asp-controller="User" asp-action="Logout">Logout</a></li>
-                    <li><a class="aNav" asp-area="" asp-controller="User" asp-action="Cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a class="aNav" asp-area="" asp-controller="Cart" asp-action="Index"><i class="fa-solid fa-cart-shopping"></i></a></li>
 
                  }
                   else{
@@ -179,9 +181,9 @@
     </footer>
 
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script> 
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    @* <script src="~/lib/jquery/dist/jquery.min.js"></script>  *@
+    @* <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> *@
+    @* <script src="~/js/site.js" asp-append-version="true"></script> *@
     <script src="https://kit.fontawesome.com/20637403cc.js" crossorigin="anonymous"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

@@ -4,6 +4,8 @@
     {
         public List<Product> Products { get; set; }
         public List<Recipe> Recipes { get; set; }
+
+        //public SecialOrder SecialOrder { get; set; }
        
     }
 }

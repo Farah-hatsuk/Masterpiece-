@@ -31,8 +31,8 @@ header h1 {
 }
 
 .card {
-    margin-bottom: 50px;
-    background-color: #FFFF !important;
+    margin-bottom: 50px !important;
+    background-color: #099DA8 !important;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -87,13 +87,13 @@ header h1 {
 
     .card-content h2 {
         font-size: 22px;
-        color: #099DA8 !important;
+        color: #fff !important;
         margin-bottom: 10px;
         font-weight: bold;
     }
 
     .card-content p {
-        color: #099DA8;
+        color: #fff;
         font-size: 16px;
         line-height: 1.6;
         margin-bottom: 20px;
@@ -118,7 +118,44 @@ header h1 {
     transition: background-color 0.3s ease;
 }
 
+/* Container styling (optional) */
+.d-flex.justify-content-between {
+    gap: 10px; /* Adds consistent spacing between buttons */
+}
 
+/* Button styling for consistent sizing */
+.btn {
+    min-width: 100px; /* Set a minimum width for all buttons */
+    text-align: center; /* Center the text */
+    padding: 8px 16px; /* Consistent padding */
+    font-weight: 500; /* Medium font weight */
+    border-radius: 4px; /* Consistent border radius */
+    transition: all 0.2s ease-in-out; /* Smooth transition */
+}
+
+/* Primary button styling (Edit and Details) */
+.btn-primary {
+    background-color: #0d6efd; /* Bootstrap primary blue */
+    border-color: #0d6efd;
+    color: white;
+}
+
+    .btn-primary:hover {
+        background-color: #0b5ed7; /* Slightly darker on hover */
+        border-color: #0a58ca;
+    }
+
+/* Danger button styling (Delete) */
+.btn-outline-danger {
+    color: #dc3545; /* Bootstrap danger red */
+    border-color: #dc3545;
+    background-color: transparent;
+}
+
+    .btn-outline-danger:hover {
+        color: white;
+        background-color: #dc3545; /* Solid red on hover */
+    }
 
 .card-content button:hover {
     background-color: #005f5f;

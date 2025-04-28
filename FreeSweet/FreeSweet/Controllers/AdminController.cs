@@ -414,6 +414,12 @@ namespace FreeSweet.Controllers
             return View(SpecialOrder);
         }
 
+
+        public IActionResult Order()
+        {
+            return View(_context.Orders.ToList());
+        }
+
         public IActionResult FeedBack()
         {
             return View(_context.Contects.ToList());

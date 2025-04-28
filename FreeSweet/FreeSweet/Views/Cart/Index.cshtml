@@ -1,0 +1,125 @@
+﻿@* @model FreeSweet.Models.Cart *@
+
+@* <link href="~/css/cart.css" rel="stylesheet" /> *@
+
+@* @{ *@
+    
+@*     var subtotal = Model.CartItems.Sum(x => (x.Quantity ?? 0) * x.Product.Price); *@
+@*     var tax = subtotal * 0.05; *@
+@*     var shipping = 2.00; *@
+@*     var total = subtotal + tax + shipping; *@
+@* } *@
+
+@* @foreach (var item in Model.CartItems) *@
+@* { *@
+@*     <div class="product"> *@
+@*         <div class="product-image"> *@
+@*             <img src="@item.Product.Img1" alt="@item.Product.Name" /> *@
+@*         </div> *@
+@*         <div class="product-details"> *@
+@*             <div class="product-title">@item.Product.Name</div> *@
+@*         </div> *@
+@*         <div class="product-price">@item.Product.Price jd</div> *@
+@*         <div class="product-quantity"> *@
+@*             <input type="number" value="@item.Quantity" min="1"> *@
+@*         </div> *@
+@*         <div class="product-line-price">@(((item.Quantity ?? 0) * (item.Product?.Price ?? 0)).ToString("0.00")) jd</div> *@
+
+@*         <button class="remove-product"><i class="fas fa-trash"></i></button> *@
+@*     </div> *@
+@* } *@
+
+
+@* <div class="totals"> *@
+@*     <div class="totals-item"> *@
+@*         <label>Subtotal</label> *@
+@*         <div class="totals-value" id="cart-subtotal">@subtotal.ToString("0.00")</div> *@
+@*     </div> *@
+@*     <div class="totals-item"> *@
+@*         <label>Tax (5%)</label> *@
+@*         <div class="totals-value" id="cart-tax">@tax.ToString("0.00")</div> *@
+@*     </div> *@
+@*     <div class="totals-item"> *@
+@*         <label>Shipping</label> *@
+@*         <div class="totals-value" id="cart-shipping">@shipping.ToString("0.00")</div> *@
+@*     </div> *@
+@*     <div class="totals-item totals-item-total"> *@
+@*         <label>Grand Total</label> *@
+@*         <div class="totals-value" id="cart-total">@total.ToString("0.00")</div> *@
+@*     </div> *@
+@* </div> *@
+
+@* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> *@
+@* <script src="~/js/cart.js"></script> *@
+
+@model FreeSweet.Models.Cart
+
+<link href="~/css/cart.css" rel="stylesheet" />
+
+@{
+    var subtotal = Model.CartItems.Sum(x => (x.Quantity ?? 0) * x.Product.Price);
+    var tax = subtotal * 0.05;
+    var shipping = 2.00;
+    var total = subtotal + tax + shipping;
+}
+
+<div class="cart">
+    <header>
+        <h1>Cart</h1>
+    </header>
+
+    <div class="shopping-cart">
+        <div class="column-labels">
+            <div class="product-details">Product</div>
+            <div class="product-price">Price</div>
+            <div class="product-quantity">Quantity</div>
+            <div class="product-line-price">Total</div>
+        </div>
+
+        @foreach (var item in Model.CartItems)
+        {
+            <div class="product">
+                <div class="product-image">
+                    <img src="/img/shop/shop/@item.Product.Img1" alt="@item.Product.Name" />
+                </div>
+                <div class="product-details">
+                    <div class="product-title">@item.Product.Name</div>
+                </div>
+                <div class="product-price">@item.Product.Price.ToString("0.00") jd</div>
+                <div class="product-quantity">
+                    <input type="number" value="@item.Quantity" min="1">
+                </div>
+                <div class="product-line-price">
+                    @(((item.Quantity ?? 0) * item.Product.Price).ToString("0.00")) jd
+                </div>
+                <button class="remove-product"><i class="fas fa-trash"></i></button>
+            </div>
+        }
+
+        <div class="totals">
+            <div class="totals-item">
+                <label>Subtotal</label>
+                <div class="totals-value" id="cart-subtotal">@subtotal.ToString("0.00")</div>
+            </div>
+            <div class="totals-item">
+                <label>Tax (5%)</label>
+                <div class="totals-value" id="cart-tax">@tax.ToString("0.00")</div>
+            </div>
+            <div class="totals-item">
+                <label>Shipping</label>
+                <div class="totals-value" id="cart-shipping">@shipping.ToString("0.00")</div>
+            </div>
+            <div class="totals-item totals-item-total">
+                <label>Grand Total</label>
+                <div class="totals-value" id="cart-total">@total.ToString("0.00")</div>
+            </div>
+        </div>
+
+        <a asp-area="" asp-controller="User" asp-action="Checkout" target="_blank">
+            <button class="checkout">Checkout</button>
+        </a>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="~/js/cart.js"></script>

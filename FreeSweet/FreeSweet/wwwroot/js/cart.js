@@ -10,7 +10,7 @@ function menu() {
   
   /* Set rates + misc */
   const taxRate = 0.05;
-  const shippingRate = 15.00;
+  const shippingRate = 2.00;
 
   /* Recalculate cart */
   function recalculateCart() {

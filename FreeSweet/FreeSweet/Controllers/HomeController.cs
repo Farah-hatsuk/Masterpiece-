@@ -1,6 +1,8 @@
+using System;
 using System.Diagnostics;
 using FreeSweet.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FreeSweet.Controllers
 {
@@ -34,33 +36,68 @@ namespace FreeSweet.Controllers
             return View(viewModel);
         }
 
-        public IActionResult SpecialOrder(SecialOrder secialOrder , IFormFile image)
+        //[HttpPost]
+        //public IActionResult SpecialOrder(SecialOrder secialOrder, IFormFile image)
+        //{
+        //    if (image != null)
+        //    {
+        //        string fileName = Path.GetFileName(image.FileName);
+
+
+        //        string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/specialOrder", fileName);
+
+        //        using (var stream = new FileStream(path, FileMode.Create))
+        //        {
+        //            image.CopyTo(stream);
+
+        //        }
+        //        secialOrder.Img = fileName;
+
+        //    }
+        //    if (ModelState.IsValid)
+        //    {
+        //        secialOrder.Id = 0;
+        //        _context.SecialOrders.Add(secialOrder);
+        //        _context.SaveChanges();
+        //        return RedirectToAction("Index", "Home");
+        //    }
+        //    //return View(secialOrder);
+        //    return RedirectToAction("Index", "Home");
+        //}
+
+        [HttpPost]
+        public async Task<IActionResult> SpecialOrder(SecialOrder secialOrder, IFormFile image)
         {
-            if (image != null )
+
+            string? imagePath = null;
+
+            // Handle image upload
+            if (image != null)
             {
                 string fileName = Path.GetFileName(image.FileName);
-               
 
-                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Products_images", fileName);
+                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/specialOrder", fileName);
 
                 using (var stream = new FileStream(path, FileMode.Create))
                 {
-                    image.CopyTo(stream);
-               
+                    await image.CopyToAsync(stream); // <-- use await here
                 }
                 secialOrder.Img = fileName;
-        
             }
-            if (ModelState.IsValid)
-            {
-                secialOrder.Id = 0;
-                _context.SecialOrders.Add(secialOrder);
-                _context.SaveChanges();
-                return RedirectToAction("Index", "Home");
-            }
-            return View();
+
+            _context.SecialOrders.Add(secialOrder);
+            await _context.SaveChangesAsync();
+
+            TempData["Success"] = "Your special order has been submitted!";
+            return RedirectToAction("Index");
+
+
+            TempData["Error"] = "Please fill all required fields.";
+            return RedirectToAction("Index"); // <-- This was OUTSIDE the if (ModelState.IsValid)
         }
-        
+
+
+
 
         public IActionResult Info()
         {
@@ -122,6 +159,10 @@ namespace FreeSweet.Controllers
 
         public IActionResult Products(int id)
         {
+            var products = _context.Products
+                      .Include(p => p.Category)
+                      .FirstOrDefault(p => p.Id == id);
+
             if (id == null)
             {
                 return NotFound();
