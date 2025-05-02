@@ -3,6 +3,7 @@ using System.Text.RegularExpressions;
 using FreeSweet.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace FreeSweet.Controllers
 {
@@ -29,6 +30,10 @@ namespace FreeSweet.Controllers
 
         public IActionResult ProductDetalis(int id)
         {
+            var products = _context.Products
+                     .Include(p => p.Category)
+                     .FirstOrDefault(p => p.Id == id);
+
             if (id == null)
             {
                 return NotFound();

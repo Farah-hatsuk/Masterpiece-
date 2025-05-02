@@ -1,7 +1,8 @@
 ﻿@model FreeSweet.Models.Product
 
 <link href="~/css/prodect.css" rel="stylesheet" />
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 <div class="shop-section">
     <header>
         <h1>Shop</h1>
@@ -9,20 +10,45 @@
     <div class="product-details">
         <!-- Slider Section -->
         <div class="slider">
-            <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img1)" alt="Image Of product"></div>
-            @if (!string.IsNullOrEmpty(Model.Img2)){
-                <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img2)" alt="Image Of product"></div>
-            }
-           
-            @if (!string.IsNullOrEmpty(Model.Img3)){
-                <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img3)" alt="Image Of product"></div>
-            }
-          
-            @if (!string.IsNullOrEmpty(Model.Img4))
-            {
-                <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img4)" alt="Image Of product"></div>
-            }
-         
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/shop/shop/@Html.DisplayFor(model => model.Img1)" class="d-block w-100" alt="...">
+                    </div>
+                     @if (!string.IsNullOrEmpty(Model.Img2)){
+                    <div class="carousel-item">
+                      
+                            <img src="/img/shop/shop/@Html.DisplayFor(model => model.Img2)" class="d-block w-100" alt="...">
+                       
+                    </div>
+                    }
+                     @if (!string.IsNullOrEmpty(Model.Img3)){
+                    <div class="carousel-item">
+                       
+                            <img src="/img/shop/shop/@Html.DisplayFor(model => model.Img3)" class="d-block w-100" alt="...">
+                    </div>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.Img4))
+                    {
+                    <div class="carousel-item">
+                     
+                        
+                            <div><img src="/img/shop/shop/@Html.DisplayFor(model => model.Img4)" alt="Image Of product"></div>
+                        
+                    </div>
+                    }
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
         </div>
 
         <!-- Product Information -->
@@ -39,12 +65,13 @@
             <div class="options">
                     @if (Model.Category?.Name == "Cake")
                     {
-                        <select id="size" name="size">
+                        <select id="size" name="size" onchange="changePrice()">
                             <option value="mini">Mini</option>
                             <option value="small">Small</option>
                             <option value="medium">Medium</option>
                             <option value="large">Large</option>
                         </select>
+
                 }
                
                     <input name="quantity" type="number" value="1" min="1">
@@ -78,5 +105,34 @@
       
     </div>
 </div>
+
+<script>
+    function changePrice() {
+        debugger
+        var size = document.getElementById("size").value;
+        var priceElement = document.getElementById("price");
+        var newPrice;
+
+        switch (size) {
+            case "mini":
+                newPrice = 5;
+                break;
+            case "small":
+                newPrice = 15;
+                break;
+            case "medium":
+                newPrice = 20;
+                break;
+            case "large":
+                newPrice = 30;
+                break;
+            default:
+                newPrice = @Model.Price; // القيمة الأصلية من السيرفر
+                break;
+        }
+
+        priceElement.innerText = newPrice + " JD";
+    }
+</script>
 
 <script src="~/js/prodect.js"></script>

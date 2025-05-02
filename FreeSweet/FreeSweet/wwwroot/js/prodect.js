@@ -5,18 +5,18 @@ function menu() {
     menuList.classList.toggle('open');
 }
 
-$(document).ready(function () {
-    $('.slider').slick({
-        dots: true, // Show dots navigation
-        arrows: true, // Show next/prev arrows
-        infinite: true, // Loop slides
-        speed: 800, // Animation speed
-        slidesToShow: 1, // Number of slides to show
-        slidesToScroll: 1, // Number of slides to scroll
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 2000, // Autoplay speed in ms
-    });
-});
+//$(document).ready(function () {
+//    $('.slider').slick({
+//        dots: true, // Show dots navigation
+//        arrows: true, // Show next/prev arrows
+//        infinite: true, // Loop slides
+//        speed: 800, // Animation speed
+//        slidesToShow: 1, // Number of slides to show
+//        slidesToScroll: 1, // Number of slides to scroll
+//        autoplay: true, // Enable autoplay
+//        autoplaySpeed: 2000, // Autoplay speed in ms
+//    });
+//});
 
 let size = document.getElementById("size")
 

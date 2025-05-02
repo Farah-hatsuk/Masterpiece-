@@ -309,6 +309,39 @@ namespace FreeSweet.Controllers
             return View(user);
         }
 
+        //[HttpPost]
+        //public IActionResult Checkout(string paymentMethod)
+        //{
+        //    var userId = HttpContext.Session.GetInt32("userId");
+
+        //    if (userId == null)
+        //    {
+        //        return RedirectToAction("Login", "User");
+        //    }
+
+        //    if (string.IsNullOrEmpty(paymentMethod))
+        //    {
+        //        // لو المستخدم ما اختار وسيلة دفع
+        //        ModelState.AddModelError(string.Empty, "Please select a payment method.");
+        //        var user = _context.Users.FirstOrDefault(u => u.Id == userId);
+        //        return View(user);
+        //    }
+
+        //    var payment = new Payment
+        //    {
+        //        //UserId = (int)userId,
+        //        CreateAt = DateTime.Now,
+        //        Status = "Pending",
+        //        PaymentMethoud = paymentMethod, // جلب الطريقة من الفورم
+        //        Total = 100 // مثال: حط المبلغ الحقيقي تبع السلة هنا
+        //    };
+
+        //    _context.Payments.Add(payment);
+        //    _context.SaveChanges();
+
+        //    return RedirectToAction("Confirmation");
+        //}
+
         [HttpPost]
         public IActionResult Checkout(string paymentMethod)
         {
@@ -321,27 +354,77 @@ namespace FreeSweet.Controllers
 
             if (string.IsNullOrEmpty(paymentMethod))
             {
-                // لو المستخدم ما اختار وسيلة دفع
                 ModelState.AddModelError(string.Empty, "Please select a payment method.");
                 var user = _context.Users.FirstOrDefault(u => u.Id == userId);
                 return View(user);
             }
 
+            // جلب السلة للمستخدم
+            var cart = _context.Carts.FirstOrDefault(c => c.UsersId == userId);
+            if (cart == null)
+            {
+                ModelState.AddModelError(string.Empty, "Your cart is empty.");
+                return View();
+            }
+
+            var cartItems = _context.CartItems
+                .Where(ci => ci.CartId == cart.Id)
+                .ToList();
+
+            if (!cartItems.Any())
+            {
+                ModelState.AddModelError(string.Empty, "Your cart is empty.");
+                return View();
+            }
+
+            // 1. إنشاء الدفع
             var payment = new Payment
             {
-                //UserId = (int)userId,
                 CreateAt = DateTime.Now,
                 Status = "Pending",
-                PaymentMethoud = paymentMethod, // جلب الطريقة من الفورم
-                Total = 100 // مثال: حط المبلغ الحقيقي تبع السلة هنا
+                PaymentMethoud = paymentMethod,
+                Total = cart.TotalPrice
             };
 
             _context.Payments.Add(payment);
+            _context.SaveChanges(); // عشان ناخذ الـ ID
+
+            // 2. إنشاء الطلب وربطه بالمستخدم والدفع
+            var order = new Order
+            {
+                UsersId = userId.Value,
+                PaymentId = payment.Id,
+                Date = DateTime.Now,
+                //Status = "Processing",
+                TotalAmount = cart.TotalPrice
+            };
+
+            _context.Orders.Add(order);
+            _context.SaveChanges(); // لحفظ order.Id
+
+            // 3. إنشاء OrderItems من CartItems
+            foreach (var item in cartItems)
+            {
+                var orderItem = new OrderItem
+                {
+                    OrderId = order.Id,
+                    ProductId = item.ProductId,
+                    Quantity = item.Quantity,
+                    Size = item.Size,
+                    Price = item.Price,
+                    TotalPrice = item.TotalPrice
+                };
+
+                _context.OrderItems.Add(orderItem);
+            }
+
+            // 4. تفريغ السلة
+            _context.CartItems.RemoveRange(cartItems);
+           
             _context.SaveChanges();
 
-            return RedirectToAction("Confirmation");
+            return RedirectToAction("Index","Home");
         }
-
 
 
     }

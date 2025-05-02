@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7ft+IrFE+zwd68sJU/1l9U6vdOS5xRfqGn7TU3hOBAE=",
+  "Hash": "v3HLhRwBKGTQvFk+PRtqKWrqprC48gyas/mGauv6dkk=",
   "Source": "FreeSweet",
   "BasePath": "_content/FreeSweet",
   "Mode": "Default",
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gs428te1be",
-      "Integrity": "wEB3064V+Q91bFara6NWw1PJ9N6u4lTog+L11PppKAg=",
+      "Fingerprint": "igzhj6z1uo",
+      "Integrity": "wgjfE5n8Jvo/sb6QKbykhu+m2/f5Qi0TnutWc5Fru/4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\css\\HomeStyles\\normalize.css"
@@ -2278,8 +2278,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0z2brb4egw",
-      "Integrity": "NFWLIavGAafW5udJTaEFPSxDXALKC06gCas6wlp+Ld8=",
+      "Fingerprint": "1klxo6s8l4",
+      "Integrity": "YZtLLCXVy9IjX/SWikR/gwQOOWrbWqSZBR3s9jRsm58=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\prodect.js"
@@ -4337,7 +4337,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20501"
+          "Value": "20486"
         },
         {
           "Name": "Content-Type",
@@ -4345,11 +4345,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wEB3064V+Q91bFara6NWw1PJ9N6u4lTog+L11PppKAg=\""
+          "Value": "\"wgjfE5n8Jvo/sb6QKbykhu+m2/f5Qi0TnutWc5Fru/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 14:50:18 GMT"
+          "Value": "Mon, 28 Apr 2025 07:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4359,12 +4359,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wEB3064V+Q91bFara6NWw1PJ9N6u4lTog+L11PppKAg="
+          "Value": "sha256-wgjfE5n8Jvo/sb6QKbykhu+m2/f5Qi0TnutWc5Fru/4="
         }
       ]
     },
     {
-      "Route": "css/css/HomeStyles/normalize.gs428te1be.css",
+      "Route": "css/css/HomeStyles/normalize.igzhj6z1uo.css",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\css\\HomeStyles\\normalize.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4374,7 +4374,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20501"
+          "Value": "20486"
         },
         {
           "Name": "Content-Type",
@@ -4382,11 +4382,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wEB3064V+Q91bFara6NWw1PJ9N6u4lTog+L11PppKAg=\""
+          "Value": "\"wgjfE5n8Jvo/sb6QKbykhu+m2/f5Qi0TnutWc5Fru/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 14:50:18 GMT"
+          "Value": "Mon, 28 Apr 2025 07:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4396,7 +4396,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gs428te1be"
+          "Value": "igzhj6z1uo"
         },
         {
           "Name": "label",
@@ -4404,7 +4404,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wEB3064V+Q91bFara6NWw1PJ9N6u4lTog+L11PppKAg="
+          "Value": "sha256-wgjfE5n8Jvo/sb6QKbykhu+m2/f5Qi0TnutWc5Fru/4="
         }
       ]
     },
@@ -4513,7 +4513,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 20:59:42 GMT"
+          "Value": "Mon, 28 Apr 2025 12:54:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4550,7 +4550,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 20:59:42 GMT"
+          "Value": "Mon, 28 Apr 2025 12:54:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12363,7 +12363,7 @@
       ]
     },
     {
-      "Route": "js/prodect.0z2brb4egw.js",
+      "Route": "js/prodect.1klxo6s8l4.js",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\prodect.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12373,7 +12373,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1179"
+          "Value": "1203"
         },
         {
           "Name": "Content-Type",
@@ -12381,11 +12381,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NFWLIavGAafW5udJTaEFPSxDXALKC06gCas6wlp+Ld8=\""
+          "Value": "\"YZtLLCXVy9IjX/SWikR/gwQOOWrbWqSZBR3s9jRsm58=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 21:38:29 GMT"
+          "Value": "Wed, 30 Apr 2025 11:24:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12395,7 +12395,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0z2brb4egw"
+          "Value": "1klxo6s8l4"
         },
         {
           "Name": "label",
@@ -12403,7 +12403,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NFWLIavGAafW5udJTaEFPSxDXALKC06gCas6wlp+Ld8="
+          "Value": "sha256-YZtLLCXVy9IjX/SWikR/gwQOOWrbWqSZBR3s9jRsm58="
         }
       ]
     },
@@ -12418,7 +12418,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1179"
+          "Value": "1203"
         },
         {
           "Name": "Content-Type",
@@ -12426,11 +12426,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NFWLIavGAafW5udJTaEFPSxDXALKC06gCas6wlp+Ld8=\""
+          "Value": "\"YZtLLCXVy9IjX/SWikR/gwQOOWrbWqSZBR3s9jRsm58=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 21:38:29 GMT"
+          "Value": "Wed, 30 Apr 2025 11:24:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12440,7 +12440,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NFWLIavGAafW5udJTaEFPSxDXALKC06gCas6wlp+Ld8="
+          "Value": "sha256-YZtLLCXVy9IjX/SWikR/gwQOOWrbWqSZBR3s9jRsm58="
         }
       ]
     },
