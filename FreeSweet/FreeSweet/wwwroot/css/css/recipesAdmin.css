@@ -125,7 +125,7 @@ header h1 {
 
 /* Button styling for consistent sizing */
 .btn {
-    min-width: 100px; /* Set a minimum width for all buttons */
+    /*min-width: 100px;*/ /* Set a minimum width for all buttons */
     text-align: center; /* Center the text */
     padding: 8px 16px; /* Consistent padding */
     font-weight: 500; /* Medium font weight */

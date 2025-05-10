@@ -22,14 +22,14 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="Name" class="control-label"></label>
-                        <input asp-for="Name" class="form-control" />
+                        <input asp-for="Name" class="form-control" required />
                         <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="Description" class="control-label"></label>
-                        <input asp-for="Description" class="form-control" />
+                        <input asp-for="Description" class="form-control" required />
                         <span asp-validation-for="Description" class="text-danger"></span>
                     </div>
                 </div>
@@ -65,12 +65,13 @@
             <div class="form-group">
                 <label>Ingredients </label>
                 <textarea name="Ingredient" class="form-control" rows="5"></textarea>
+               
                 <span asp-validation-for="Ingredient" class="text-danger"></span>
             </div>
 
             <div class="form-group">
                 <label>Instructions </label>
-                <textarea name="Instructions" class="form-control" rows="5"></textarea>
+                <textarea name="Instructions" class="form-control" rows="8"></textarea>
                 <span asp-validation-for="Instructions" class="text-danger"></span>
             </div>
 
@@ -84,14 +85,16 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="Img1" class="control-label"></label>
-                        <input type="file" asp-for="Img1" class="form-control" />
+                        @* <input type="file" asp-for="Img1" class="form-control" /> *@
+                        <input type="file" name="image1" class="form-control" required />
                         <span asp-validation-for="Img1" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="Img2" class="control-label"></label>
-                        <input type="file" asp-for="Img2" class="form-control" />
+
+                        <input type="file" name="image2" class="form-control" required />
                         <span asp-validation-for="Img2" class="text-danger"></span>
                     </div>
                 </div>
@@ -101,14 +104,16 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="Img3" class="control-label"></label>
-                        <input type="file" asp-for="Img3" class="form-control" />
+                        @* <input type="file" asp-for="Img3" class="form-control" /> *@
+                        <input type="file" name="image3" class="form-control" />
                         <span asp-validation-for="Img3" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="Img4" class="control-label"></label>
-                        <input type="file" asp-for="Img4" class="form-control" />
+                        @* <input type="file" asp-for="Img4" class="form-control" /> *@
+                        <input type="file" name="image4" class="form-control"  />
                         <span asp-validation-for="Img4" class="text-danger"></span>
                     </div>
                 </div>
@@ -118,7 +123,8 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="Img5" class="control-label"></label>
-                        <input type="file" asp-for="Img5" class="form-control" />
+                        @* <input type="file" asp-for="Img5" class="form-control" /> *@
+                        <input type="file" name="image5" class="form-control"  />
                         <span asp-validation-for="Img5" class="text-danger"></span>
                     </div>
                 </div>

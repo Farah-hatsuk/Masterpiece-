@@ -21,7 +21,7 @@ public partial class User
 
     public string? Role { get; set; }
 
-    public virtual Cart? Cart { get; set; }
+    public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
 
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }

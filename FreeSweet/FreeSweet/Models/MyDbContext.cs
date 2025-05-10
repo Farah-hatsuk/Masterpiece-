@@ -49,11 +49,8 @@ public partial class MyDbContext : DbContext
 
             entity.ToTable("Cart");
 
-            entity.Property(e => e.Id).ValueGeneratedOnAdd();
-
-            entity.HasOne(d => d.IdNavigation).WithOne(p => p.Cart)
-                .HasForeignKey<Cart>(d => d.Id)
-                .OnDelete(DeleteBehavior.ClientSetNull)
+            entity.HasOne(d => d.Users).WithMany(p => p.Carts)
+                .HasForeignKey(d => d.UsersId)
                 .HasConstraintName("FK__Cart__Id__59FA5E80");
         });
 
@@ -107,6 +104,9 @@ public partial class MyDbContext : DbContext
             entity.Property(e => e.Address).HasMaxLength(100);
             entity.Property(e => e.Date).HasColumnType("datetime");
             entity.Property(e => e.Note).HasMaxLength(500);
+            entity.Property(e => e.Phone)
+                .HasMaxLength(50)
+                .IsUnicode(false);
 
             entity.HasOne(d => d.Payment).WithMany(p => p.Orders)
                 .HasForeignKey(d => d.PaymentId)

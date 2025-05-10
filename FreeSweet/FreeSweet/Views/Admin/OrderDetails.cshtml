@@ -1,0 +1,55 @@
+﻿@model FreeSweet.Models.Order
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link href="~/css/admin/indix.css" rel="stylesheet" />
+
+<div>
+    <a class="btn btn-primary" asp-controller="Admin" asp-action="Order">Back to List</a>
+</div>
+<br />
+<div class="recent-orders">
+<h2>Order Details - #@Model.Id</h2>
+
+<table class="table">
+    <tr><th>User</th><td>@Model.Users?.Name</td></tr>
+    <tr><th>Date</th><td>@Model.Date</td></tr>
+    <tr><th>Phone</th><td>@Model.Phone</td></tr>
+    <tr><th>Address</th><td>@Model.Address</td></tr>
+    <tr><th>Total Amount</th><td>@Model.TotalAmount</td></tr>
+    <tr><th>Note</th><td>@Model.Note</td></tr>
+</table>
+
+</div>
+<br /><br />
+<div class="recent-orders">
+<h3>Order Items</h3>
+<table class="table">
+    <thead>
+        <tr>
+                <th>Image</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Size</th>
+                <th>Price</th>
+                <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderItems)
+        {
+            <td>
+                <img src="~/img/shop/shop/@item.Product.Img1" alt="@item.Product.Name" width="80" height="80" />
+            </td>
+            <td>@item.Product.Name</td>
+            <td>@item.Quantity</td>
+            <td>@item.Size</td>
+            <td>@item.Price</td>
+            <td>@item.TotalPrice</td>
+        }
+    </tbody>
+</table>
+</div>
+

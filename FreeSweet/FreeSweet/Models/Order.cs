@@ -19,7 +19,7 @@ public partial class Order
 
     public string? Address { get; set; }
 
-    public int? Phone { get; set; }
+    public string? Phone { get; set; }
 
     public int? PaymentId { get; set; }
 

@@ -47,10 +47,15 @@
                 @Html.Raw(Model.Notes)
             </div>
         }
-
         <div class="imgs">
-            <img src="/img/shop/Reprises/@Model.Img3">
-            <img src="/img/shop/Reprises/@Model.Img4">
+            @if (!string.IsNullOrEmpty(Model.Img3))
+            {
+                <img src="/img/shop/Reprises/@Model.Img3" />
+            }
+            @if (!string.IsNullOrEmpty(Model.Img4))
+            {
+                <img src="/img/shop/Reprises/@Model.Img4" />
+            }
         </div>
 
         <!-- <a href=""><button>back to all recipes</button></a> -->

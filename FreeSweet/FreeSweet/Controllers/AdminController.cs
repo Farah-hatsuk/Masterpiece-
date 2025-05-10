@@ -18,6 +18,11 @@ namespace FreeSweet.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.TotalOrders = _context.Orders.Count();
+            ViewBag.Revenue = _context.Orders.Sum(o => o.TotalAmount);
+            ViewBag.TotalCustomers = _context.Users.Count();
+            ViewBag.TotalProducts = _context.Products.Count();
+
             return View();
         }
 
@@ -54,42 +59,147 @@ namespace FreeSweet.Controllers
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
+        //    [HttpPost]
+        //    public IActionResult CreateProduct(Product product , IFormFile image1 , IFormFile image2 , IFormFile image3 , IFormFile image4)
+        //    {
+        //        //if (image1 != null || image2 != null || image3 != null || image4 != null)
+        //        //{
+        //        //    string fileName1 = Path.GetFileName(image1.FileName);
+        //        //    string fileName2 = Path.GetFileName(image2.FileName);
+        //        //    string fileName3= Path.GetFileName(image3.FileName);
+        //        //    string fileName4 = Path.GetFileName(image4.FileName);
+
+
+        //        //    string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop", fileName1 , fileName2 , fileName3 , fileName4);
+
+        //        //    using (var stream = new FileStream(path, FileMode.Create))
+        //        //    {
+        //        //        image1.CopyTo(stream);
+        //        //        image2.CopyTo(stream);
+        //        //        image3.CopyTo(stream);
+        //        //        image4.CopyTo(stream);
+        //        //    }
+        //        //    product.Img1 = fileName1;
+        //        //    product.Img2 = fileName2;
+        //        //    product.Img3 = fileName3;
+        //        //    product.Img4 = fileName4;
+        //        //}
+
+        //        string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop");
+
+        //if (image1 != null)
+        //{
+        //    string fileName1 = Path.GetFileName(image1.FileName);
+        //    string path1 = Path.Combine(uploadsFolder, fileName1);
+        //    using (var stream = new FileStream(path1, FileMode.Create))
+        //    {
+        //        image1.CopyTo(stream);
+        //    }
+        //    product.Img1 = fileName1;
+        //}
+
+        //if (image2 != null)
+        //{
+        //    string fileName2 = Path.GetFileName(image2.FileName);
+        //    string path2 = Path.Combine(uploadsFolder, fileName2);
+        //    using (var stream = new FileStream(path2, FileMode.Create))
+        //    {
+        //        image2.CopyTo(stream);
+        //    }
+        //    product.Img2 = fileName2;
+        //}
+
+        //if (image3 != null)
+        //{
+        //    string fileName3 = Path.GetFileName(image3.FileName);
+        //    string path3 = Path.Combine(uploadsFolder, fileName3);
+        //    using (var stream = new FileStream(path3, FileMode.Create))
+        //    {
+        //        image3.CopyTo(stream);
+        //    }
+        //    product.Img3 = fileName3;
+        //}
+
+        //if (image4 != null)
+        //{
+        //    string fileName4 = Path.GetFileName(image4.FileName);
+        //    string path4 = Path.Combine(uploadsFolder, fileName4);
+        //    using (var stream = new FileStream(path4, FileMode.Create))
+        //    {
+        //        image4.CopyTo(stream);
+        //    }
+        //    product.Img4 = fileName4;
+        //}
+
+        //        if (ModelState.IsValid)
+        //        {
+        //            product.Id = 0;
+        //            _context.Products.Add(product);
+        //            _context.SaveChanges();
+        //            return RedirectToAction("Product", "Admin");
+        //        }
+        //        return View();
+        //    }
+
         [HttpPost]
-        public IActionResult CreateProduct(Product product , IFormFile image1 , IFormFile image2 , IFormFile image3 , IFormFile image4)
+        public IActionResult CreateProduct(Product product, IFormFile image1, IFormFile image2, IFormFile image3, IFormFile image4)
         {
-            if (image1 != null || image2 != null || image3 != null || image4 != null)
+            string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop");
+
+            if (image1 != null)
             {
                 string fileName1 = Path.GetFileName(image1.FileName);
-                string fileName2 = Path.GetFileName(image2.FileName);
-                string fileName3= Path.GetFileName(image3.FileName);
-                string fileName4 = Path.GetFileName(image4.FileName);
-
-
-                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop", fileName1 , fileName2 , fileName3 , fileName4);
-
-                using (var stream = new FileStream(path, FileMode.Create))
+                string path1 = Path.Combine(uploadsFolder, fileName1);
+                using (var stream = new FileStream(path1, FileMode.Create))
                 {
                     image1.CopyTo(stream);
-                    image2.CopyTo(stream);
-                    image3.CopyTo(stream);
-                    image4.CopyTo(stream);
                 }
                 product.Img1 = fileName1;
+            }
+
+            if (image2 != null)
+            {
+                string fileName2 = Path.GetFileName(image2.FileName);
+                string path2 = Path.Combine(uploadsFolder, fileName2);
+                using (var stream = new FileStream(path2, FileMode.Create))
+                {
+                    image2.CopyTo(stream);
+                }
                 product.Img2 = fileName2;
+            }
+
+            if (image3 != null)
+            {
+                string fileName3 = Path.GetFileName(image3.FileName);
+                string path3 = Path.Combine(uploadsFolder, fileName3);
+                using (var stream = new FileStream(path3, FileMode.Create))
+                {
+                    image3.CopyTo(stream);
+                }
                 product.Img3 = fileName3;
+            }
+
+            if (image4 != null)
+            {
+                string fileName4 = Path.GetFileName(image4.FileName);
+                string path4 = Path.Combine(uploadsFolder, fileName4);
+                using (var stream = new FileStream(path4, FileMode.Create))
+                {
+                    image4.CopyTo(stream);
+                }
                 product.Img4 = fileName4;
             }
-            if (ModelState.IsValid)
-            {
-                product.Id = 0;
+
+            
                 _context.Products.Add(product);
                 _context.SaveChanges();
                 return RedirectToAction("Product", "Admin");
-            }
-            return View();
+         
+
+            // ضروري نرجع الـ ViewBag إذا بدك ترجع لنفس الفيو
+            ViewBag.CategoryId = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
+            return View(product);
         }
-
-
 
         public IActionResult EditProduct(int? id ) 
         {
@@ -174,23 +284,27 @@ namespace FreeSweet.Controllers
             return View();
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         [HttpPost]
-        public IActionResult CreateCategory(Category category, IFormFile image)
+        public IActionResult CreateCategory(Category category)
         {
-            if (image != null )
-            {
-                string fileName = Path.GetFileName(image.FileName);
-
-                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/category", fileName);
-
-                using (var stream = new FileStream(path, FileMode.Create))
-                {
-                    image.CopyTo(stream);
-
-                }
-                category.Image = fileName;
-
-            }
             if (ModelState.IsValid)
             {
                 category.Id = 0;
@@ -198,7 +312,7 @@ namespace FreeSweet.Controllers
                 _context.SaveChanges();
                 return RedirectToAction("Category", "Admin");
             }
-            return View();
+            return View(category);
         }
 
         public IActionResult EditCategory(int? id)
@@ -216,6 +330,24 @@ namespace FreeSweet.Controllers
             ViewBag.CategoryName = category.Name;
 
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
+            return View(category);
+        }
+
+        [HttpPost]
+        public IActionResult EditCategory(int id, Category category)
+        {
+            if (id != category.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                _context.Update(category);
+                _context.SaveChanges();
+                return RedirectToAction("Category", "Admin");
+            }
+
             return View(category);
         }
 
@@ -276,49 +408,71 @@ namespace FreeSweet.Controllers
         //}
 
         [HttpPost]
-        public IActionResult CreateRecipe(Recipe recipe, IFormFile image1, IFormFile image2, IFormFile image3, IFormFile image4, IFormFile image5)
+        public IActionResult CreateRecipe(IFormCollection form, IFormFile image1, IFormFile image2, IFormFile image3, IFormFile image4, IFormFile image5)
         {
-            if (image1 != null || image2 != null || image3 != null || image4 != null || image5 != null)
+            Recipe recipe = new Recipe();
+
+            // قراءة النصوص من الفورم
+            recipe.Name = form["Name"];
+            recipe.Description = form["Description"];
+            recipe.PrepTime = form["PrepTime"];
+            recipe.CookTime = form["CookTime"];
+            recipe.TotalTime = form["TotalTime"];
+            recipe.Ingredient = form["Ingredient"];
+            recipe.Instructions = form["Instructions"]; // هنا بيكون فيه HTML
+            recipe.Notes = form["Notes"];
+
+            string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/Reprises");
+
+            if (image1 != null)
             {
                 string fileName1 = Path.GetFileName(image1.FileName);
-                string fileName2 = Path.GetFileName(image2.FileName);
-                string fileName3 = Path.GetFileName(image3.FileName);
-                string fileName4 = Path.GetFileName(image4.FileName);
-                string fileName5 = Path.GetFileName(image5.FileName);
-
-                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop", fileName1, fileName2, fileName3, fileName4, fileName5);
-
-
-
-                using (var stream = new FileStream(path, FileMode.Create))
+                string path1 = Path.Combine(uploadsFolder, fileName1);
+                using (var stream = new FileStream(path1, FileMode.Create))
                 {
                     image1.CopyTo(stream);
-                    image2.CopyTo(stream);
-                    image3.CopyTo(stream);
-                    image4.CopyTo(stream);
-                    image5.CopyTo(stream);
                 }
-
-                recipe.Img1 = fileName1; 
-                recipe.Img2 = fileName2;
-                recipe.Img3 = fileName3;
-                recipe.Img4 = fileName4;
-                recipe.Img5 = fileName5;
+                recipe.Img1 = fileName1;
             }
 
-            if (ModelState.IsValid)
+            if (image2 != null)
             {
-                recipe.Ingredient = ConvertToHtmlList(recipe.Ingredient);
-                recipe.Instructions = ConvertToHtmlList(recipe.Instructions);
-                recipe.Notes = ConvertToHtmlList(recipe.Notes);
-
-                _context.Recipes.Add(recipe);
-                _context.SaveChanges();
-
-                return RedirectToAction("Recipe");
+                string fileName2 = Path.GetFileName(image2.FileName);
+                string path2 = Path.Combine(uploadsFolder, fileName2);
+                using (var stream = new FileStream(path2, FileMode.Create))
+                {
+                    image2.CopyTo(stream);
+                }
+                recipe.Img2 = fileName2;
             }
 
-            return View(recipe);
+            if (image3 != null)
+            {
+                string fileName3 = Path.GetFileName(image3.FileName);
+                string path3 = Path.Combine(uploadsFolder, fileName3);
+                using (var stream = new FileStream(path3, FileMode.Create))
+                {
+                    image3.CopyTo(stream);
+                }
+                recipe.Img3 = fileName3;
+            }
+
+            if (image4 != null)
+            {
+                string fileName4 = Path.GetFileName(image4.FileName);
+                string path4 = Path.Combine(uploadsFolder, fileName4);
+                using (var stream = new FileStream(path4, FileMode.Create))
+                {
+                    image4.CopyTo(stream);
+                }
+                recipe.Img4 = fileName4;
+            }
+
+
+            _context.Recipes.Add(recipe);
+            _context.SaveChanges();
+            return RedirectToAction("Recipe", "Admin");
+
         }
 
 
@@ -422,7 +576,27 @@ namespace FreeSweet.Controllers
 
         public IActionResult Order()
         {
-            return View(_context.Orders.ToList());
+            var orders = _context.Orders
+            .Include(o => o.Users) 
+            .ToList();
+            return View(orders);
+        }
+
+        public IActionResult OrderDetails(int id)
+        {
+            var order = _context.Orders
+         .Include(o => o.Users)
+         .Include(o => o.Payment)
+         .Include(o => o.OrderItems)
+             .ThenInclude(oi => oi.Product) // Include Product for each OrderItem
+         .FirstOrDefault(o => o.Id == id);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            return View(order);
         }
 
         public IActionResult FeedBack()

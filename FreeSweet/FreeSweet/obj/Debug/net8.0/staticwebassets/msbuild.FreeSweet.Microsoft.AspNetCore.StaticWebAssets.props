@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hr3tfs58ma</Fingerprint>
-      <Integrity>s5jlXPMlVF+UgXUovzbsr3WDP83I15Qgif3S6tm8PUE=</Integrity>
+      <Fingerprint>i90m8fwh7p</Fingerprint>
+      <Integrity>1o57nlNG401wIZZyMqw/0q1MtGHygSu+pZf+1zZQ7po=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\Indix.css'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qsbaym8eg4</Fingerprint>
-      <Integrity>OtQY46KW5Ok3l4QQOREyYR+/oRCLD4ZanCqqfp767Gc=</Integrity>
+      <Fingerprint>05ckey5lk9</Fingerprint>
+      <Integrity>jF9yTU3ILD/oaNzan6UrLoVfP3To4i3krSwi1SCr/6w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\style.css'))</OriginalItemSpec>
@@ -228,8 +228,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>08p8jfptqj</Fingerprint>
-      <Integrity>sJCowwvtO6YvoZ8c5gzt5256wrWQA1gDY76vonarO04=</Integrity>
+      <Fingerprint>tuep7fjuxf</Fingerprint>
+      <Integrity>izX0iz2NKcjoauUP2NPQ3VWLExs8BtS61wV7xjdNrBI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\css\recipesAdmin.css'))</OriginalItemSpec>
@@ -1260,6 +1260,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Making-gluten-free-apple-cinnamon-baked-oatmeal-squares.jpg.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Screenshot 2024-12-09 170934.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/Reprises/Screenshot 2024-12-09 170934.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xeycppzhf5</Fingerprint>
+      <Integrity>OWaYIaQAuSNDB00EG70YXVpI6+m4hlW+vG1Jd4tCp2g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Screenshot 2024-12-09 170934.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\Reprises\Slice-of-Gluten-free-Apple-Bread.jpg.png'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
@@ -1566,6 +1584,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\khnafeh.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\Screenshot 2024-12-09 170934.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/shop/Screenshot 2024-12-09 170934.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xeycppzhf5</Fingerprint>
+      <Integrity>OWaYIaQAuSNDB00EG70YXVpI6+m4hlW+vG1Jd4tCp2g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\Screenshot 2024-12-09 170934.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\Screenshot 2024-12-09 170942.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/shop/shop/Screenshot 2024-12-09 170942.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sqpo5c7w77</Fingerprint>
+      <Integrity>VN2FnH+IBKINKYQqaMDkcwqX70uBqbx0PvTyRkDp+SY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\Screenshot 2024-12-09 170942.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\shop\shop\strawberry1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>FreeSweet</SourceId>
@@ -1709,6 +1763,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\UserImg\Screenshot 2025-03-11 141202.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\UserImg\Screenshot 2025-03-11 141318.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeSweet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeSweet</BasePath>
+      <RelativePath>img/UserImg/Screenshot 2025-03-11 141318.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lfybj97waw</Fingerprint>
+      <Integrity>71V1w9pNtHzdO6bE0IThPcTKfqhD3dxo2fz+spXQNYk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\UserImg\Screenshot 2025-03-11 141318.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\aboutUs.js'))">
       <SourceType>Package</SourceType>

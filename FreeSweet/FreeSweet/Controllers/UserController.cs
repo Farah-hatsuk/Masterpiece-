@@ -65,6 +65,8 @@ namespace FreeSweet.Controllers
             }
         }
 
+   
+
 
         public IActionResult Logout()
         {
@@ -77,9 +79,20 @@ namespace FreeSweet.Controllers
 
         public IActionResult Profile()
         {
+            //var email = HttpContext.Session.GetString("UserEmail");
+            //var user = _context.Users.FirstOrDefault(u => u.Email == email);
+            //return View(user);
             var email = HttpContext.Session.GetString("UserEmail");
             var user = _context.Users.FirstOrDefault(u => u.Email == email);
-            return View(user);
+            var orders = _context.Orders.Where(o => o.UsersId == user.Id).ToList(); // Assuming you have an `Orders` table
+
+            var userOrder = new UserOrder
+            {
+                user = user,
+                Order = orders
+            };
+
+            return View(userOrder); // Pass the correct model to the view
         }
 
         public IActionResult EditProfile()
@@ -129,58 +142,6 @@ namespace FreeSweet.Controllers
 
             return View(user);
         }
-
-
-        //[HttpPost]
-        //public IActionResult ResetPassword(string currentPassword, string newPassword, string confirmPassword)
-        //{
-        //    if (newPassword != confirmPassword)
-        //    {
-        //        ViewBag.ErrorMessage = "Passwords do not match.";
-        //        return View();
-        //    }
-        //    string userEmail = HttpContext.Session.GetString("UserEmail");
-        //    var user = _context.Users.FirstOrDefault(u => u.Email == userEmail);
-        //    if (currentPassword != user.Password)
-        //    {
-        //        ViewBag.ErrorMessage = "Current Passwords do not match.";
-        //        return View();
-        //    }
-
-        //        if (!user.Password.StartsWith("$2a$"))
-        //    {
-
-        //        user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
-        //        _context.SaveChanges();
-        //    }
-        //    if (user != null)
-        //    {
-
-        //        if (BCrypt.Net.BCrypt.Verify(currentPassword, user.Password))
-        //        {
-
-        //            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(newPassword);
-
-
-        //            user.Password = hashedPassword;
-        //            _context.SaveChanges();
-        //            return RedirectToAction("Profile");
-        //        }
-        //        else
-        //        {
-
-        //            ViewBag.ErrorMessage = "Incorrect old password.";
-        //            return View();
-        //        }
-        //    }
-        //    else
-        //    {
-
-        //        ViewBag.ErrorMessage = "User not found.";
-        //        return View();
-        //    }
-
-        //}
 
         [HttpPost]
         public IActionResult ResetPassword(string currentPassword, string newPassword, string confirmPassword)
@@ -234,7 +195,7 @@ namespace FreeSweet.Controllers
             return View(orders);
         }
 
-    
+
 
 
         //public IActionResult Checkout()
@@ -343,7 +304,7 @@ namespace FreeSweet.Controllers
         //}
 
         [HttpPost]
-        public IActionResult Checkout(string paymentMethod)
+        public IActionResult Checkout(string paymentMethod , string Address , string Phone)
         {
             var userId = HttpContext.Session.GetInt32("userId");
 
@@ -390,13 +351,16 @@ namespace FreeSweet.Controllers
             _context.SaveChanges(); // عشان ناخذ الـ ID
 
             // 2. إنشاء الطلب وربطه بالمستخدم والدفع
-            var order = new Order
+            var order = new Order 
             {
+                Quantity=cart.Quantity,
                 UsersId = userId.Value,
                 PaymentId = payment.Id,
                 Date = DateTime.Now,
                 //Status = "Processing",
-                TotalAmount = cart.TotalPrice
+                TotalAmount = cart.TotalPrice,
+                Address = Address,
+                Phone = Phone,
             };
 
             _context.Orders.Add(order);
@@ -420,7 +384,8 @@ namespace FreeSweet.Controllers
 
             // 4. تفريغ السلة
             _context.CartItems.RemoveRange(cartItems);
-           
+            cart.Quantity = 0;
+            _context.Carts.Update(cart);
             _context.SaveChanges();
 
             return RedirectToAction("Index","Home");

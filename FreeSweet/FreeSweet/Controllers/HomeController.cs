@@ -92,8 +92,7 @@ namespace FreeSweet.Controllers
             return RedirectToAction("Index");
 
 
-            TempData["Error"] = "Please fill all required fields.";
-            return RedirectToAction("Index"); // <-- This was OUTSIDE the if (ModelState.IsValid)
+          
         }
 
 

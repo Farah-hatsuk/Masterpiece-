@@ -1,8 +1,10 @@
 ﻿@{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
+<head>
+    <link href="~/css/admin/indix.css" rel="stylesheet" />
+</head>
 
-<link href="~/css/admin/indix.css" rel="stylesheet" />
 
 <main class="main-content">
     @* <header> *@
@@ -30,7 +32,7 @@
                 </div>
                 <div class="stat-info">
                     <h3>Total Orders</h3>
-                    <p>1,234</p>
+                    <p>@ViewBag.TotalOrders</p>
                 </div>
             </div>
             <div class="stat-card">
@@ -39,7 +41,7 @@
                 </div>
                 <div class="stat-info">
                     <h3>Revenue</h3>
-                    <p>$45,678</p>
+                    <p>@ViewBag.Revenue.ToString("N2") JD</p>
                 </div>
             </div>
             <div class="stat-card">
@@ -48,7 +50,7 @@
                 </div>
                 <div class="stat-info">
                     <h3>Customers</h3>
-                    <p>892</p>
+                    <p>@ViewBag.TotalCustomers</p>
                 </div>
             </div>
             <div class="stat-card">
@@ -57,9 +59,14 @@
                 </div>
                 <div class="stat-info">
                     <h3>Products</h3>
-                    <p>456</p>
+                    <p>@ViewBag.TotalProducts</p>
                 </div>
             </div>
+        </div>
+
+        <div class="best-seller-chart">
+            <h2>Best Seller Products</h2>
+            <canvas id="bestSellerChart" width="400" height="200"></canvas>
         </div>
 
         <!-- Recent Orders Table -->
@@ -102,3 +109,37 @@
         </div>
     </div>
 </main>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const ctx = document.getElementById('bestSellerChart').getContext('2d');
+    const bestSellerChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['iPhone 13 Pro', 'MacBook Air', 'AirPods Pro', 'Apple Watch', 'iPad Pro'],
+            datasets: [{
+                label: 'Units Sold',
+                data: [120, 90, 150, 70, 60],
+                backgroundColor: [
+                    '#ff6b6b',
+                    '#4ecdc4',
+                    '#45b7d1',
+                    '#96ceb4',
+                    '#f7d794'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 20
+                    }
+                }
+            }
+        }
+    });
+</script>
