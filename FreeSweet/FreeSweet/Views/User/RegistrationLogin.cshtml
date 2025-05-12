@@ -214,7 +214,7 @@
                     <div id="login-tab-content" class="active">
                         <form asp-controller="User" asp-action="Login" method="post" class="login-form">
                         
-                            <input asp-for="Email" type="text" class="input" id="user_login" autocomplete="off"
+                            <input asp-for="Email" type="email" class="input" id="user_login" autocomplete="off"
                                    placeholder="Email " />
                             
                             <input asp-for="Password" type="password" class="input" id="user_pass" autocomplete="off"
@@ -255,6 +255,7 @@
                             <span asp-validation-for="Email" class="text-danger"></span>
                             <input asp-for="Name"  type="text" class="input" id="user_name" autocomplete="off"
                                    placeholder="Username">
+                            <span asp-validation-for="Name" class="text-danger"></span>
                             <input asp-for="Password" type="password" class="input" id="user_pass" autocomplete="off"
                                    placeholder="Password">
                             <span asp-validation-for="Password" class="text-danger"></span>

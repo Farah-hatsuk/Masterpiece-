@@ -32,7 +32,7 @@ namespace FreeSweet.Controllers
             _context.Users.Add(user);
             _context.SaveChanges();
 
-            TempData["message"] = "User added!";
+            TempData["message"] = "Registered Successfully!";
 
             return RedirectToAction("RegistrationLogin");
         }
@@ -195,60 +195,26 @@ namespace FreeSweet.Controllers
             return View(orders);
         }
 
+        public IActionResult OrderDetails(int id)
+        {
+            var order = _context.Orders.FirstOrDefault(o => o.Id == id);
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            var orderItems = _context.OrderItems
+                                     .Include(oi => oi.Product)
+                                     .Where(oi => oi.OrderId == id)
+                                     .ToList();
+
+            var result = (order, orderItems); // استخدام Tuple
+
+            return View(result);
+        }
 
 
-
-        //public IActionResult Checkout()
-        //{
-        //    // جلب userId من الـSession
-        //    var userId = HttpContext.Session.GetInt32("userId");
-
-        //    if (userId == null)
-        //    {
-        //        // توجيه المستخدم إلى صفحة تسجيل الدخول إذا لم يكن في الجلسة
-        //        return RedirectToAction("Login", "User");
-        //    }
-
-        //    // استرجاع بيانات المستخدم من قاعدة البيانات باستخدام الـuserId
-        //    var user = _context.Users.FirstOrDefault(u => u.Id == userId);
-
-        //    if (user == null)
-        //    {
-        //        // إذا لم يتم العثور على المستخدم
-        //        return NotFound();
-        //    }
-
-        //    // تمرير بيانات المستخدم إلى الـView
-        //    return View(user);
-        //}
-
-        //[HttpPost]
-        //public IActionResult Payment(Payment payment)
-        //{
-        //    // التأكد من أن البيانات المدخلة غير فارغة
-        //    if (ModelState.IsValid)
-        //    {
-        //        // تعيين القيمة للمستخدم المبدئي إذا لزم الأمر (مثل استخدام الـ Session أو الـ UserId)
-        //        var userId = HttpContext.Session.GetInt32("userId");
-
-        //        if (userId != null)
-        //        {
-        //            payment.CreateAt = DateTime.Now;
-        //            payment.Status = "Pending";  // حالة الدفع (مثلاً: Pending أو Completed)
-        //            payment.PaymentMethoud = Request.Form["paymentMethod"]; // أو عبر ID القيم الخاصة بالطرق
-        //            payment.Total = 100; // تعيين القيمة الإجمالية بناءً على عملية الشراء
-
-        //            _context.Payments.Add(payment);  // إضافة الدفع إلى جدول الـPayments
-        //            _context.SaveChanges();  // حفظ التغييرات في قاعدة البيانات
-        //        }
-
-        //        // تحويل المستخدم إلى صفحة تأكيد الدفع أو صفحة أخرى
-        //        return RedirectToAction("Confirmation");
-        //    }
-
-        //    // في حالة وجود أخطاء في النموذج (مثل الحقول الفارغة)
-        //    return View(payment);
-        //}
+        //checout 
 
         [HttpGet]
         public IActionResult Checkout()
@@ -267,41 +233,13 @@ namespace FreeSweet.Controllers
                 return NotFound();
             }
 
+
+           
+
             return View(user);
         }
 
-        //[HttpPost]
-        //public IActionResult Checkout(string paymentMethod)
-        //{
-        //    var userId = HttpContext.Session.GetInt32("userId");
 
-        //    if (userId == null)
-        //    {
-        //        return RedirectToAction("Login", "User");
-        //    }
-
-        //    if (string.IsNullOrEmpty(paymentMethod))
-        //    {
-        //        // لو المستخدم ما اختار وسيلة دفع
-        //        ModelState.AddModelError(string.Empty, "Please select a payment method.");
-        //        var user = _context.Users.FirstOrDefault(u => u.Id == userId);
-        //        return View(user);
-        //    }
-
-        //    var payment = new Payment
-        //    {
-        //        //UserId = (int)userId,
-        //        CreateAt = DateTime.Now,
-        //        Status = "Pending",
-        //        PaymentMethoud = paymentMethod, // جلب الطريقة من الفورم
-        //        Total = 100 // مثال: حط المبلغ الحقيقي تبع السلة هنا
-        //    };
-
-        //    _context.Payments.Add(payment);
-        //    _context.SaveChanges();
-
-        //    return RedirectToAction("Confirmation");
-        //}
 
         [HttpPost]
         public IActionResult Checkout(string paymentMethod , string Address , string Phone)

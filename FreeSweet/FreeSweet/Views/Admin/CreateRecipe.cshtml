@@ -5,6 +5,18 @@
 }
 
 
+<script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+
+<script>
+    // CKEditor will be applied to all textareas with class 'rich-text'
+    document.addEventListener("DOMContentLoaded", function () {
+        const editors = document.querySelectorAll('textarea.rich-text');
+        editors.forEach(textarea => {
+            CKEDITOR.replace(textarea);
+        });
+    });
+</script>
+
 
 <h4>Recipe</h4>
 <hr />
@@ -62,22 +74,29 @@
                 </div>
             </div>
 
+
+
+            @* <div class="form-group"> *@
+            @*     <label>Ingredients</label> *@
+            @*     <textarea asp-for="Ingredient" class="form-control rich-text"></textarea> *@
+            @* </div> *@
+
             <div class="form-group">
                 <label>Ingredients </label>
-                <textarea name="Ingredient" class="form-control" rows="5"></textarea>
+                <textarea name="Ingredient" class="form-control rich-text" rows="5"></textarea>
                
                 <span asp-validation-for="Ingredient" class="text-danger"></span>
             </div>
 
             <div class="form-group">
                 <label>Instructions </label>
-                <textarea name="Instructions" class="form-control" rows="8"></textarea>
+                <textarea name="Instructions" class="form-control rich-text" rows="8"></textarea>
                 <span asp-validation-for="Instructions" class="text-danger"></span>
             </div>
 
             <div class="form-group">
                 <label>Notes </label>
-                <textarea name="Notes" class="form-control" rows="3"></textarea>
+                <textarea name="Notes" class="form-control rich-text" rows="3"></textarea>
                 <span asp-validation-for="Notes" class="text-danger"></span>
             </div>
 

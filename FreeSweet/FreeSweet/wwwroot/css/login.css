@@ -727,6 +727,12 @@ input {
     font: 16px/26px "Raleway", sans-serif;
 }
 
+
+   .card input::placeholder {
+        font-weight: bold;
+        opacity: 0.5;
+        color: white;
+    }
 .form-wrap {
     width: 100%;
     margin: 2em auto 0;
@@ -792,6 +798,12 @@ input {
     display: none;
 }
 
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.8;
+    color: white;
+}
+
 .form-wrap .tabs-content .active {
     display: block !important;
 }
@@ -821,7 +833,7 @@ input {
     border: none;
     color: #099DA8;
     cursor: pointer;
-    font-size: .8em;
+    font-size: 1.0em;
     border-radius: 30px;
     background-color: #BEEBF0;
     -webkit-box-shadow: 0px 0px 37px -9px rgba(0,0,0,0.75);

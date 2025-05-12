@@ -236,6 +236,11 @@ namespace FreeSweet.Controllers
             {
                 product.Price = 5;
             }
+            else
+            {
+                size = "mini";
+                product.Price = 5;
+            }
 
             // 3. Get or create cart for user
             var cart = await _context.Carts.FirstOrDefaultAsync(c => c.UsersId == userId);
@@ -280,6 +285,7 @@ namespace FreeSweet.Controllers
 
             await _context.SaveChangesAsync();
 
+            TempData["AddToCartSuccess"] = "Product added to your cart!";
             return RedirectToAction("Shop", "Home"); // Or wherever you want to go after
         }
 
@@ -293,6 +299,7 @@ namespace FreeSweet.Controllers
                 .Include(c => c.CartItems)
                 .ThenInclude(ci => ci.Product) // Assuming you have a Product relation
                 .Where(x => x.UsersId == userId).FirstOrDefault(); // أو حسب الـ UserId لو بدك كارت لمستخدم محدد
+
 
             return View(cart);
         }

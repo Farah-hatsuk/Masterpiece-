@@ -12,7 +12,23 @@
 
 <link href="~/css/home.css" rel="stylesheet" />
 
+<style>
+    .video-wrapper {
+        max-width: 614px;
+        margin: 77px 0px;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        border: 2px solid #e0e0e0;
+        height: fit-content;
+    }
 
+        .video-wrapper video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+</style>
 <!-- Start Slider Section -->
 
 <div class="slider-container">
@@ -120,54 +136,19 @@
     <h2>Customise Your Own Cake</h2>
 
     <div class="col">
-
+        <div class="video-wrapper">
         <video autoplay muted loop>
-            <source src="https://www.shutterstock.com/shutterstock/videos/1110807671/preview/stock-footage-confectioner-woman-is-pouring-cream-on-sponge-cake-using-pastry-bag-closeup-view-pastry-chef-is.webm"
+            <source src="https://assets.mixkit.co/videos/24690/24690-720.mp4"
                     type="video/webm">
         </video>
-
-        @* <form method="post" asp-action="SpecialOrder" asp-controller="Home" enctype="multipart/form-data"> *@
-        @*     <div style="display: flex; gap: 10px;"> *@
-        @*         <div class="mb-3"> *@
-        @*             <label for="Email" class="form-label">Email address</label> *@
-        @*             <input type="email" name="Email" class="form-control" id="Email" aria-describedby="emailHelp"> *@
-        @*         </div> *@
-        @*         <div class="mb-3"> *@
-        @*             <label for="Name" class="form-label">Your name</label> *@
-        @*             <input type="text" name="Name" class="form-control" id="Name"> *@
-        @*         </div> *@
-        @*     </div> *@
-        @*     <div style="display: flex; gap: 10px;"> *@
-        @*         <div class="mb-3"> *@
-        @*             <label for="Phone" class="form-label">Your Phone Number</label> *@
-        @*             <input type="number" name="Phone" class="form-control" id="Phone"> *@
-        @*         </div> *@
-        @*         <div class="mb-3"> *@
-        @*             <label for="Date" class="form-label">Date</label> *@
-        @*             <input type="datetime-local" name="Date" class="form-control" id="Date"> *@
-        @*         </div> *@
-             
-        @*     </div> *@
-        @*     <div class="mb-3"> *@
-
-        @*         <label for="Img" class="form-label">Picture</label> *@
-        @*         <input type="file" name="Img" class="form-control" id="Img"> *@
-              
-               
-        @*     </div> *@
-        @*     <div class="mb-3"> *@
-        @*         <label for="Message" class="form-label">Your message</label> *@
-        @*         <textarea class="form-control" name="Message" id="Message" rows="3"></textarea> *@
-        @*     </div> *@
-
-        @*     <button class="submit" type="submit">Submit</button> *@
-        @* </form> *@
+		</div>
 
         <form method="post" asp-action="SpecialOrder" asp-controller="Home" enctype="multipart/form-data">
             <div style="display: flex; gap: 10px;">
                 <div class="mb-3">
                     <label for="Email" class="form-label">Email address</label>
                     <input type="email" name="Email" class="form-control" id="Email" aria-describedby="emailHelp" required>
+                
                 </div>
                 <div class="mb-3">
                     <label for="Name" class="form-label">Your name</label>

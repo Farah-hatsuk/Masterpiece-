@@ -29,15 +29,15 @@ header h1 {
     transform: translateX(50%);
 }
 
-.images-titles .shuffle li:hover {
-    cursor: pointer;
-}
+    .images-titles .shuffle li:hover {
+        cursor: pointer;
+    }
 
-.images-titles .shuffle .active {
-    background-color: #099DA8;
-    color: #fff;
-    padding: 10px 20px;
-}
+    .images-titles .shuffle .active {
+        background-color: #099DA8;
+        color: #fff;
+        padding: 10px 20px;
+    }
 
 .item {
     display: flex;
@@ -57,9 +57,9 @@ header h1 {
     position: relative;
 }
 
-.card:hover {
-    transform: translateY(-10px);
-}
+    .card:hover {
+        transform: translateY(-10px);
+    }
 
 .card-img-top {
     width: 100%;
@@ -101,15 +101,14 @@ header h1 {
     gap: 5px;
 }
 
-.rating .star  i{
-    color:#FFDF00 ;
-    font-size: 1.2rem;
-}
+    .rating .star i {
+        color: #FFDF00;
+        font-size: 1.2rem;
+    }
 
-.rating i {
-    color:white ;
-    font-size: 1.2rem;
-}
+    .rating i {
+        font-size: 1.2rem;
+    }
 
 .cart-icon {
     color: white;
@@ -127,10 +126,10 @@ header h1 {
     transition: background-color 0.3s;
 }
 
-.btn-primary:hover {
-    background-color: #ddd;
-    color: teal;
-}
+    .btn-primary:hover {
+        background-color: #ddd;
+        color: teal;
+    }
 
 .Explore button {
     margin-top: 75px;
@@ -145,13 +144,13 @@ header h1 {
     margin-bottom: 150px;
 }
 
-.Explore button:hover {
-    background-color: #005f5f;
-}
+    .Explore button:hover {
+        background-color: #005f5f;
+    }
 
 
 
-@media (max-width: 426px){
+@media (max-width: 426px) {
     .images-titles .shuffle {
         display: flex;
         justify-content: center;
@@ -164,4 +163,3 @@ header h1 {
         transform: translateX(9%);
     }
 }
-

@@ -24,51 +24,40 @@
 			<div class="p-4">
 				@* <h1><a href="index.html" class="logo">Flash</a></h1> *@
 				<img src="~/img/logo.png" style="width: 200px" alt="Alternate Text" />
+				@{
+					var currentAction = ViewContext.RouteData.Values["Action"]?.ToString();
+					var currentController = ViewContext.RouteData.Values["Controller"]?.ToString();
+				}
+
+
 				<ul class="list-unstyled components mb-5">
-					<li class="active">
+					<li class="@(currentAction == "Index" && currentController == "Admin" ? "active" : "")">
 						<a asp-action="Index" asp-controller="Admin"><i class="fa fas fa-home mr-3"></i>Home</a>
 					</li>
-					<li>
-						<a asp-action="Category" asp-controller="Admin"><i class="fa fa-building mr-3"></i>Category</a>
+					<li class="@(currentAction == "Category" && currentController == "Admin" ? "active" : "")">
+						<a asp-action="Category" asp-controller="Admin"><i class="fas fa-birthday-cake mr-3"></i>Category</a>
 					</li>
-					<li>
-						<a asp-action="Product" asp-controller="Admin"><i class="fa fa-user mr-3 mr-3"></i>Products</a>
+					<li class="@(currentAction == "Product" && currentController == "Admin" ? "active" : "")">
+						<a asp-action="Product" asp-controller="Admin"><i class="fas fa-cookie mr-3"></i>Products</a>
 					</li>
-					<li>
-						<a asp-action="Recipe" asp-controller="Admin"><i class="fa fa-users mr-3"></i>Recipe</a>
+					<li class="@(currentAction == "Recipe" && currentController == "Admin" ? "active" : "")">
+						<a asp-action="Recipe" asp-controller="Admin"><i class="fas fa-book-open mr-3"></i>Recipe</a>
 					</li>
-					<li>
+					<li class="@(currentAction == "FeedBack" && currentController == "Admin" ? "active" : "")">
 						<a asp-action="FeedBack" asp-controller="Admin"><i class="fa fa-star mr-3"></i>Feedback</a>
 					</li>
-					<li>
-						<a asp-action="Order" asp-controller="Admin"><i class="fa fa-user mr-3"></i>Order</a>
-					</li><li>
-						<a asp-action="SpecialOrder" asp-controller="Admin"><i class="fa fa-user mr-3"></i>Special Order</a>
+					<li class="@(currentAction == "Order" && currentController == "Admin" ? "active" : "")">
+						<a asp-action="Order" asp-controller="Admin"><i class="fas fa-shopping-cart mr-3"></i>Order</a>
+					</li>
+					<li class="@(currentAction == "SpecialOrder" && currentController == "Admin" ? "active" : "")">
+						<a asp-action="SpecialOrder" asp-controller="Admin"><i class="fas fa-clipboard-list mr-3"></i>Special Order</a>
 					</li>
 					<li>
 						<a asp-action="Logout" asp-controller="User"><i class="fa fa-sign-out mr-3"></i>Logout</a>
 					</li>
 				</ul>
 
-				@* <div class="mb-5">
-					<h3 class="h6 mb-3">Subscribe for newsletter</h3>
-					<form action="#" class="subscribe-form">
-						<div class="form-group d-flex">
-							<div class="icon"><span class="icon-paper-plane"></span></div>
-							<input type="text" class="form-control" placeholder="Enter Email Address">
-						</div>
-					</form>
-				</div>
-				*@
-			@* 	<div class="footer"> *@
-			@* 		<p> *@
-			@* 			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> *@
-			@* 			Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a> *@
-			@* 			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> *@
-			@* 		</p> *@
-			@* 	</div>  *@
-
-			@* </div> *@
+	
 		</nav>
 
 		<!-- Page Content  -->

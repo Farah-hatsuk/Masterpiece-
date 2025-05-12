@@ -5,42 +5,7 @@
 }
 <link href="~/css/admin/indix.css" rel="stylesheet" />
 
-@* <table class="table"> *@
-@*     <thead> *@
-@*         <tr> *@
-@*             <th> *@
-@*                 @Html.DisplayNameFor(model => model.Name) *@
-@*             </th> *@
-@*             <th> *@
-@*                 @Html.DisplayNameFor(model => model.Email) *@
-@*             </th> *@
-@*             <th> *@
-@*                 @Html.DisplayNameFor(model => model.Msg) *@
-@*             </th> *@
-@*             <th></th> *@
-@*         </tr> *@
-@*     </thead> *@
-@*     <tbody> *@
-@* @foreach (var item in Model) { *@
-@*         <tr> *@
-@*             <td> *@
-@*                 @Html.DisplayFor(modelItem => item.Name) *@
-@*             </td> *@
-@*             <td> *@
-@*                 @Html.DisplayFor(modelItem => item.Email) *@
-@*             </td> *@
-@*             <td> *@
-@*                 @Html.DisplayFor(modelItem => item.Msg) *@
-@*             </td> *@
-@*             <td> *@
-@*                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> | *@
-@*                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> | *@
-@*                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> *@
-@*             </td> *@
-@*         </tr> *@
-@* } *@
-@*     </tbody> *@
-@* </table> *@
+
 <!-- Recent Orders Table -->
 <div class="recent-orders">
     <h2>Feedback</h2>
@@ -50,6 +15,7 @@
                 <th>  @Html.DisplayNameFor(model => model.Name)</th>
                 <th> @Html.DisplayNameFor(model => model.Email)</th>
                 <th> @Html.DisplayNameFor(model => model.Msg)</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -58,6 +24,13 @@
                 <td> @Html.DisplayFor(modelItem => item.Name)</td>
                 <td> @Html.DisplayFor(modelItem => item.Email)</td>
                 <td> @Html.DisplayFor(modelItem => item.Msg)</td>
+                <td>
+                        <a class="btn btn-primary"
+                           target="_blank"
+                           href="https://mail.google.com/mail/?view=cm&fs=1&to=@item.Email&su=Reply%20to%20your%20feedback&body=Hi%20@item.Name,%0D%0A%0D%0AThank%20you%20for%20your%20feedback.%0D%0A%0D%0ABest%20regards,">
+                            Reply
+                        </a>
+                </td>
         
             </tr>
             }

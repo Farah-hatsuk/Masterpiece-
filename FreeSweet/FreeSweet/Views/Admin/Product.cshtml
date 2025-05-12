@@ -33,7 +33,54 @@
         border-radius: 4px;
         transition: background-color 0.3s;
     }
+
+    .images-titles ul.shuffle {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+    }
+
+        .images-titles ul.shuffle li {
+            padding: 0; /* نشيل أي تنسيق من li */
+        }
+
+            .images-titles ul.shuffle li a {
+                /* background-color: #099DA8; */
+                color: #099DA8;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 5px;
+                display: inline-block;
+                font-weight: bold;
+                transition: background-color 0.3s ease; /* سلاسة بالحركة */
+            }
+
+
+
+            .images-titles ul.shuffle li.active a {
+                color: #ffff; /* لون مميز للزر النشط */
+            }
+
 </style>
+
+
+<div class="images-titles">
+    <ul class="shuffle">
+       <li class="@(ViewBag.SelectedCategoryId == null ? "active" : "")" data-category="all">
+          @Html.ActionLink("All", "Product", new { id = (int?)null })
+       </li>
+       <li class="@(ViewBag.SelectedCategoryId == 1 ? "active" : "")" data-category="cake">
+          @Html.ActionLink("Cakes", "Product", new { id = 1 })
+       </li>
+       <li class="@(ViewBag.SelectedCategoryId == 2 ? "active" : "")" data-category="western">
+          @Html.ActionLink("Western Sweets", "Product", new { id = 2 })
+       </li>
+       <li class="@(ViewBag.SelectedCategoryId == 3 ? "active" : "")" data-category="arabic">
+          @Html.ActionLink("Arabic Sweets", "Product", new { id = 3 })
+       </li>
+    </ul>
+</div>
+
 <div class="item">
     @foreach (var item in Model)
     {

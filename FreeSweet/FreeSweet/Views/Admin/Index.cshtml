@@ -70,43 +70,43 @@
         </div>
 
         <!-- Recent Orders Table -->
-        <div class="recent-orders">
-            <h2>Recent Orders</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Order ID</th>
-                        <th>Customer</th>
-                        <th>Product</th>
-                        <th>Amount</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>#12345</td>
-                        <td>John Doe</td>
-                        <td>iPhone 13 Pro</td>
-                        <td>$999</td>
-                        <td><span class="status completed">Completed</span></td>
-                    </tr>
-                    <tr>
-                        <td>#12346</td>
-                        <td>Jane Smith</td>
-                        <td>MacBook Air</td>
-                        <td>$1299</td>
-                        <td><span class="status pending">Pending</span></td>
-                    </tr>
-                    <tr>
-                        <td>#12347</td>
-                        <td>Mike Johnson</td>
-                        <td>AirPods Pro</td>
-                        <td>$249</td>
-                        <td><span class="status processing">Processing</span></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        @* <div class="recent-orders"> *@
+        @*     <h2>Recent Orders</h2> *@
+        @*     <table> *@
+        @*         <thead> *@
+        @*             <tr> *@
+        @*                 <th>Order ID</th> *@
+        @*                 <th>Customer</th> *@
+        @*                 <th>Product</th> *@
+        @*                 <th>Amount</th> *@
+        @*                 <th>Status</th> *@
+        @*             </tr> *@
+        @*         </thead> *@
+        @*         <tbody> *@
+        @*             <tr> *@
+        @*                 <td>#12345</td> *@
+        @*                 <td>John Doe</td> *@
+        @*                 <td>iPhone 13 Pro</td> *@
+        @*                 <td>$999</td> *@
+        @*                 <td><span class="status completed">Completed</span></td> *@
+        @*             </tr> *@
+        @*             <tr> *@
+        @*                 <td>#12346</td> *@
+        @*                 <td>Jane Smith</td> *@
+        @*                 <td>MacBook Air</td> *@
+        @*                 <td>$1299</td> *@
+        @*                 <td><span class="status pending">Pending</span></td> *@
+        @*             </tr> *@
+        @*             <tr> *@
+        @*                 <td>#12347</td> *@
+        @*                 <td>Mike Johnson</td> *@
+        @*                 <td>AirPods Pro</td> *@
+        @*                 <td>$249</td> *@
+        @*                 <td><span class="status processing">Processing</span></td> *@
+        @*             </tr> *@
+        @*         </tbody> *@
+        @*     </table> *@
+        @* </div> *@
     </div>
 </main>
 
@@ -117,10 +117,10 @@
     const bestSellerChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['iPhone 13 Pro', 'MacBook Air', 'AirPods Pro', 'Apple Watch', 'iPad Pro'],
+            labels: ['Chocolate Cake', 'Box Of Cinnamon', 'Brownies', 'Vanilla Cake', 'Strawberry Cake'],
             datasets: [{
                 label: 'Units Sold',
-                data: [120, 90, 150, 70, 60],
+                data: [25, 12, 6, 8, 10],
                 backgroundColor: [
                     '#ff6b6b',
                     '#4ecdc4',

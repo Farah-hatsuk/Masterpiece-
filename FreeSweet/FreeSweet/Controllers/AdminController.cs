@@ -23,14 +23,31 @@ namespace FreeSweet.Controllers
             ViewBag.TotalCustomers = _context.Users.Count();
             ViewBag.TotalProducts = _context.Products.Count();
 
+
             return View();
         }
 
-      
 
-        public IActionResult Product()
+
+        public IActionResult Product(int? Id)
         {
-            return View(_context.Products.ToList());
+            //return View(_context.Products.ToList());
+            ViewBag.SelectedCategoryId = Id;
+            if (Id == null)
+            {
+                return View(_context.Products.ToList());
+            }
+            else
+            {
+                var cakeCategory = _context.Categories.FirstOrDefault(c => c.Id == Id);
+                if (cakeCategory == null)
+                {
+                    return NotFound();
+                }
+                var products = _context.Products.Where(p => p.CategoryId == cakeCategory.Id).ToList();
+
+                return View(products);
+            }
         }
 
         public IActionResult ProductDetalis(int id)
@@ -59,87 +76,7 @@ namespace FreeSweet.Controllers
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
-        //    [HttpPost]
-        //    public IActionResult CreateProduct(Product product , IFormFile image1 , IFormFile image2 , IFormFile image3 , IFormFile image4)
-        //    {
-        //        //if (image1 != null || image2 != null || image3 != null || image4 != null)
-        //        //{
-        //        //    string fileName1 = Path.GetFileName(image1.FileName);
-        //        //    string fileName2 = Path.GetFileName(image2.FileName);
-        //        //    string fileName3= Path.GetFileName(image3.FileName);
-        //        //    string fileName4 = Path.GetFileName(image4.FileName);
 
-
-        //        //    string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop", fileName1 , fileName2 , fileName3 , fileName4);
-
-        //        //    using (var stream = new FileStream(path, FileMode.Create))
-        //        //    {
-        //        //        image1.CopyTo(stream);
-        //        //        image2.CopyTo(stream);
-        //        //        image3.CopyTo(stream);
-        //        //        image4.CopyTo(stream);
-        //        //    }
-        //        //    product.Img1 = fileName1;
-        //        //    product.Img2 = fileName2;
-        //        //    product.Img3 = fileName3;
-        //        //    product.Img4 = fileName4;
-        //        //}
-
-        //        string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop");
-
-        //if (image1 != null)
-        //{
-        //    string fileName1 = Path.GetFileName(image1.FileName);
-        //    string path1 = Path.Combine(uploadsFolder, fileName1);
-        //    using (var stream = new FileStream(path1, FileMode.Create))
-        //    {
-        //        image1.CopyTo(stream);
-        //    }
-        //    product.Img1 = fileName1;
-        //}
-
-        //if (image2 != null)
-        //{
-        //    string fileName2 = Path.GetFileName(image2.FileName);
-        //    string path2 = Path.Combine(uploadsFolder, fileName2);
-        //    using (var stream = new FileStream(path2, FileMode.Create))
-        //    {
-        //        image2.CopyTo(stream);
-        //    }
-        //    product.Img2 = fileName2;
-        //}
-
-        //if (image3 != null)
-        //{
-        //    string fileName3 = Path.GetFileName(image3.FileName);
-        //    string path3 = Path.Combine(uploadsFolder, fileName3);
-        //    using (var stream = new FileStream(path3, FileMode.Create))
-        //    {
-        //        image3.CopyTo(stream);
-        //    }
-        //    product.Img3 = fileName3;
-        //}
-
-        //if (image4 != null)
-        //{
-        //    string fileName4 = Path.GetFileName(image4.FileName);
-        //    string path4 = Path.Combine(uploadsFolder, fileName4);
-        //    using (var stream = new FileStream(path4, FileMode.Create))
-        //    {
-        //        image4.CopyTo(stream);
-        //    }
-        //    product.Img4 = fileName4;
-        //}
-
-        //        if (ModelState.IsValid)
-        //        {
-        //            product.Id = 0;
-        //            _context.Products.Add(product);
-        //            _context.SaveChanges();
-        //            return RedirectToAction("Product", "Admin");
-        //        }
-        //        return View();
-        //    }
 
         [HttpPost]
         public IActionResult CreateProduct(Product product, IFormFile image1, IFormFile image2, IFormFile image3, IFormFile image4)

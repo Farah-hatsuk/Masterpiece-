@@ -166,6 +166,7 @@
                                 <th>Address</th>
                                 <th>Phone</th>
                                 <th>Date</th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -187,10 +188,13 @@
                                     <tr>
                                         <td>#@order.Id</td>
                                         <td>@order.Quantity</td>
-                                        <td>@($"{order.TotalAmount:C}")</td> <!-- Correct currency formatting -->
+                                        <td>@($"{order.TotalAmount:N2} JD ")</td>   <!-- Correct currency formatting -->
                                         <td>@order.Address</td>
                                         <td>@order.Phone</td>
                                         <td>@order.Date</td>  <!-- Safe date formatting -->
+                                        <td>
+                                            <a asp-action="OrderDetails" asp-controller="User" asp-route-id="@order.Id" class="btn btn-sm btn-info">Details</a>
+                                        </td>
                                     </tr>
                                 }
 

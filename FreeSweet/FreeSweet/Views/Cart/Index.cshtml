@@ -55,7 +55,15 @@
 @model FreeSweet.Models.Cart
 
 <link href="~/css/cart.css" rel="stylesheet" />
-
+<style>
+    .btn[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+</style>
+@{
+    bool isCartEmpty = Model == null || !Model.CartItems.Any();
+}
 @{
     var subtotal = Model.CartItems.Sum(x => (x.Quantity ?? 0) * x.Product.Price);
     var tax = subtotal * 0.05;
@@ -71,6 +79,7 @@
     <div class="shopping-cart">
         <div class="column-labels">
             <div class="product-details">Product</div>
+            <div class="product-size">Size</div>
             <div class="product-price">Price</div>
             <div class="product-quantity">Quantity</div>
             <div class="product-line-price">Total</div>
@@ -85,7 +94,10 @@
                 <div class="product-details">
                     <div class="product-title">@item.Product.Name</div>
                 </div>
-                <div class="product-price">@item.Product.Price.ToString("0.00") jd</div>
+                <div class="product-price">
+                    <div class="product-title">@item.Product.Size</div>
+                </div>
+                <div class="product-price">@item.Product.Price.ToString("0.00") JD</div>
                 <div class="product-quantity">
                     <input type="number" value="@item.Quantity" min="1">
                 </div>
@@ -115,9 +127,14 @@
             </div>
         </div>
 
+        @* <a asp-area="" asp-controller="User" asp-action="Checkout"> *@
+        @*     <button class="checkout">Checkout</button> *@
+        @* </a> *@
         <a asp-area="" asp-controller="User" asp-action="Checkout">
-            <button class="checkout">Checkout</button>
+            <button class="checkout" @(isCartEmpty ? "disabled" : "")>Checkout</button>
         </a>
+
+
     </div>
 </div>
 

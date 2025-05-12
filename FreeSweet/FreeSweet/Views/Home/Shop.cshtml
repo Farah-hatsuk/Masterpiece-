@@ -1,5 +1,10 @@
 ﻿@model IEnumerable<FreeSweet.Models.Product>
-
+@if (TempData["AddToCartSuccess"] != null)
+{
+    <script>
+        alert('@TempData["AddToCartSuccess"]');
+    </script>
+}
 
 <link href="~/css/shop.css" rel="stylesheet" />
 
@@ -30,6 +35,29 @@
             .images-titles ul.shuffle li.active a {
                 color: #ffff; /* لون مميز للزر النشط */
             }
+
+            .cart-form {
+    display: inline-block;
+}
+
+.cart-btn {
+    margin-top: -10px;
+    background-color: white;
+    color: #008b8b; /* يمكنك تغييره حسب ألوان موقعك */
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.cart-btn:hover {
+    background-color: #f1f1f1;
+}
+
+
 
 </style>
 
@@ -73,14 +101,22 @@
                             <i class="fa-regular fa-star"></i>
                         </div>
 
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
+                        @* <a asp-action="AddToCart" asp-controller="Cart" asp-route-productId="@item.Id" class="cart-icon"> *@
+                        @*     <i class="fa-solid fa-cart-shopping"></i> </a> *@
 
-                    <a asp-area="" asp-controller="Home" asp-action="Products" class="btn btn-primary" asp-route-id="@item.Id"> View Item </a>
+                          <form asp-controller="Cart" asp-action="AddToCart" method="post" class="cart-form">
+                               <button type="submit" class="cart-btn">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                               </button>
+                               <input type="hidden" name="quantity" value="1" min="1">
+                               <input type="hidden" name="productId" value="@item.Id" />
+                          </form>
+   
+                    </div>
+                     <a asp-area="" asp-controller="Home" asp-action="Products" class="btn btn-primary" asp-route-id="@item.Id"> View Item </a>
                 </div>
             </div>
         }
-
 
     </div>
 

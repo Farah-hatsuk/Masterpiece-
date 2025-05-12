@@ -25,31 +25,34 @@
 </div>
 <br /><br />
 <div class="recent-orders">
-<h3>Order Items</h3>
+<h2>Order Items</h2>
 <table class="table">
     <thead>
         <tr>
                 <th>Image</th>
                 <th>Product Name</th>
-                <th>Quantity</th>
+                <th>Quantity</th> 
                 <th>Size</th>
                 <th>Price</th>
                 <th>Total Price</th>
         </tr>
     </thead>
-    <tbody>
-        @foreach (var item in Model.OrderItems)
-        {
-            <td>
-                <img src="~/img/shop/shop/@item.Product.Img1" alt="@item.Product.Name" width="80" height="80" />
-            </td>
-            <td>@item.Product.Name</td>
-            <td>@item.Quantity</td>
-            <td>@item.Size</td>
-            <td>@item.Price</td>
-            <td>@item.TotalPrice</td>
-        }
-    </tbody>
+        <tbody>
+            @foreach (var item in Model.OrderItems)
+            {
+                <tr>
+                    <td>
+                        <img src="~/img/shop/shop/@item.Product.Img1" alt="@item.Product.Name" width="80" height="80" />
+                    </td>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Size</td>
+                    <td>@($"{item.Price:N2} JD ")</td>
+                    <td>@($"{item.TotalPrice:N2} JD ")</td>
+                </tr>
+            }
+        </tbody>
+
 </table>
 </div>
 
