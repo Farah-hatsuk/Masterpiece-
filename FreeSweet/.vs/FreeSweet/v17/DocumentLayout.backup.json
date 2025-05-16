@@ -7,6 +7,58 @@
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\wwwroot\\js\\prodect.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\wwwroot\\js\\prodect.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\admin\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\admin\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\wwwroot\\css\\shop.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\wwwroot\\css\\shop.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -19,14 +71,6 @@
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\models\\secialorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\user\\registrationlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\user\\registrationlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -37,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\models\\contect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,14 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\wwwroot\\css\\css\\homestyles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\wwwroot\\css\\css\\homestyles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\wwwroot\\css\\shop.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\wwwroot\\css\\shop.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -99,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -115,24 +143,8 @@
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\admin\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\models\\userorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\models\\userorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\admin\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\admin\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\user\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -141,10 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\home\\countactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\home\\countactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\user\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -183,10 +191,6 @@
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\admin\\specialorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\wwwroot\\js\\prodect.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\wwwroot\\js\\prodect.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\wwwroot\\css\\ckeckout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\wwwroot\\css\\ckeckout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -201,10 +205,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\home\\viewaaaaaaa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\views\\home\\viewaaaaaaa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|solutionrelative:freesweet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA0680D6-08F9-4B74-AE48-14E8CB47A35D}|FreeSweet\\FreeSweet.csproj|c:\\users\\orange\\desktop\\asp.net core mvc1\\freesweet\\freesweet\\views\\admin\\recipedetalis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -318,58 +318,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SecialOrder.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\SecialOrder.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Models\\SecialOrder.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\SecialOrder.cs",
-              "RelativeToolTip": "FreeSweet\\Models\\SecialOrder.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAACRAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "FreeSweet\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAICAAAAAAAAAAAAADoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T06:48:31.233Z",
+              "WhenOpened": "2025-04-12T19:46:43.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\User.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\User.cs",
-              "RelativeToolTip": "FreeSweet\\Models\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswBQAAACRAAAAAAAAAA==",
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\CartController.cs",
+              "RelativeToolTip": "FreeSweet\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:13:49.954Z",
+              "WhenOpened": "2025-04-24T09:22:05.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "FreeSweet\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\UserController.cs",
               "RelativeToolTip": "FreeSweet\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwBUBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T11:16:04.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegistrationLogin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\RegistrationLogin.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\RegistrationLogin.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\RegistrationLogin.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\User\\RegistrationLogin.cshtml",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAkwAYBAABRAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FreeSweet\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAwwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T14:10:52.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\User.cs",
+              "RelativeToolTip": "FreeSweet\\Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA/wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:13:49.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FeedBack.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\FeedBack.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\FeedBack.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\FeedBack.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Admin\\FeedBack.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T18:43:24.214Z",
+              "WhenOpened": "2025-04-23T18:43:06.855Z",
               "EditorCaption": ""
             },
             {
@@ -380,404 +406,14 @@
               "RelativeDocumentMoniker": "FreeSweet\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "FreeSweet\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAiwIwAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-11T11:32:40.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductRecipeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\ProductRecipeViewModel.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Models\\ProductRecipeViewModel.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\ProductRecipeViewModel.cs",
-              "RelativeToolTip": "FreeSweet\\Models\\ProductRecipeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T09:15:44.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "home.css",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\home.css",
-              "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\css\\home.css",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\home.css",
-              "RelativeToolTip": "FreeSweet\\wwwroot\\css\\home.css",
-              "ViewState": "AgIAAK0BAAAAAAAAAAAAwLsBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-11T14:09:29.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\Profile.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\Profile.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\User\\Profile.cshtml",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAIwEgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T11:16:36.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Product.cs",
-              "RelativeToolTip": "FreeSweet\\Models\\Product.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA6wCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T09:13:48.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Models\\MyDbContext.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\MyDbContext.cs",
-              "RelativeToolTip": "FreeSweet\\Models\\MyDbContext.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T17:48:03.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Contect.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Contect.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Models\\Contect.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Contect.cs",
-              "RelativeToolTip": "FreeSweet\\Models\\Contect.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T20:23:09.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\CartItem.cs",
-              "RelativeToolTip": "FreeSweet\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA7wBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T09:31:53.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Cart.cs",
-              "RelativeToolTip": "FreeSweet\\Models\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T09:27:56.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Models\\Payment.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Payment.cs",
-              "RelativeToolTip": "FreeSweet\\Models\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:59:33.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\css\\HomeStyles\\styles.css",
-              "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\css\\css\\HomeStyles\\styles.css",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\css\\HomeStyles\\styles.css",
-              "RelativeToolTip": "FreeSweet\\wwwroot\\css\\css\\HomeStyles\\styles.css",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-07T13:18:21.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "shop.css",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\shop.css",
-              "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\css\\shop.css",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\shop.css",
-              "RelativeToolTip": "FreeSweet\\wwwroot\\css\\shop.css",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAAwJgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-20T11:12:28.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "login.css",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\login.css",
-              "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\css\\login.css",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\login.css",
-              "RelativeToolTip": "FreeSweet\\wwwroot\\css\\login.css",
-              "ViewState": "AgIAADIDAAAAAAAAAAAIwEMDAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-21T15:34:29.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGMAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T20:15:56.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AddToCart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Cart\\AddToCart.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Cart\\AddToCart.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Cart\\AddToCart.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Cart\\AddToCart.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T09:45:43.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Order.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Order.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\Order.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Order.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Admin\\Order.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwCcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-27T09:04:02.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "OrderDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\OrderDetails.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\OrderDetails.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\OrderDetails.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Admin\\OrderDetails.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T18:53:10.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OrderDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\OrderDetails.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\OrderDetails.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\OrderDetails.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\User\\OrderDetails.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T15:22:57.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HistoryOfOrder.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\HistoryOfOrder.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\HistoryOfOrder.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\HistoryOfOrder.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\User\\HistoryOfOrder.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T13:20:15.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAmwGwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T11:59:39.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\CartController.cs",
-              "RelativeToolTip": "FreeSweet\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAB0BAAAAAAAAAAAYwDMBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T09:22:05.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAALoAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T11:29:16.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T11:52:04.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Product.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Product.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\Product.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Product.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Admin\\Product.cshtml",
-              "ViewState": "AgIAADIAAAAAAAAAAAAmwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T13:07:25.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Shop.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\Shop.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Home\\Shop.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\Shop.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Home\\Shop.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T11:08:29.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FreeSweet\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAwwJsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:10:52.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "FreeSweet\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAswB8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T19:46:43.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "UserOrder.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\UserOrder.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Models\\UserOrder.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\UserOrder.cs",
-              "RelativeToolTip": "FreeSweet\\Models\\UserOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T08:49:32.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "FeedBack.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\FeedBack.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\FeedBack.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\FeedBack.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Admin\\FeedBack.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T18:43:06.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\Cart.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\Cart.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\Cart.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\User\\Cart.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T15:25:21.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CountactUs.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\CountactUs.cshtml",
-              "RelativeDocumentMoniker": "FreeSweet\\Views\\Home\\CountactUs.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\CountactUs.cshtml",
-              "RelativeToolTip": "FreeSweet\\Views\\Home\\CountactUs.cshtml",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAmwHgAAACZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T14:50:27.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
               "Title": "Products.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\Products.cshtml",
               "RelativeDocumentMoniker": "FreeSweet\\Views\\Home\\Products.cshtml",
@@ -790,7 +426,371 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "prodect.js",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\prodect.js",
+              "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\js\\prodect.js",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\prodect.js",
+              "RelativeToolTip": "FreeSweet\\wwwroot\\js\\prodect.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-30T11:20:37.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "shop.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\shop.css",
+              "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\css\\shop.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\shop.css",
+              "RelativeToolTip": "FreeSweet\\wwwroot\\css\\shop.css",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-20T11:12:28.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\Shop.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Home\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\Shop.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Home\\Shop.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T11:08:29.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "FreeSweet\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAL4CAAAAAAAAAAAwwM8CAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-21T15:34:29.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "FreeSweet\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:48:03.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Program.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Program.cs",
+              "RelativeToolTip": "FreeSweet\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:50:55.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\home.css",
+              "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\css\\home.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\home.css",
+              "RelativeToolTip": "FreeSweet\\wwwroot\\css\\home.css",
+              "ViewState": "AgIAAK0BAAAAAAAAAAAAwLsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-11T14:09:29.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductRecipeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\ProductRecipeViewModel.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Models\\ProductRecipeViewModel.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\ProductRecipeViewModel.cs",
+              "RelativeToolTip": "FreeSweet\\Models\\ProductRecipeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:15:44.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegistrationLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\RegistrationLogin.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\RegistrationLogin.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\RegistrationLogin.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\User\\RegistrationLogin.cshtml",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAkwAYBAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T18:43:24.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SecialOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\SecialOrder.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Models\\SecialOrder.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\SecialOrder.cs",
+              "RelativeToolTip": "FreeSweet\\Models\\SecialOrder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:48:31.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\User\\Profile.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwEgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T11:16:36.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Product.cs",
+              "RelativeToolTip": "FreeSweet\\Models\\Product.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA6wCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:13:48.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Contect.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Contect.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Models\\Contect.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Contect.cs",
+              "RelativeToolTip": "FreeSweet\\Models\\Contect.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:23:09.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\CartItem.cs",
+              "RelativeToolTip": "FreeSweet\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA7wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:31:53.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Cart.cs",
+              "RelativeToolTip": "FreeSweet\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:27:56.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\Payment.cs",
+              "RelativeToolTip": "FreeSweet\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:59:33.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\css\\HomeStyles\\styles.css",
+              "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\css\\css\\HomeStyles\\styles.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\css\\HomeStyles\\styles.css",
+              "RelativeToolTip": "FreeSweet\\wwwroot\\css\\css\\HomeStyles\\styles.css",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-07T13:18:21.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGMAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T20:15:56.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddToCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Cart\\AddToCart.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Cart\\AddToCart.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Cart\\AddToCart.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Cart\\AddToCart.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T09:45:43.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Order.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\Order.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Order.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Admin\\Order.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T09:04:02.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\OrderDetails.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Admin\\OrderDetails.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T18:53:10.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\OrderDetails.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\User\\OrderDetails.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T15:22:57.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HistoryOfOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\HistoryOfOrder.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\HistoryOfOrder.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\HistoryOfOrder.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\User\\HistoryOfOrder.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T13:20:15.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwGwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T11:59:39.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAALoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T11:29:16.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T11:52:04.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Product.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\Product.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\Product.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Admin\\Product.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T13:07:25.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\UserOrder.cs",
+              "RelativeDocumentMoniker": "FreeSweet\\Models\\UserOrder.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Models\\UserOrder.cs",
+              "RelativeToolTip": "FreeSweet\\Models\\UserOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T08:49:32.586Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 36,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\Cart.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\Cart.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\User\\Cart.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:25:21.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CountactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\CountactUs.cshtml",
+              "RelativeDocumentMoniker": "FreeSweet\\Views\\Home\\CountactUs.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\CountactUs.cshtml",
+              "RelativeToolTip": "FreeSweet\\Views\\Home\\CountactUs.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAmwHgAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T14:50:27.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\User\\Checkout.cshtml",
               "RelativeDocumentMoniker": "FreeSweet\\Views\\User\\Checkout.cshtml",
@@ -798,12 +798,11 @@
               "RelativeToolTip": "FreeSweet\\Views\\User\\Checkout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T13:50:11.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T13:50:11.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "EditRecipe.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\EditRecipe.cshtml",
               "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\EditRecipe.cshtml",
@@ -811,12 +810,11 @@
               "RelativeToolTip": "FreeSweet\\Views\\Admin\\EditRecipe.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAFkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T11:45:50.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T11:45:50.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "CreateRecipe.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\CreateRecipe.cshtml",
               "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\CreateRecipe.cshtml",
@@ -824,12 +822,11 @@
               "RelativeToolTip": "FreeSweet\\Views\\Admin\\CreateRecipe.cshtml",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAFUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T11:45:02.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T11:45:02.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Recipes.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\Recipes.cshtml",
               "RelativeDocumentMoniker": "FreeSweet\\Views\\Home\\Recipes.cshtml",
@@ -837,12 +834,11 @@
               "RelativeToolTip": "FreeSweet\\Views\\Home\\Recipes.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T20:14:41.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T20:14:41.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "DetailsRecipes.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\DetailsRecipes.cshtml",
               "RelativeDocumentMoniker": "FreeSweet\\Views\\Home\\DetailsRecipes.cshtml",
@@ -854,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "Indix.css",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\admin\\Indix.css",
               "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\css\\admin\\Indix.css",
@@ -866,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "Info.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\Info.cshtml",
               "RelativeDocumentMoniker": "FreeSweet\\Views\\Home\\Info.cshtml",
@@ -878,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "CreateCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\CreateCategory.cshtml",
               "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\CreateCategory.cshtml",
@@ -890,19 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "prodect.js",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\prodect.js",
-              "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\js\\prodect.js",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\prodect.js",
-              "RelativeToolTip": "FreeSweet\\wwwroot\\js\\prodect.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T11:20:37.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "SpecialOrder.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Admin\\SpecialOrder.cshtml",
               "RelativeDocumentMoniker": "FreeSweet\\Views\\Admin\\SpecialOrder.cshtml",
@@ -914,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "ckeckout.css",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\css\\ckeckout.css",
               "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\css\\ckeckout.css",
@@ -926,7 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "cart.js",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\cart.js",
               "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\js\\cart.js",
@@ -938,7 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Indix.js",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\wwwroot\\js\\admin\\daynamicPage\\Indix.js",
               "RelativeDocumentMoniker": "FreeSweet\\wwwroot\\js\\admin\\daynamicPage\\Indix.js",
@@ -950,7 +934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "Viewaaaaaaa.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Views\\Home\\Viewaaaaaaa.cshtml",
               "RelativeDocumentMoniker": "FreeSweet\\Views\\Home\\Viewaaaaaaa.cshtml",
@@ -959,18 +943,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-15T14:23:16.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Program.cs",
-              "RelativeDocumentMoniker": "FreeSweet\\Program.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET Core MVC1\\FreeSweet\\FreeSweet\\Program.cs",
-              "RelativeToolTip": "FreeSweet\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T20:50:55.305Z"
             },
             {
               "$type": "Document",

@@ -79,9 +79,7 @@ namespace FreeSweet.Controllers
 
         public IActionResult Profile()
         {
-            //var email = HttpContext.Session.GetString("UserEmail");
-            //var user = _context.Users.FirstOrDefault(u => u.Email == email);
-            //return View(user);
+
             var email = HttpContext.Session.GetString("UserEmail");
             var user = _context.Users.FirstOrDefault(u => u.Email == email);
             var orders = _context.Orders.Where(o => o.UsersId == user.Id).ToList(); // Assuming you have an `Orders` table
@@ -323,6 +321,7 @@ namespace FreeSweet.Controllers
             // 4. تفريغ السلة
             _context.CartItems.RemoveRange(cartItems);
             cart.Quantity = 0;
+            cart.TotalPrice = 0;
             _context.Carts.Update(cart);
             _context.SaveChanges();
 

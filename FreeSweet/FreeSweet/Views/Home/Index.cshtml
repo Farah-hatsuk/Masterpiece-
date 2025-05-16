@@ -28,6 +28,28 @@
             height: auto;
             display: block;
         }
+
+    .cart-form {
+        display: inline-block;
+    }
+
+    .cart-btn {
+        margin-top: -10px;
+        background-color: white;
+        color: #008b8b !important; /* يمكنك تغييره حسب ألوان موقعك */
+        border: none;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer !important;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+
+        .cart-btn:hover {
+            background-color: #f1f1f1;
+        }
+
 </style>
 <!-- Start Slider Section -->
 
@@ -114,7 +136,13 @@
                         <i class="fa-regular fa-star"></i>
                     </div>
 
-                    <i class="fa-solid fa-cart-shopping"></i>
+                        <form asp-controller="Cart" asp-action="AddToCart" method="post" class="cart-form">
+                            <button type="submit" class="cart-btn" style="width:42px;">
+                                <i class="fa-solid fa-cart-shopping" style="color:#008b8b;"></i>
+                            </button>
+                            <input type="hidden" name="quantity" value="1" min="1">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                        </form>
                 </div>
               
                <a asp-area="" asp-controller="Home" asp-action="Products" class="btn btn-primary" asp-route-id="@product.Id"> View Item </a>

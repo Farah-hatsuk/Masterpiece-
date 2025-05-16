@@ -225,20 +225,6 @@ namespace FreeSweet.Controllers
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         [HttpPost]
         public IActionResult CreateCategory(Category category)
         {
@@ -297,6 +283,7 @@ namespace FreeSweet.Controllers
             return RedirectToAction("Category", "Admin");
         }
 
+
         //recipe
 
         public IActionResult Recipe()
@@ -326,23 +313,6 @@ namespace FreeSweet.Controllers
             return View();
         }
 
-        //[HttpPost]
-        //public IActionResult CreateRecipe(Recipe recipe)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        // تحويل كل نص إلى قائمة HTML
-        //        recipe.Ingredient = ConvertToHtmlList(recipe.Ingredient);
-        //        recipe.Instructions = ConvertToHtmlList(recipe.Instructions);
-        //        recipe.Notes = ConvertToHtmlList(recipe.Notes);
-
-        //        _context.Recipes.Add(recipe);
-        //        _context.SaveChanges();
-
-        //        return RedirectToAction("Index");
-        //    }
-        //    return View(recipe);
-        //}
 
         [HttpPost]
         public IActionResult CreateRecipe(IFormCollection form, IFormFile image1, IFormFile image2, IFormFile image3, IFormFile image4, IFormFile image5)

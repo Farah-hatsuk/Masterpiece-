@@ -9,13 +9,6 @@ namespace FreeSweet.Controllers
     public class HomeController : Controller
     {
 
-        //private readonly ILogger<HomeController> _logger;
-
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
-
         private readonly MyDbContext _context;
 
         public HomeController(MyDbContext context)
@@ -36,34 +29,6 @@ namespace FreeSweet.Controllers
             return View(viewModel);
         }
 
-        //[HttpPost]
-        //public IActionResult SpecialOrder(SecialOrder secialOrder, IFormFile image)
-        //{
-        //    if (image != null)
-        //    {
-        //        string fileName = Path.GetFileName(image.FileName);
-
-
-        //        string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/specialOrder", fileName);
-
-        //        using (var stream = new FileStream(path, FileMode.Create))
-        //        {
-        //            image.CopyTo(stream);
-
-        //        }
-        //        secialOrder.Img = fileName;
-
-        //    }
-        //    if (ModelState.IsValid)
-        //    {
-        //        secialOrder.Id = 0;
-        //        _context.SecialOrders.Add(secialOrder);
-        //        _context.SaveChanges();
-        //        return RedirectToAction("Index", "Home");
-        //    }
-        //    //return View(secialOrder);
-        //    return RedirectToAction("Index", "Home");
-        //}
 
         [HttpPost]
         public async Task<IActionResult> SpecialOrder(SecialOrder secialOrder, IFormFile image)
