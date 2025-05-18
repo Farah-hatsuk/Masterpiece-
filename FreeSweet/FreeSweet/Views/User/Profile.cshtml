@@ -88,9 +88,16 @@
             <br />
             @if (TempData["SuccessMessage"] != null)
             {
-                <div class="alert alert-success" role="alert">
-                    @TempData["SuccessMessage"]
-                </div>
+                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                <script>
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Success!',
+                        text: '@TempData["SuccessMessage"]',
+                        confirmButtonColor: '#3085d6',
+                        confirmButtonText: 'OK'
+                    });
+                </script>
             }
         </div>
 
@@ -98,9 +105,16 @@
         <div id="resetTab" class="tab-content">
             @if (TempData["ErrorMessage"] != null)
             {
-                <div class="alert alert-danger" role="alert">
-                    @TempData["ErrorMessage"]
-                </div>
+                 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                <script>
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error!',
+                        text: '@TempData["ErrorMessage"]',
+                        confirmButtonColor: '#d33',
+                        confirmButtonText: 'OK'
+                    });
+                </script>
             }
             <form asp-controller="User" asp-action="ResetPassword" method="post" class="profile-view">
                 <h2>Reset Password</h2> 
@@ -124,34 +138,7 @@
              </form> 
          </div>
 
-        <!-- Order History Tab -->
-        @* <div id="historyTab" class="tab-content">  *@
-        @*      <div class="profile-view"> *@
-        @*          <h2>Order History</h2>  *@
-        @*          <div class="responsive-table">  *@
-        @*              <table class="order-table">  *@
-        @*                  <thead>  *@
-        @*                     <tr>  *@
-        @*                         <th>Order ID</th>  *@
-        @*                         <th>Recipient</th>  *@
-        @*                        <th>Status</th>  *@
-        @*                        <th>Total</th>  *@
-        @*                         <th>Date</th>  *@
-        @*                     </tr>  *@
-        @*                 </thead>  *@
-        @*                 <tbody>  *@
-        @*                     <tr>  *@
-        @*                         <td>#SO-13487</td>  *@
-        @*                         <td>John Doe</td>  *@
-        @*                         <td><span class="status-badge delivered">Delivered</span></td>  *@
-        @*                         <td>$2674.00</td>  *@
-        @*                         <td>2024-03-15</td>  *@
-        @*                     </tr>  *@
-        @*                  </tbody>  *@
-        @*              </table>  *@
-        @*         </div>  *@
-        @*     </div>  *@
-        @*  </div>  *@
+
 
         <div id="historyTab" class="tab-content">
             <div class="profile-view">
@@ -161,7 +148,7 @@
                         <thead>
                             <tr>
                                 <th>Order ID</th>
-                                <th>Quantity</th>
+                                @* <th>Quantity</th> *@
                                 <th>Total Amount</th>
                                 <th>Address</th>
                                 <th>Phone</th>
@@ -172,22 +159,12 @@
                         <tbody>
                             @if (Model != null && Model.Order != null && Model.Order.Any())
                              { 
-                                @*  foreach (var order in Model.Order)  *@
-                                @* {  *@
-                                @*     <tr>  *@
-                                @*         <td>#@order.Id</td>  *@
-                                @*         <td>@order.Quantity</td>  *@
-                                @*         <td>@order.TotalAmount.ToString("C")</td> <!-- عرض المبلغ بالعملة -->  *@
-                                @*          <td>@order.Address</td>  *@
-                                @*          <td>@order.Phone</td>  *@
-                                @*          <td>@order.Date.ToString("yyyy-MM-dd")</td> <!-- عرض التاريخ -->  *@
-                                @*      </tr> *@
-                                @*  }  *@
+       
                                 @foreach (var order in Model.Order)
                                 {
                                     <tr>
                                         <td>#@order.Id</td>
-                                        <td>@order.Quantity</td>
+                                        @* <td>@order.Quantity</td> *@
                                         <td>@($"{order.TotalAmount:N2} JD ")</td>   <!-- Correct currency formatting -->
                                         <td>@order.Address</td>
                                         <td>@order.Phone</td>

@@ -9,7 +9,7 @@ public partial class Order
 
     public int? Quantity { get; set; }
 
-    public int? TotalAmount { get; set; }
+    public double? TotalAmount { get; set; }
 
     public string? Note { get; set; }
 

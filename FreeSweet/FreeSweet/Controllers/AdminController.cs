@@ -133,9 +133,7 @@ namespace FreeSweet.Controllers
                 return RedirectToAction("Product", "Admin");
          
 
-            // ضروري نرجع الـ ViewBag إذا بدك ترجع لنفس الفيو
-            ViewBag.CategoryId = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
-            return View(product);
+         
         }
 
         public IActionResult EditProduct(int? id ) 
@@ -154,40 +152,70 @@ namespace FreeSweet.Controllers
             ViewBag.DepDes = product.Description;
             ViewBag.DepDes = product.Price;
             ViewBag.DepDes = product.Size;
-            ViewBag.DepImage = product.Img1;
-            ViewBag.DepImage = product.Img2;
-            ViewBag.DepImage = product.Img3;
-            ViewBag.DepImage = product.Img4;
+            ViewBag.DepImage1 = product.Img1;
+            ViewBag.DepImage2 = product.Img2;
+            ViewBag.DepImage3 = product.Img3;
+            ViewBag.DepImage4 = product.Img4;
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
             return View(product);
         }
         [HttpPost]
-        public IActionResult EditProduct(Product product, IFormFile image1, IFormFile image2, IFormFile image3, IFormFile image4)
+        public IActionResult EditProduct(Product product, IFormFile Img1, IFormFile Img2, IFormFile Img3, IFormFile Img4)
         {
             var Pro = _context.Products.Find(product.Id);
 
-            if (image1 != null || image2 != null || image3 != null || image4 != null)
-            {
-                string fileName1 = Path.GetFileName(image1.FileName);
-                string fileName2 = Path.GetFileName(image2.FileName);
-                string fileName3 = Path.GetFileName(image3.FileName);
-                string fileName4 = Path.GetFileName(image4.FileName);
-                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop", fileName1, fileName2, fileName3, fileName4);
 
-                using (var stream = new FileStream(path, FileMode.Create))
+            if (Img1 != null)
+            {
+                string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/shop/shop");
+
+                // صورة 1 - إلزامية
+                string fileName1 = Path.GetFileName(Img1.FileName);
+                string path1 = Path.Combine(uploadsFolder, fileName1);
+                using (var stream = new FileStream(path1, FileMode.Create))
                 {
-                    image1.CopyTo(stream);
-                    image2.CopyTo(stream);
-                    image3.CopyTo(stream);
-                    image4.CopyTo(stream);
+                    Img1.CopyTo(stream);
                 }
                 Pro.Img1 = fileName1;
-                Pro.Img2 = fileName2;
-                Pro.Img3 = fileName3;
-                Pro.Img4 = fileName4;
+
+                // صورة 2 - اختيارية
+                if (Img2 != null)
+                {
+                    string fileName2 = Path.GetFileName(Img2.FileName);
+                    string path2 = Path.Combine(uploadsFolder, fileName2);
+                    using (var stream = new FileStream(path2, FileMode.Create))
+                    {
+                        Img2.CopyTo(stream);
+                    }
+                    Pro.Img2 = fileName2;
+                }
+
+                // صورة 3 - اختيارية
+                if (Img3 != null)
+                {
+                    string fileName3 = Path.GetFileName(Img3.FileName);
+                    string path3 = Path.Combine(uploadsFolder, fileName3);
+                    using (var stream = new FileStream(path3, FileMode.Create))
+                    {
+                        Img3.CopyTo(stream);
+                    }
+                    Pro.Img3 = fileName3;
+                }
+
+                // صورة 4 - اختيارية
+                if (Img4 != null)
+                {
+                    string fileName4 = Path.GetFileName(Img4.FileName);
+                    string path4 = Path.Combine(uploadsFolder, fileName4);
+                    using (var stream = new FileStream(path4, FileMode.Create))
+                    {
+                        Img4.CopyTo(stream);
+                    }
+                    Pro.Img4 = fileName4;
+                }
             }
-            if (ModelState.IsValid)
-            {
+
+           
                 Pro.Name = product.Name;
                 Pro.Description = product.Description;
                 Pro.Price = product.Price;
@@ -196,8 +224,6 @@ namespace FreeSweet.Controllers
                 _context.Products.Update(Pro);
                 _context.SaveChanges();
                 return RedirectToAction("Product", "Admin");
-            }
-            return View();
         }
 
         [HttpPost]
@@ -459,6 +485,8 @@ namespace FreeSweet.Controllers
             return RedirectToAction("Recipe", "Admin"); 
         }
 
+
+        //order
         public IActionResult SpecialOrder()
         {
             return View(_context.SecialOrders.ToList());

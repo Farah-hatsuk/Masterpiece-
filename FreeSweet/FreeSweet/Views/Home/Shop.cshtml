@@ -1,8 +1,16 @@
 ﻿@model IEnumerable<FreeSweet.Models.Product>
 @if (TempData["AddToCartSuccess"] != null)
 {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script>
-        alert('@TempData["AddToCartSuccess"]');
+        Swal.fire({
+            icon: 'success',
+            title: 'Success!',
+            text: '@TempData["AddToCartSuccess"]',
+            confirmButtonColor: '#3085d6',
+            confirmButtonText: 'OK'
+        });
     </script>
 }
 
@@ -122,5 +130,6 @@
 
     <!-- <a href="" class="Explore"><button>Explore more </button></a> -->
 </div>
+
 
 <script src="~/js/shop.js"></script>

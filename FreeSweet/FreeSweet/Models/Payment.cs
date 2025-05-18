@@ -7,7 +7,7 @@ public partial class Payment
 {
     public int Id { get; set; }
 
-    public int? Total { get; set; }
+    public double? Total { get; set; }
 
     public string? PaymentMethoud { get; set; }
 

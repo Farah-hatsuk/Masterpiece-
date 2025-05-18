@@ -91,8 +91,12 @@ wwwroot\img\shop\shop\img5.jpeg
 wwwroot\img\shop\shop\khnafeh.jpeg
 wwwroot\img\shop\shop\Screenshot 2024-12-09 170934.png
 wwwroot\img\shop\shop\Screenshot 2024-12-09 170942.png
+wwwroot\img\shop\shop\Screenshot 2024-12-09 170958.png
+wwwroot\img\shop\shop\Screenshot 2024-12-09 171150.png
+wwwroot\img\shop\shop\Screenshot_12-5-2025_17510_local.jpg
 wwwroot\img\shop\shop\strawberry1.jpg
 wwwroot\img\shop\shop\vanilla.jpeg
+wwwroot\img\specialOrder\assembled-strawberry-layer-cake-hero-1080x1080.jpg
 wwwroot\img\specialOrder\Screenshot 2024-12-09 170934.png
 wwwroot\img\specialOrder\Screenshot 2024-12-09 170942.png
 wwwroot\img\Untitled design lo.png
@@ -101,6 +105,7 @@ wwwroot\img\Untitled design.png
 wwwroot\img\UserImg\Screenshot 2024-12-09 170958.png
 wwwroot\img\UserImg\Screenshot 2025-03-11 141136.png
 wwwroot\img\UserImg\Screenshot 2025-03-11 141202.png
+wwwroot\img\UserImg\Screenshot 2025-03-11 141214.png
 wwwroot\img\UserImg\Screenshot 2025-03-11 141318.png
 wwwroot\js\aboutUs.js
 wwwroot\js\admin\bootstrap.js

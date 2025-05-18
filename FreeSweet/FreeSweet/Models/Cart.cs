@@ -9,7 +9,7 @@ public partial class Cart
 
     public int? Quantity { get; set; }
 
-    public int? TotalPrice { get; set; }
+    public double? TotalPrice { get; set; }
 
     public int? UsersId { get; set; }
 

@@ -13,7 +13,8 @@ function menu() {
   const shippingRate = 2.00;
 
   /* Recalculate cart */
-  function recalculateCart() {
+function recalculateCart() {
+   
       let subtotal = 0;
 
       $('.product').each(function () {
@@ -31,13 +32,14 @@ function menu() {
   }
 
   /* Update quantity */
-  $('.product-quantity input').on('change', function () {
+$('.product-quantity input').on('change', function () {
+
       const $productRow = $(this).closest('.product');
-      const price = parseFloat($productRow.find('.product-price').text());
+      const price = parseFloat($productRow.find('.product-price1').text());
       const quantity = parseInt($(this).val());
       const linePrice = price * quantity;
 
-      $productRow.find('.product-line-price').text(linePrice.toFixed(2));
+      $productRow.find('.product-line-price').text(linePrice.toFixed(2)+ " JD");
       recalculateCart();
   });
 

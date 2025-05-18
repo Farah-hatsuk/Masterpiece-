@@ -11,10 +11,10 @@
         <div class="card-body">
             <h5 class="card-title mb-3">Order Summary</h5>
             <ul class="list-group list-group-flush">
-                <li ><strong>Total Amount:</strong> @(Model.Item1.Date?.ToShortDateString() ?? "N/A")</li>
+                <li ><strong>Total Amount:</strong> @(Model.Item1.TotalAmount)</li>
                 <li><strong>Address:</strong> @Model.order.Address</li>
                 <li ><strong>Phone:</strong> @Model.order.Phone</li>
-                <li ><strong>Date:</strong> @Model.order.Date?.ToString("yyyy-MM-dd")</li>
+                <li ><strong>Date:</strong> @Model.order.Date?.ToString("dd-MM-yyyy")</li>
             </ul>
         </div>
     </div>

@@ -19,7 +19,9 @@ namespace FreeSweet.Controllers
 
         [HttpPost]
         public async Task<IActionResult> AddToCart(int productId, string size , int quantity )
+        
         {
+            
             // 1. Get user ID from session
             int? userId = HttpContext.Session.GetInt32("userId");
             if (userId == null)
@@ -28,27 +30,46 @@ namespace FreeSweet.Controllers
             }
 
             // 2. Find the product
-            var product = await _context.Products.FindAsync(productId);
+
+            // ❗ جلب المنتج مع الـ Category
+            var product = await _context.Products
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(p => p.Id == productId);
+
             if (product == null)
                 return NotFound();
-            if(size == "large")
+
+            if (size == null)
             {
-                product.Price = 30;
-            }else if (size == "medium")
-            {
-                product.Price = 20;
-            }else if (size == "small")
-            {
-                product.Price = 15;
-            }else if (size == "mini")
-            {
-                product.Price = 5;
+                size = product.Size;
             }
-            else
+
+            var p_price=product.Price;
+            if (product.Category != null && product.Category.Name == "Cake")
             {
-                size = "mini";
-                product.Price = 5;
+                if (size == "large")
+                {
+                    p_price = 30;
+                }
+                else if (size == "medium")
+                {
+                    p_price = 20;
+                }
+                else if (size == "small")
+                {
+                    p_price = 15;
+                }
+                else if (size == "mini")
+                {
+                    p_price = 5;
+                }
+                else
+                {
+                    size = "mini";
+                    p_price = 5;
+                }
             }
+
 
             // 3. Get or create cart for user
             var cart = await _context.Carts.FirstOrDefaultAsync(c => c.UsersId == userId);
@@ -68,7 +89,7 @@ namespace FreeSweet.Controllers
             var existingItem = await _context.CartItems
                 .FirstOrDefaultAsync(ci => ci.CartId == cart.Id && ci.ProductId == product.Id && ci.Size == size);
 
-            if (existingItem != null)
+            if (existingItem != null && existingItem.Size == size)
             {
                 existingItem.Quantity += quantity;
                 existingItem.TotalPrice = (product.Price * existingItem.Quantity) ;
@@ -81,15 +102,15 @@ namespace FreeSweet.Controllers
                     CartId = cart.Id,
                     Quantity = quantity,
                     Size = size,
-                    Price = product.Price,
-                    TotalPrice = (product.Price * quantity )
+                    Price = p_price,
+                    TotalPrice = (p_price * quantity )
                 };
                 _context.CartItems.Add(newItem);
             }
 
             // 5. Update cart totals
             cart.Quantity += 1;
-            cart.TotalPrice += (int)(product.Price * quantity);
+            cart.TotalPrice += (p_price * quantity );
 
             await _context.SaveChangesAsync();
 
@@ -110,6 +131,21 @@ namespace FreeSweet.Controllers
 
 
             return View(cart);
+        }
+
+        public async Task<IActionResult> DeleteItem( int id)
+        {
+            var item = _context.CartItems.SingleOrDefault(i => i.Id == id);
+
+            if (item == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            _context.CartItems.Remove(item);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
+
         }
     }
 }

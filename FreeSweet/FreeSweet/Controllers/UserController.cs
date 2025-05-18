@@ -27,6 +27,10 @@ namespace FreeSweet.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Registration(User user)
         {
+            //if (!ModelState.IsValid)
+            //{
+            //    return View(user); // يعرض الأخطاء في نفس الصفحة
+            //}
             user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
             user.Role = "user";
             _context.Users.Add(user);
@@ -35,6 +39,7 @@ namespace FreeSweet.Controllers
             TempData["message"] = "Registered Successfully!";
 
             return RedirectToAction("RegistrationLogin");
+
         }
 
 
@@ -103,6 +108,12 @@ namespace FreeSweet.Controllers
         [HttpPost]
         public IActionResult EditProfile(User UpdatUser, IFormFile profileImage)
         {
+            //if (!ModelState.IsValid)
+            //{
+            //    // عودة للعرض مع البيانات المدخلة لإظهار الأخطاء
+            //    return View(UpdatUser);
+            //}
+
             var email = HttpContext.Session.GetString("UserEmail");
             var user = _context.Users.FirstOrDefault(u => u.Email == email);
 
@@ -280,7 +291,7 @@ namespace FreeSweet.Controllers
                 CreateAt = DateTime.Now,
                 Status = "Pending",
                 PaymentMethoud = paymentMethod,
-                Total = cart.TotalPrice
+                Total = cart.TotalPrice + (cart.TotalPrice * 0.05) + 2
             };
 
             _context.Payments.Add(payment);
@@ -294,7 +305,9 @@ namespace FreeSweet.Controllers
                 PaymentId = payment.Id,
                 Date = DateTime.Now,
                 //Status = "Processing",
-                TotalAmount = cart.TotalPrice,
+                
+          
+            TotalAmount = cart.TotalPrice + (cart.TotalPrice * 0.05) + 2,
                 Address = Address,
                 Phone = Phone,
             };
