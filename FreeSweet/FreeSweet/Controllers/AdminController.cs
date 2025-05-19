@@ -509,13 +509,34 @@ namespace FreeSweet.Controllers
         }
 
 
-        public IActionResult Order()
+        //public IActionResult Order()
+        //{
+        //    var orders = _context.Orders
+        //    .Include(o => o.Users) 
+        //    .ToList();
+        //    return View(orders);
+        //}
+
+        public IActionResult Order(int page = 1, int pageSize = 15)
         {
-            var orders = _context.Orders
-            .Include(o => o.Users) 
-            .ToList();
-            return View(orders);
+            var ordersQuery = _context.Orders
+                .Include(o => o.Users)
+                .Include(o => o.Payment) // إذا أردت عرض الـ Payment أيضًا
+                .OrderByDescending(o => o.Date); // ترتيب تنازلي حسب التاريخ (أو .OrderByDescending(o => o.Id))
+
+            int totalOrders = ordersQuery.Count();
+
+            var pagedOrders = ordersQuery
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            ViewBag.CurrentPage = page;
+            ViewBag.TotalPages = (int)Math.Ceiling((double)totalOrders / pageSize);
+
+            return View(pagedOrders);
         }
+
 
         public IActionResult OrderDetails(int id)
         {

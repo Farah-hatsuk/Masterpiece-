@@ -4,7 +4,51 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 <link href="~/css/admin/indix.css" rel="stylesheet" />
+<style>
+    .pagination {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .pagination-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 6px;
+    }
+
+        .pagination-list li {
+            display: inline;
+        }
+
+            .pagination-list li a {
+                display: inline-block;
+                padding: 8px 14px;
+                color: #007bff;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                text-decoration: none;
+                transition: all 0.3s ease;
+            }
+
+                .pagination-list li a:hover {
+                    background-color: #007bff;
+                    color: #fff;
+                    border-color: #007bff;
+                }
+
+            .pagination-list li.active a {
+                background-color: #007bff;
+                color: #fff;
+                font-weight: bold;
+                border-color: #007bff;
+            }
+
+
+</style>
 
 <div class="recent-orders">
     <h2>Order</h2>
@@ -75,4 +119,18 @@
 }
     </tbody>
 </table>
+</div>
+
+<div class="pagination">
+    @if (ViewBag.TotalPages > 1)
+    {
+        <ul class="pagination-list">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="@(i == ViewBag.CurrentPage ? "active" : "")">
+                    <a asp-action="Order" asp-route-page="@i">@i</a>
+                </li>
+            }
+        </ul>
+    }
 </div>

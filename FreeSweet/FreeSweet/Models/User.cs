@@ -17,14 +17,14 @@ public partial class User
 
     public string? Img { get; set; }
 
-    [RegularExpression(@"^(+9627|07)[7-9][0-9]{7}$", ErrorMessage = "Phone number must start with +9627 or 07 and be a valid Jordanian number")]
+    //[RegularExpression(@"^(+9627|07)[7-9][0-9]{7}$", ErrorMessage = "Phone number must start with +9627 or 07 and be a valid Jordanian number")]
     public string? Phone { get; set; }
 
     public string? Address { get; set; }
 
-    [Required(ErrorMessage = "Password is required")]
-    [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be at least 6 characters")]
-    [RegularExpression(@"^(?=.[!@#$%^&(),.?""{}|<>]).+$", ErrorMessage = "Password must contain at least one special character")]
+    //[Required(ErrorMessage = "Password is required")]
+    //[StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be at least 6 characters")]
+    //[RegularExpression(@"^(?=.[!@#$%^&(),.?""{}|<>]).+$", ErrorMessage = "Password must contain at least one special character")]
     public string? Password { get; set; }
 
     public string? Role { get; set; }

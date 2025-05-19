@@ -67,11 +67,6 @@ wwwroot\img\shop\Reprises\Gluten-free-Chocolate-Banana-Bread-360x480.jpg.png
 wwwroot\img\shop\Reprises\Gluten-free-Chocolate-Chip-Banana-Bread.jpg.png
 wwwroot\img\shop\Reprises\Gluten-free-Chocolate-Chocolate-Chip-Banana-Bread.jpg.png
 wwwroot\img\shop\Reprises\Making-gluten-free-apple-cinnamon-baked-oatmeal-squares.jpg.png
-wwwroot\img\shop\Reprises\Screenshot 2024-12-09 170934.png
-wwwroot\img\shop\Reprises\Screenshot 2024-12-09 170942.png
-wwwroot\img\shop\Reprises\Screenshot 2024-12-09 170958.png
-wwwroot\img\shop\Reprises\Screenshot 2024-12-09 171133.png
-wwwroot\img\shop\Reprises\Screenshot 2024-12-09 171150.png
 wwwroot\img\shop\Reprises\Sliced-Gluten-free-Apple-Cinnamon-Bread.jpg.png
 wwwroot\img\shop\Reprises\Slice-of-Gluten-free-Apple-Bread.jpg.png
 wwwroot\img\shop\shop\braones1.jpg
@@ -89,16 +84,13 @@ wwwroot\img\shop\shop\img3.jpeg
 wwwroot\img\shop\shop\img4.jpeg
 wwwroot\img\shop\shop\img5.jpeg
 wwwroot\img\shop\shop\khnafeh.jpeg
-wwwroot\img\shop\shop\Screenshot 2024-12-09 170934.png
-wwwroot\img\shop\shop\Screenshot 2024-12-09 170942.png
-wwwroot\img\shop\shop\Screenshot 2024-12-09 170958.png
-wwwroot\img\shop\shop\Screenshot 2024-12-09 171150.png
-wwwroot\img\shop\shop\Screenshot_12-5-2025_17510_local.jpg
 wwwroot\img\shop\shop\strawberry1.jpg
 wwwroot\img\shop\shop\vanilla.jpeg
+wwwroot\img\specialOrder\13-Simple-Tips-for-The-Perfect-C.jpg
 wwwroot\img\specialOrder\assembled-strawberry-layer-cake-hero-1080x1080.jpg
 wwwroot\img\specialOrder\Screenshot 2024-12-09 170934.png
 wwwroot\img\specialOrder\Screenshot 2024-12-09 170942.png
+wwwroot\img\specialOrder\WhatsApp Image 2025-05-18 at 9.24.03 PM (1).jpeg
 wwwroot\img\Untitled design lo.png
 wwwroot\img\Untitled design new.png
 wwwroot\img\Untitled design.png
@@ -107,6 +99,8 @@ wwwroot\img\UserImg\Screenshot 2025-03-11 141136.png
 wwwroot\img\UserImg\Screenshot 2025-03-11 141202.png
 wwwroot\img\UserImg\Screenshot 2025-03-11 141214.png
 wwwroot\img\UserImg\Screenshot 2025-03-11 141318.png
+wwwroot\img\UserImg\Screenshot 2025-03-11 141805.png
+wwwroot\img\UserImg\Untitled design (3).png
 wwwroot\js\aboutUs.js
 wwwroot\js\admin\bootstrap.js
 wwwroot\js\admin\daynamicPage\Indix.js
